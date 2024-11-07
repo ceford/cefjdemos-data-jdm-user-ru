@@ -1,164 +1,98 @@
-<!-- Filename: J4.x:Managing_Media / Display title: Managing Media -->
+<!-- Filename: J4.x:Managing_Media / Display title: Управление медиа -->
 
-## Introduction
+## Введение
 
-In Joomla, media are images and files that appear as illustrations or
-links in articles, modules, templates and so on. An important feature of
-media is that they are delivered directly by the web server without
-being processed by Joomla code. This is fast and efficient. Also, be
-aware that media are usually stored in the **images** folder of your
-Joomla web site. Do not confuse this with the **media** folder, which
-contains javascript and style sheet files.
+В Joomla медиа — это изображения и файлы, которые отображаются в виде иллюстраций или ссылок в статьях, модулях, шаблонах и т. д. Важной особенностью медиа является то, что они доставляются непосредственно веб-сервером без обработки кодом Joomla. Это быстро и эффективно. Также учтите, что медиа обычно хранятся в папке **images** вашего веб-сайта Joomla. Не путайте ее с папкой **media**, которая содержит файлы javascript и таблиц стилей.
 
-Image and file media are managed with the Media component of Joomla. It
-allows you to organise media content in a folder tree, upload individual
-items, perform some elementary image editing functions, and place images
-and links directly into articles.
+Изображения и файлы медиа управляются с помощью компонента Media в Joomla. Он позволяет организовывать медиа-контент в древовидной структуре папок, загружать отдельные элементы, выполнять некоторые элементарные функции редактирования изображений и размещать изображения и ссылки прямо в статьях.
 
-## How to Access
+## Как получить доступ
 
-From the Joomla Administrator interface there are several routes to open
-the Media component:
+Из интерфейса администратора Joomla есть несколько способов открыть
+компонент Медиа:
 
-- Select **Content **→** Media** from the Administrator menu.
-- Select **Site panel **→** Media** from the Home Dashboard.
-- Select **CMS Content **→** Media** from an article edit screen.
+- Выберите **Контент → Медиа** из меню администратора.
+- Выберите **Панель сайта → Медиа** на главной панели.
+- Выберите **Контент CMS → Медиа** на экране редактирования статьи.
 
-In the first two cases the Media component appears in a normal component
-screen. In the last it appears in a modal dialog.
+В первых двух случаях компонент Медиа отображается на обычном экране компонента.
+В последнем — в модальном окне.
 
-## Screenshot
+## Скриншот
 
-The following image shows the Media page just after Joomla installation
-but with the cassiopeia/sampledata folder selected:
+Следующее изображение показывает страницу "Медиа" сразу после установки Joomla, но с выбранной папкой cassiopeia/sampledata. Папка *files* была добавлена для хранения файлов, отличных от изображений, и дополнительная папка с именем *garbage* была добавлена для иллюстрации удаления папок:
 
-<img
-src="https://docs.joomla.org/images/0/0a/J4.x-media-cassiopeia-sampledata-en.jpg"
-decoding="async" data-file-width="800" data-file-height="406"
-width="800" height="406"
-alt="J4.x-media-cassiopeia-sampledata-en.jpg" />
+![Страница Медиа с показом образца данных cassiopeia](../../../en/images/media/media-sample-data-cassiopeia.png)
 
-## Managing Folders
+## Управление папками
 
-The sub-folder names in your images folder tree become part of the image
-url so it is important for linking and search engine optimisation
-purposes that the names conform to a convention:
+Названия подпапок в древе папок с изображениями становятся частью URL изображения. Поэтому важно с точки зрения создания ссылок и поисковой оптимизации, чтобы имена соответствовали следующим правилам:
 
-- all lower case
-- no spaces or punctuation
-- if necessary, use a minus sign to create human readable words, for
-  example deciduous-trees rather than deciduous_trees.
+- все буквы строчные
+- без пробелов и знаков препинания
+- если необходимо, используйте дефис для создания читаемых слов, например, deciduous-trees вместо deciduous_trees.
 
-Before creating much content for your site it may pay to think ahead to
-how you might categorise your content and perhaps create an images
-folder tree that is similar to your category tree. Otherwise you may end
-up with a very large number of images and files in the root of your
-images tree and that will become difficult to manage. If you decide to
-move images into a better structure later you will have to find the
-links to those images in your articles and change them. That could be a
-time-consuming, daunting task!
+Прежде чем создавать значительное количество контента на вашем сайте, стоит обдумать, как вы можете классифицировать свой контент. Возможно, имеет смысл создать древо папок с изображениями, схожее с древом категорий. В противном случае вы можете столкнуться с проблемой большого количества изображений и файлов в корневой папке с изображениями, что будет сложно управлять. Если вы решите изменить структуру изображений позднее, вам придется находить ссылки на эти изображения в ваших статьях и изменять их. Это может быть трудоемким и сложным заданием!
 
-### Folder Navigation
+### Навигация по папкам
 
-Use the folder tree in the **Local** column to select a folder. In the
-case illustrated above the cassiopeia folder was first selected. That
-revealed the sampledata folder which was then select to show its
-content.
+Используйте древо папок в столбце **Local** для выбора папки. На иллюстрации выше сначала была выбрана папка cassiopeia. Это открыло папку *sampledata*, которая затем была выбрана для отображения ее содержимого.
 
-The current location is also indicated in the breadcrumbs above the
-images. In this case **images **→** cassiopeia **→** sampledata**.
+Текущее местоположение также указано в навигационной цепочке (breadcrumbs) над изображениями. В этом случае **images → cassiopeia → sampledata**.
 
-If you select a different folder the previous folder at the same level
-closes.
+Если вы выберете другую папку, предыдущая папка на том же уровне закроется.
 
-### Creating a folder
+### Создание папки
 
-- Select the parent folder under which the new folder should be created.
-- Select the **Create New Folder** button.
-- In the *Create New Folder* popup window, enter a name for the folder
-  in the **Folder Name** field.
-- Click the **Create** button.
-- The new folder will appear in in the selected parent folder along with
-  a green Success system message.
+- Выберите родительскую папку, в которой должна быть создана новая папка.
+- Нажмите кнопку **Create New Folder**.
+- В всплывающем окне *Create New Folder* введите имя для папки в поле **Folder Name**.
+- Нажмите кнопку **Create**.
+- Новая папка появится в выбранной родительской папке вместе с зеленым системным сообщением об успехе.
 
-### Deleting a folder
+### Удаление папки
 
-***Warning: deleting a folder will also delete all contents of the
-folder!***
+**Предупреждение: удаление папки также удаляет все ее содержимое!**
 
-- Select the parent of the folder to be deleted using the directory tree
-  shown under **Local**. That will show all of the folders and files in
-  the parent.
-- Move the cursor over the folder to be deleted in the media area. It
-  will turn grey and a white button will appear near the top left.
-- Select the white button. A green tick will appear to indicate it is
-  selected.
-- Select the **Delete** button from the Toolbar.
-- In the **Confirm Delete** popup dialog select the **Delete** button.
-  The folder will be deleted along with all of it files, subfolders and
-  their files.
+- Выберите родительскую папку удаляемой папки, используя древо каталогов под **Local**. Это покажет все папки и файлы в родительской папке.
+- Наведите курсор на удаляемую папку в медиа-зоне. Она станет серой, и в верхнем левом углу появится кнопка.
+- Выберите кнопку. Появится галочка, показывающая, что папка выбрана.
+- Нажмите кнопку **Delete** на панели инструментов.
+- В диалоговом окне **Confirm Delete** выберите кнопку **Delete**. Папка будет удалена вместе со всеми файлами, вложенными папками и их файлами.
 
-The folder selected for deletion is illustrated below:
+Ниже показана папка, выбранная для удаления:
 
-<img
-src="https://docs.joomla.org/images/4/40/J4.x-media-delete-folder-en.jpg"
-decoding="async" data-file-width="800" data-file-height="201"
-width="800" height="201" alt="J4.x-media-delete-folder-en.jpg" />
+![Страница медиа, показывающая папку garbage](../../../en/images/media/media-sample-data-garbage-select.png)
 
-## Media Area Toolbar
+## Панель инструментов области мультимедиа
 
-This is the bar above the list of images, files and folders that has
-buttons for a variety of tasks.
+Это панель над списком изображений, файлов и папок, на которой находятся кнопки для различных задач.
 
-### Select box
+### Флажок выбора
 
-A check box that allows you to select all of the items in the folder
-displayed in the media area. You might want to use it to delete all of
-the current items without deleting the folder.
+Флажок, который позволяет выбрать все элементы в папке, отображаемой в области мультимедиа. Вы можете использовать его, чтобы удалить все текущие элементы без удаления папки.
 
-### Breadcrumbs
+### Навигационная панель
 
-Use the folder names above the media area to go backwards in the folder
-hierarchy.
+Используйте названия папок над областью мультимедиа, чтобы вернуться назад в иерархии папок.
 
-Double click a folder name in the media area to open that folder.
+Дважды щелкните по названию папки в области мультимедиа, чтобы открыть эту папку.
 
-### Search
+### Поиск
 
-If you have a long list of images and files you can search for items
-containing any group of characters. The search is progressive: as you
-add characters to the search term the list is reduced to just those
-containing that character string.
+Если у вас длинный список изображений и файлов, вы можете искать элементы, содержащие любую группу символов. Поиск является прогрессивным: по мере добавления символов в поисковый запрос список сокращается до тех элементов, которые содержат эту строку символов.
 
-### Magnify
+### Увеличение
 
-Use the magnify buttons to enlarge or reduce the thumbnail size.
-Depending on the size of your screen you may see 2, 4, 6 or 8 thumbnail
-images side by side.
+Используйте кнопки увеличения, чтобы увеличить или уменьшить размер миниатюры. В зависимости от размера вашего экрана вы можете видеть 2, 4, 6 или 8 миниатюр рядом.
 
-### List or Thumbnail Views
+### Просмотр в виде списка или миниатюр
 
-In thumbnail view, select the list symbol to switch to list view. In
-list view, select the thumbnail symbol to switch to thumbnail view. In
-list view you will see information on image size and dimensions, amongst
-other data.
+В режиме миниатюр выберите значок списка, чтобы переключиться на просмотр в виде списка. В режиме списка выберите значок миниатюр, чтобы переключиться на просмотр в виде миниатюр. В режиме списка вы увидите информацию о размере и разрешении изображения, а также другие данные.
 
-### Information
+### Значок информации
 
-Select the Information icon to open a side panel showing information
-about whatever is selected.
+Выберите значок информации, чтобы открыть боковую панель с информацией о выбранном элементе.
 
-## Further Information
+*Переведено openai.com*  
 
-In this series of tutorials:
-
--  Managing
-  Media
--  Media: Upload Delete
-  Rename
--  Media: Image Crop Resize
-  Rotate
--  Media:
-  Options
--  Media: Uploading SVG
-  files

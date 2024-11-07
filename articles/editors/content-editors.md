@@ -1,40 +1,19 @@
-<!-- Filename: Content_editors / Display title: Редакторы содержимого -->
+<!-- Filename: Content_editors / Display title: Редакторы контента  -->
 
-Стандартные редакторы, имеющимися в
-<img src="https://docs.joomla.org/images/7/7b/Compat_icon_CMS.png"
-decoding="async" data-file-width="87" data-file-height="17" width="87"
-height="17" alt="Joomla multi" />
+## Введение
 
-## TinyMCE
+Joomla имеет два редактора по умолчанию, описанных в отдельных статьях:
 
-<a
-href="https://docs.joomla.org/index.php?title=Chunk30:TinyMCE/ru&amp;action=edit&amp;redlink=1"
-class="new"
-title="Chunk30:TinyMCE/ru (page does not exist)">Chunk30:TinyMCE/ru</a>
+- [TinyMCE](jdocmanual?article=user/editors/tinymce-plugin) — редактор по 
+  умолчанию.
+- [CodeMirror](jdocmanual?article=user/editors/codemirror-plugin) предназначен 
+  для редактирования исходного кода html и php.
 
-## Code Mirror
+## Без редактора
 
-The CodeMirror editor is designed to make it easy to enter HTML code in
-an article or description. CodeMirror supports syntax highlighting and
-auto-completion, as shown in this screenshot.
+Если в профиле пользователя выбран *Редактор - Нет*, то во всех полях textarea требуется ввод HTML-тегов в тех полях, где они необходимы. Это неудобно для редактирования статей или пользовательского модуля, но может быть полезно в некоторых случаях, например, для создания ссылки PayPal. В статье можно использовать кнопку *Просмотр*, чтобы увидеть, как HTML будет отображаться после рендеринга.
 
-<img
-src="https://docs.joomla.org/images/thumb/e/e2/Help25-screenshot-editor-codemirror-example-en.png/320px-Help25-screenshot-editor-codemirror-example-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/e/e2/Help25-screenshot-editor-codemirror-example-en.png 1.5x"
-data-file-width="326" data-file-height="165" width="320" height="162"
-alt="Help25-screenshot-editor-codemirror-example-en.png" />
+TinyMCE автоматически переформатирует и удаляет некоторые HTML-теги при сохранении файла. Это может привести к тому, что сложный HTML не будет работать правильно. Если это случится, вы можете временно изменить редактор на *Редактор - Нет*, чтобы создать нужное содержимое. Обратите внимание, что если вы хотите редактировать это содержимое в будущем, вам следует снова выбрать *Редактор - Нет*. В противном случае, если вы откроете и сохраните содержимое с TinyMCE, вы можете потерять ваш пользовательский HTML.
 
-CodeMirror offers some of the same advantages of using No Editor, but
-makes it somewhat easier to work with raw HTML code.
+*Переведено на openai.com*
 
-To set options:  CodeMirror Editor
-Plugin
-
-## Редактор - Без редактора
-
-<a
-href="https://docs.joomla.org/index.php?title=Chunk30:No_editor/ru&amp;action=edit&amp;redlink=1"
-class="new"
-title="Chunk30:No editor/ru (page does not exist)">Chunk30:No
-editor/ru</a>

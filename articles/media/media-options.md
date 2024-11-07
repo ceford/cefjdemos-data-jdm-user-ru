@@ -1,72 +1,31 @@
-<!-- Filename: J4.x:Media:_Options / Display title: Медиа-менеджер: Настройки -->
+<!-- Filename: J4.x:Media:_Options / Display title: Медиа: Опции -->
 
-## The Options Form
+## Введение
 
-To access the Media: Options form select the **Options** button in the
-Toolbar on the Media page. The fields are well commented and provided
-with default values that should be suitable for almost all sites. You
-usually only need to use the options form if you wish to keep Files
-separate from Images or if you have an unusual file format not included
-in the default list.
+Страница *Медиа: Параметры* используется для управления загрузкой и хранением медиафайлов, как изображений, так и различных файлов. **Будьте осторожны:** некоторые типы файлов имеют связанные с ними проблемы безопасности — они могут стать путем для проникновения хакера.
 
-**Beware:** there are security implications associated with some types
-of file - a hacker's way in.
+Чтобы перейти к форме *Медиа: Параметры*, выберите кнопку **Параметры** на панели инструментов на странице Медиа. Поля в этой форме хорошо прокомментированы и имеют значения по умолчанию, которые должны быть подходящими для почти всех сайтов. Обычно вам нужно использовать форму параметров, только если вы хотите хранить файлы отдельно от изображений или если у вас есть необычный формат файла, который не включен в список по умолчанию.
 
-## Separate Files
+## Скриншот
 
-To set up a location for files that is separate from images first create
-a new folder in the root of your installation, for example **files**.
-Remember, it will be part of a url link so lower case and no spaces or
-punctuation marks.
+![Форма настроек медиа](../../../en/images/media/media-options.png)
 
-### FileSystem Local Plugin
+## Путь к файлам и папкам
 
-Find the FileSystem Local plugin in the list of plugins and open it add
-your newly created file folder to the list of places you can keep media.
-Just click on the + button and select files from the list of available
-folders.
+Эти элементы раздельны в форме конфигурации, но оба указывают на папку *images* в новой установке Joomla. Если вы хотите хранить медиафайлы, не являющиеся изображениями (например, PDF, таблицы и текстовые файлы) отдельно, выполните следующие шаги:
 
-<img
-src="https://docs.joomla.org/images/9/9e/J4.x-media-filesystem-local-plugin-en.png"
-class="thumbborder" decoding="async" data-file-width="800"
-data-file-height="406" width="800" height="406"
-alt="J4.x-media-filesystem-local-plugin-en.png" />
+1. Создайте папку с именем *files* в корне вашей установки Joomla.
+2. Включите плагин *FileSystem - Local* и настройте его, как описано в статье о [Местоположениях медиафайлов](jdocmanual?article=user/media/media-file-locations).
+3. Введите название папки, *files*, в поле *Path to Files Folder* в форме медиаопций.
 
-Make sure the plugin is enabled. Save & Close.
+В форме опций введите название папки в поле **Path to Files Folder**. Убедитесь, что вы не используете имя существующей основной папки Joomla.
 
-### Options Form
+После настройки вы сможете выбирать между папками изображений и файлов в локальной части представления медиа.
 
-In the Options form enter the folder name in the **Path to Files
-Folder** field. Make sure you do not use the name of an existing core
-Joomla folder.
+![Страница медиа](../../../en/images/media/media-sample-data-cassiopeia.png)
 
-<img src="https://docs.joomla.org/images/9/98/J4.x-media-options-en.png"
-class="thumbborder" decoding="async" data-file-width="800"
-data-file-height="406" width="800" height="406"
-alt="J4.x-media-options-en.png" />
+## Дополнительные типы изображений или документов
 
-## Screenshot
+Вы можете обнаружить, что изображение или документ не удается загрузить. Если это произошло, убедитесь, что его расширение входит в число *разрешенных расширений*, что его расширение относится к *законным типам расширений* для медиа, и что оно входит в число *законных типов MIME* (вам может понадобиться это проверить). Все три условия должны быть выполнены, иначе загрузка будет отклонена.
+*Переведено openai.com*
 
-When set up, you will be able to choose between the images and files
-folders in the Local part of the Media view.
-
-<img
-src="https://docs.joomla.org/images/0/08/J4.x-media-images-files-en.png"
-class="thumbborder" decoding="async" data-file-width="800"
-data-file-height="406" width="800" height="406"
-alt="J4.x-media-images-files-en.png" />
-
-## Further Information
-
-In this series of tutorials:
-
--  Managing
-  Media
--  Media: Upload Delete
-  Rename
--  Media: Image Crop Resize
-  Rotate
--  Media:
-  Options
--  Media: Uploading SVG
-  files

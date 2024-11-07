@@ -1,103 +1,63 @@
-<!-- Filename: J4.x:Deleting_an_Article / Display title: Deleting an Article -->
+<!-- Filename: J4.x:Deleting_an_Article / Display title: Статьи: Удалить  -->
 
-<span id="main-portal-heading">**Tutorial**
-How to Delete an Article</span> Joomla!  4.0
+## Введение
 
-## Introduction
+В Joomla удаление статьи является двухэтапным процессом. На первом этапе статья отправляется в *Корзину*, откуда её можно восстановить. На втором этапе она удаляется из Корзины, после чего статья удаляется окончательно.
 
-This tutorial covers the steps to delete an article in Joomla!
+## Соображения
 
-When you delete an article in Joomla you *Trash* it.
+Подумайте, почему вы хотите удалить статью:
 
-Completely deleting an article involves two stages, the first sends it
-to Trash where it is possible to restore it. The second stage empties it
-from Trash after which the article is removed permanently.
+- Она больше не нужна? Если да, то удаление, скорее всего, правильный
+  курс действий.
+- Это статья, которую можно использовать повторно в будущем? Может быть очень
+  неприятно узнать, что у вас была статья, которая могла бы послужить хорошей
+  отправной точкой для другой, но вы её удалили - подумайте о том, чтобы сохранить её
+  вместо этого.
 
-## Considerations
+## Перемещение статьи в корзину
 
-Consider why you want to delete the article:
+- Выберите **Контент -> Статьи** в меню администратора.
+- Установите флажок, чтобы выбрать статью, которую вы хотите удалить. Статья **должна** быть выбрана, чтобы активировать кнопку **Действия** на панели инструментов.
+- Нажмите на кнопку **Действия** на панели инструментов.
+- Выберите **Корзина** в выпадающем меню.
 
-- Is it no longer needed? If so, deletion is most likely the right
-  course of action.
-- Is it an article that could be re-used in the future? It can be very
-  frustrating to know you had an article that would have been a good
-  starting point for another but you deleted it - consider archiving it
-  instead.
+![Статья выбрана для перемещения в корзину](../../../en/images/articles/articles-selected-to-trash.png)
 
-## Moving the Article to Trash
+Появится сообщение подтверждения, и статья исчезнет из текущего списка статей, так как он обычно не включает элементы из корзины.
 
-- Log in to the Administrator Home Dashboard. More on this here:
-   Logging in or out of the Administrator
-  Dashboard.
-- From the Sidebar Menu navigate to **Content** then **Articles** to
-  open the **Articles List**.
-- Click the checkbox to select the article you want to delete.
+## Фильтр для восстановления или удаления
 
+На этом этапе процесса статья еще не была полностью удалена. Это полезная функция на случай, если вы удалили статью по ошибке.
 
-<img
-src="https://docs.joomla.org/images/thumb/d/db/J4x_select_and_delete_article-en.png/800px-J4x_select_and_delete_article-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/d/db/J4x_select_and_delete_article-en.png 1.5x"
-data-file-width="1000" data-file-height="275" width="800" height="220"
-alt="J4x select and delete article-en.png" />
+Чтобы увидеть список удаленных статей:
 
-The article *must* be selected to enable the **Actions** button in the
-toolbar.
+- Нажмите кнопку **Параметры фильтра**, чтобы открыть список фильтров.
+- Выберите **Удаленные** из списка *-- Выберите статус --*.
 
-Click the **Actions** button then click **Trash** in the dropdown menu.
+![Просмотр удаленных статей](../../../en/images/articles/articles-trash-list.png)
 
+### Для восстановления
 
-<img
-src="https://docs.joomla.org/images/thumb/9/96/J4x_delete_article_confirmed-en.png/800px-J4x_delete_article_confirmed-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/9/96/J4x_delete_article_confirmed-en.png 1.5x"
-data-file-width="1000" data-file-height="125" width="800" height="100"
-alt="J4x delete article confirmed-en.png" />
+Если вы передумали, вы можете выбрать символ **Удаленные** в столбце *Статус*. Статья вернется в состояние *Опубликовано* и исчезнет из списка удаленных статей.
 
-The article has now been deleted and you will see a confirmation
-message. Clicking the **Trash** button removed the article from the
-**Article List** by changing its status to **Trashed**.
+### Для удаления
 
-At this stage of the process the article has not been completely
-removed. This is a helpful feature in case you deleted the article by
-mistake.
+Выберите флажок в левой колонке данных статьи. Это активирует кнопки *Действия* и *Удалить* на панели инструментов. Кнопка *Действия* позволяет применить то же действие ко всем выбранным статьям. Если вы действительно уверены:
 
-## Emptying the Article from Trash
+1.  Выберите кнопку *Удалить* на панели инструментов. Появится окно сообщения:<br>
+    <div class="alert alert-light">
+    Вы уверены, что хотите удалить? Подтверждение приведет к перманентному удалению выбранного элемента(ов)!</div>
+2.  Выберите **OK** для подтверждения, и статья будет удалена из корзины. Статья будет удалена из базы данных. Это окончательно!
+3.  Нажмите кнопку **Очистить** рядом с **Параметры фильтра**, чтобы вернуться к нефильтрованному списку **Статей**.
 
-<img
-src="https://docs.joomla.org/images/thumb/a/a6/J4x_empty_article_trash-en.png/800px-J4x_empty_article_trash-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/a/a6/J4x_empty_article_trash-en.png 1.5x"
-data-file-width="1000" data-file-height="352" width="800" height="282"
-alt="J4x empty article trash-en.png" />
+## Советы
 
-To permanently delete the article it must be removed from Trash. To do
-this:
+- Помните, что удаление статьи — это не то же самое, что и ее архивирование.
+  После удаления из Корзины статья исчезает навсегда.
+- Если вы случайно удалили статью, но не удалили ее из Корзины, вы можете изменить ее статус. У вас есть возможности установить его как *Архивный*, *Опубликованный* или *Неопубликованный*.
+- Joomla не позволит вам сохранить более одной статьи с одинаковым псевдонимом. Если статья удалена, но оставлена в Корзине, она все еще существует. Если вы попытаетесь сохранить статью и получите сообщение об ошибке, что такой псевдоним уже существует, возможно, она находится в Корзине! Вам следует либо очистить ее из Корзины, либо ввести другой псевдоним для вашей новой статьи.
+- Joomla хранит предыдущие версии статьи, если только функция Версий не отключена. Если вы удаляете статью, потому что она каким-то образом "сломалась", попробуйте вернуться к предыдущей версии.
 
-1.  From the Article List Toolbar click the **Filter Options** button.
-    This will display a set of filter fields.
-2.  Set the **- Select Status -** field to **Trashed**. This will filter
-    out all articles except trashed ones.
-3.  Click the checkbox to select the article.
-4.  Click the **Empty Trash** button.
-5.  A message box will appear asking if you are sure you want to delete.
-    Click **OK** to confirm and the article will be removed from Trash.
-6.  Click the **Clear** button at the side of **Filter Options** and
-    this will remove the filter and return to the **Article List**.
+*Переведено с помощью openai.com*
 
-## Tips
-
-- Remember, deleting an article is not the same as archiving an article.
-  Once it has been emptied from Trash it has gone for good.
-- If you delete an article by mistake but have not emptied it from
-  Trash, you can change its status. You have the options to set it as
-  *Archived*, *Published* or *Unpublished*.
-- Joomla will not let you save more than one article with the same
-  alias. If an article is deleted but left in Trash, it still exists. If
-  you try to save an article and you get an error stating the alias
-  already exists, it may be sat in Trash! You should therefore either
-  empty it from trash or you can enter a different alias for your new
-  article.
-- Joomla keeps previous versions of an article unless it is disabled. If
-  you are deleting an article because it somehow "broke", try reverting
-  it back to save time.

@@ -1,402 +1,131 @@
-<!-- Filename: Joomla_3.x_to_4.x_Step_by_Step_Migration / Display title: Пошаговая миграция с Joomla 3.x на 4.x -->
+<!-- Filename: Joomla_3.x_to_4.x_Step_by_Step_Migration / Display title: Joomla 3 на 4 шаг за шагом -->
 
-<img
-src="https://docs.joomla.org/images/thumb/4/41/Stop_hand_nuvola.svg.png/25px-Stop_hand_nuvola.svg.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/4/41/Stop_hand_nuvola.svg.png/38px-Stop_hand_nuvola.svg.png 1.5x, https://docs.joomla.org/images/4/41/Stop_hand_nuvola.svg.png 2x"
-data-file-width="40" data-file-height="40" width="25" height="25"
-alt="Stop hand nuvola.svg.png" />Warning!
+## Введение
 
-В этом руководстве предполагается, что у вас уже Joomla 3.10.x. Если вы
-используете более раннюю версию, убедитесь, что вы обновились до Joomla
-3.10, прежде чем переходить на Joomla 4. There is no rush. Make sure all
-your extensions are ready for Joomla 4.x. Joomla 3.10.x will be
-supported until 16 August 2023.
+**Внимание:** Это руководство предполагает, что вы начинаете с Joomla 3.10.x. Если у вас более ранняя версия, убедитесь, что вы сначала обновите Joomla до версии 3.10, прежде чем переходить на Joomla 4. Спешки нет. Убедитесь, что все ваши расширения готовы для Joomla 4.x. Joomla 3.10.x поддерживается до 16 августа 2023 года.
 
-
-Ниже приведены пошаговые инструкции по переносу вашего сайта 3.10.x на
-Joomla! 4.x. Хотя существуют сотни различных сценариев, это даст вам
-базовое понятие, которому нужно следовать. Скорее всего миграция может
-усложнится, если будут установлены сторонние расширения. Предлагаем вам
-связаться с разработчиками сторонних расширений, установленных на вашем
-сайте Joomla, чтобы узнать, как они могут перенести свои расширения.
-
-## Вступление
-
-Переход с Joomla! 3.10.x на 4.x считается мини-миграцией. Это связано с
-тем, что Встроенные в Joomla! расширения будут обновляться «в один клик»
-через компонент обновления в административной части Joomla. Многие
-сторонние расширения также можно обновить в один клик. Некоторые нет.
-Вам нужно проверить каждое расширение что бы определить по какому пути
-будет происходить его переход с 3.10 на 4.x. Если вы еще этого не
-сделали, возможно, вам будет интересно перед выполнением следующих шагов
-прочитать  Миграция шаг за шагом -
-Самооценка
-and  Планирование миграции с 3.10 на
-4.x.
-
-Встроенные расширения Joomla!:
-
-- Категории
-- Материалы
-- Меню
-- Модули (основные модули - не сторонние)
-- Баннеры
-- Поля
-- История контента
-- Контакты
-- Сообщения
-- Ленты новостей
-- Перенаправления
-- Поиск (Убран в 4.x. В дальнейшем будет использоваться Умный поиск. См.
-  Примечания в разделе «Оценка каждого расширения»)
-- Умный поиск
-- Теги
-- Веб-ссылки (убран, но ваш сайт может их использовать, и он будет
-  перенесен. См. Примечания в разделе «Оценка каждого расширения»)
+Ниже приведены пошаговые инструкции по миграции сайта с версии 3.10.x на Joomla! 4.x. Хотя существует множество разных сценариев, это даст вам основную процедуру для выполнения. Очень сложные миграции, вероятно, будут связаны с установленными сторонними расширениями. Рекомендуется связаться с разработчиками сторонних расширений, установленных на вашем сайте Joomla, чтобы узнать их предложенный способ миграции их расширений.
 
 ## Шаг за шагом
 
-### Настроить место разработки
+### Установка местоположения разработки
 
-1.  Прежде чем продолжить, убедитесь, что у вас установлена ​​последняя
-    версия Joomla 3.10.x.
-2.  Сделайте резервную копию вашего действующего сайта 3.10.x. Вы можете
-    использовать рекомендованный инструмент (см. «Предлагаемые
-    инструменты» внизу страницы) или сделайте это вручную.
-    -  Joomla! Основы резервного
-      копирования
-    -  Основные рекомендации по резервному копированию
-      сайтов?
-3.  Прежде чем продолжить, убедитесь, что ваша среда соответствует
-    <a href="https://downloads.joomla.org/technical-requirements"
-    class="external text" target="_blank"
-    rel="noreferrer noopener">technical requirements for Joomla 4</a>.
-4.  Создайте новую базу данных и пользователя для восстановления вашего
-    сайта 3.10.x.
-5.  Создайте тестовый сайт или зону сборки для работы и восстановите
-    резервную копию вашего сайта 3.10.x в одном из следующих мест:
-6.  \* Поддомен.
-7.  \* Подкаталог.
-8.  \* Локальное устройство. Joomla имеет подробное руководство по
-    установке
-    <a href="http://sourceforge.net/projects/xampp/" class="external text"
-    target="_blank" rel="nofollow noreferrer noopener">XAMPP</a> в
-    XAMPP.
-    <a href="https://www.wampserver.com/en/" class="external text"
-    target="_blank" rel="nofollow noreferrer noopener">WAMP</a>,
-    <a href="https://www.mamp.info/en/windows/" class="external text"
-    target="_blank" rel="nofollow noreferrer noopener">MAMP</a>,
-    <a href="https://sourceforge.net/projects/lampas/" class="external text"
-    target="_blank" rel="nofollow noreferrer noopener">LAMP</a> так же
-    подходящие альтернативы.
-9.  \* Новая учетная запись хостинга на временном домене в корне. (Если
-    вы хотите сменить хосты в процессе миграции.)
-10. \*\* Восстановление сайта на локальном устройстве. См. [Установка
-    Joomla
-    локально](https://docs.joomla.org/Installing_Joomla_locally "Special:MyLanguage/Installing Joomla locally")
-    и  Настройка вашей рабочей станции для разработки
-    Joomla.
-11. \*\* Восстановление сайта с помощью инструмента, указанного внизу
-    страницы. (Прочтите документацию разработчика.)
-12. В вашем тестовом месте обновите Joomla! 3.10.x до последней версии.
-13. Убедитесь, что у вас установлена последняя схема базы данных,
-    обновленная до последней версии 3.10.x, перейдя на вкладку
-    **Менеджер расширений(Extension Manager) **→** Базы
-    данных(Database)** Если ваша схема устарела, как показано на
-    следующем изображении, нажмите кнопку «Исправить»:
+1. Убедитесь, что у вас установлена последняя версия Joomla 3.10.x перед продолжением.
+2. Сделайте резервную копию вашего рабочего сайта версии 3.10.x. Вы можете воспользоваться рекомендованными инструментами (см. *Рекомендованные инструменты* внизу страницы) или сделать это вручную.
+    - [Основы резервного копирования для сайта на Joomla!](https://docs.joomla.org/Special:MyLanguage/Backup_Basics_for_a_Joomla!_Web_Site)
+    - [Какие лучшие практики для резервного копирования сайтов?](https://docs.joomla.org/Special:MyLanguage/What_are_the_best_practices_for_site_backups%3F)
+3. Убедитесь, что ваша среда соответствует [техническим требованиям для Joomla 4](https://downloads.joomla.org/technical-requirements) перед продолжением.
+4. Создайте новую базу данных и нового пользователя для восстановления вашего сайта версии 3.10.x.
+5. Создайте тестовый сайт или рабочую область и восстановите копию резервной копии вашего сайта версии 3.10.x в одном из следующих мест:
+    - Поддомен.
+    - Подкаталог.
+    - Локальное устройство. Joomla имеет подробное руководство по установке XAMPP. Тем не менее [WAMP](https://www.wampserver.com/en/), [MAMP](https://www.mamp.info/en/windows/) и [LAMP](https://sourceforge.net/projects/lampas/) также являются подходящими альтернативами.
+    - Новый аккаунт хостинга на временном домене в корне. (Если вы хотите сменить хост при миграции.)
+      - Восстановление сайта на локальном устройстве. 
+        См. [Установка Joomla локально](https://docs.joomla.org/Special:MyLanguage/Installing_Joomla_locally) и [Настройка вашей рабочей станции для разработки на Joomla](https://docs.joomla.org/Special:MyLanguage/Setting_up_your_workstation_for_Joomla_development).
+      - Восстановление сайта с помощью инструмента, указанного внизу страницы. (Читаете документацию разработчика.)
+6. В вашем тестовом местоположении обновите вашу установку Joomla! 3.10.x до последнего выпуска.
+7. Убедитесь, что у вас обновлена последняя схема базы данных до последней версии 3.10.x, перейдя на вкладку **Менеджер расширений → База данных**. Если ваша схема не обновлена, как на следующем изображении, нажмите кнопку **Исправить**:<br>
+    ![База данных расширений Joomla 3](../../../en/images/migration/admin-extension-database-fix.png)
+8. Очистите корзину: есть ли у вас статьи в корзине? Если да, удалите их (и любые связанные с ними медиафайлы, если они не используются в других местах сайта). Статьи (категории и элементы меню тоже), оставленные в корзине, могут вызвать ошибки при миграции.
+9. Тестируйте.
+10. Сделайте резервную копию снова.
 
-<img
-src="https://docs.joomla.org/images/thumb/6/61/J310-admin-extension-database-fix-en.png/800px-J310-admin-extension-database-fix-en.png"
-class="thumbborder" decoding="async"
-srcset="https://docs.joomla.org/images/thumb/6/61/J310-admin-extension-database-fix-en.png/1200px-J310-admin-extension-database-fix-en.png 1.5x, https://docs.joomla.org/images/thumb/6/61/J310-admin-extension-database-fix-en.png/1600px-J310-admin-extension-database-fix-en.png 2x"
-data-file-width="2560" data-file-height="812" width="800" height="254"
-alt="J310-admin-extension-database-fix-en.png" />
+### Оценка каждого расширения
 
-1.  Пустая корзина: есть ли у вас материалы в корзине? Если да, удалите
-    их (и любые соответствующие медиа файлы, которые могут быть связаны
-    с ними, если они не используются где-либо еще на сайте). Оставленные
-    в корзине материалы (категории и пункты меню) могут вызвать проблемы
-    во время миграции.
-2.  Тест.
-3.  Сделайте резервную копию снова.
+В вашем планировании вы определили, какие сторонние расширения останутся или исчезнут и как они будут мигрированы. Для этой части программы «Шаг за шагом» вы будете интенсивно использовать два разных раздела сайта: *Предварительная проверка обновлений* в **Компоненты → Обновление Joomla!** и **Расширения → Управление → Управление**. Вы собираетесь проверить каждое установленное на вашем сайте расширение. Вы будете определять, нужно ли их обновлять до последней версии или удалять. Подробнее в [Предварительная проверка обновлений](https://docs.joomla.org/Special:MyLanguage/:Pre-Update_Check).
 
-### Оцените каждое расширение
-
-В своем <a
-href="https://docs.joomla.org/index.php?title=Planning_for_Mini-Migration_-_Joomla_3.10_to_4.x&amp;action=edit&amp;redlink=1"
-class="new"
-title="Planning for Mini-Migration - Joomla 3.10 to 4.x (page does not exist)">Планирование
-миграции с 3.10 на 4.x</a>, вы определили, какие сторонние расширения
-останутся или будут использоваться и как они будут переноситься. В этой
-части «Шаг за шагом» вы будете широко использовать два разных раздела
-сайта; Проверка перед обновлением в
-**Компоненты(Components) **→** Обновление Joomla!(Joomla! Update)** и
-**Менеджер расширений(Extensions) **→** Менеджер
-расширений(Manage) **→** Управление(Manage)**. Вы будете просматривать
-каждое расширение, установленное на вашем сайте и определять, нужно ли
-его обновить до последней версии или надо удалить.
-
-1.  Using the **Pre-Update Check**: in order to use the Pre-Update
-    Check, you will need to set the Joomla! Update component to
-    Joomla 4. To do this follow:
-2.  Go to **Components **→** Joomla Update**. (It should say no updates
-    found. If it doesn’t, update Joomla to the latest version (must be
-    3.10.x) and test. Then do another backup.) Click on the Options
-    button at the top right corner.
-3.  Select *Joomla Next* from the drop-down for Update Channel.<img
-    src="https://docs.joomla.org/images/thumb/7/72/Migration_J3toJ4_update_channel-en.png/800px-Migration_J3toJ4_update_channel-en.png"
-    class="thumbborder" decoding="async"
-    srcset="https://docs.joomla.org/images/7/72/Migration_J3toJ4_update_channel-en.png 1.5x"
-    data-file-width="1000" data-file-height="384" width="800" height="307"
-    alt="Migration J3toJ4 update channel-en.png" />
-4.  Click Save & Close
-5.  You will then see your Installed Joomla Version, the latest Joomla!
-    version and the URL for the update package. Joomla will show you the
-    requirements again for Joomla 4. If it flags that you have either an
-    incompatible system or extensions it will tell you here. Take a
-    moment to review this page.<img
-    src="https://docs.joomla.org/images/thumb/3/3a/J310-admin-update_to_4-pre_update_check-en.png/800px-J310-admin-update_to_4-pre_update_check-en.png"
-    class="thumbborder" decoding="async"
-    srcset="https://docs.joomla.org/images/3/3a/J310-admin-update_to_4-pre_update_check-en.png 1.5x"
-    data-file-width="1200" data-file-height="559" width="800" height="373"
-    alt="J310-admin-update to 4-pre update check-en.png" />
-6.  Look at the Pre-Update Check and the Extension Pre-Update Check in
-    the Pre-Update Check tab of the Joomla Update component. If any
-    extension that isn’t in your planning is listed here, add it to your
-    list of extensions to investigate.
-7.  If you migrated from Joomla! 2.5 to 3.x in the past, there may be
-    some leftover extensions that need to be cleaned up. The following
-    are older 2.5 or 3.x extensions that need to be uninstalled before
-    updating to Joomla 4:
+1. Для использования **Предварительной проверки обновлений** вам нужно установить компонент обновления Joomla! на Joomla 4. Для этого следуйте:
+2. Перейдите к **Компоненты → Обновление Joomla**. Должно быть указано, что обновлений не найдено. Если это не так, обновите Joomla до последней версии (должна быть 3.10.x) и протестируйте. Затем сделайте ещё одну резервную копию. Нажмите кнопку Параметры в правом верхнем углу.
+3. Выберите *Следующая Joomla* в раскрывающемся списке для Обновления канала.<br>
+    ![выбор канала параметров обновления](../../../en/images/migration/update-options-channel.png)
+4. Нажмите **Сохранить и закрыть**
+5. Затем вы увидите вашу установленную версию Joomla, последнюю версию Joomla! и URL-адрес пакета обновления. Joomla покажет вам требования к Joomla 4. Если она указывает, что у вас либо несовместимая система, либо расширения, она сообщит вам об этом здесь. Внимательно просмотрите эту страницу. <br>
+    ![Обновление до версии 4 предварительная проверка](../../../en/images/migration/update-to-4-pre-update-check.png)
+    <div class="alert alert-warning"><strong>Внимание:</strong> Не обновляйтесь до Joomla! 4 прямо сейчас. Это только для подготовки ваших сторонних расширений и обеспечения совместимости сайта с Joomla! 4.</div>
+6. Просмотрите Предварительную проверку обновлений и проверку расширений в разделе Предварительной проверки обновлений компонента Обновление Joomla. Если здесь указано какое-либо расширение, не запланированное на удаление, добавьте его в список расширений для расследования.
+7. Если вы мигрировали с Joomla! 2.5 на 3.x в прошлом, может остаться несколько расширений, которые нужно очистить. Следующие являются более старыми для версий 2.5 или 3.x, и их необходимо удалить перед обновлением до Joomla4:
     - plg_content_geshi
-    - Bluestork Administrator Template
+    - Шаблон администратора Bluestork
     - Beez_20
     - Beez5
     - Atomic
+    1. Для шаблонов удаляйте все основные шаблоны переднего или заднего плана, кроме Protostar и Beez3 (шаблоны переднего плана) и Isis или Hathor (администраторские шаблоны). **ПРИМЕЧАНИЕ: Protostar НЕ совместим с Joomla 4**. После миграции он исчезнет. Вам необходимо, чтобы один шаблон был выбран как *по умолчанию*, и вы можете использовать Protostar или Beez3. Protostar исчезнет после миграции на Joomla 4.x.
+    2. Если вы обнаружите другие файлы, которые нужно удалить, пожалуйста, добавьте их на эту страницу. Это вики, поэтому любой может добавить информацию. Заранее спасибо за вашу помощь.
+8. Обратите внимание на метки для определения, совместимо расширение или нет. Эти метки, как правило, говорят правду, если они говорят «Нет» или «Да». Если они говорят *Отсутствует метка совместимости*, это означает, что разработчик расширения не использовал метку в своем расширении, и мы не знаем, совместимо оно или нет с Joomla 4. Свяжитесь с разработчиком для подтверждения.
+9. **Обновите расширения:** обновите любые расширения, которые вы оставите на своем сайте. В Joomla! 3.10.x вы можете перейти в **Менеджер расширений → Вкладка обновлений** и нажать **Найти обновления**, что добавит всплывающую подсказку в столбце Версия на вкладке Управление, предоставляя информацию о совместимости из бэкэнда. Эта функциональность поддерживает только расширения, которые обновляются через вкладку Обновления Менеджера расширений. Если у вас установлены расширения, не использующие обновление расширения Joomla, их необходимо оценивать вручную, как подробно описано ниже. То же самое касается тех расширений, которые имеют всплывающую подсказку. Вам все равно нужно проверить тип пакета и путь обновления у разработчика расширения, чтобы узнать, как обновиться/мигрировать.
+10. Исследуйте и удалите расширения: перейдите в **Менеджер расширений → Управление**.
+11. Нажмите кнопку *Поиск инструментов*, чтобы отобразить параметры фильтра.
+12. Выберите Пакет из раскрывающегося списка *Выбрать тип*.<br>
+    ![страница управления расширениями](../../../en/images/migration/extensions-manage.png)
+    <div class="alert alert-info">Рекомендуется сначала выбрать Тип пакета, потому что при удалении пакета автоматически удаляются связанные Модули, Плагины и все остальное в пакете за один раз.</div>
+13. Удалите любые пакеты, которые больше не нужны или не будут мигрироваться на Joomla 4.
+14. Повторите этот процесс, перебрав все Типы в раскрывающемся списке на вкладке Управление: Компонент, Файл, Язык, Библиотека, Модуль, Плагин и Шаблон. Если Автор указывает проект Joomla!, то оставьте эти расширения. Для всех остальных убедитесь, что удалили те, которые не используются или не совместимы с Joomla! 4.x. 
+    <div class="alert alert-danger"><strong>ПРИМЕЧАНИЕ!</strong> У вас не получится удалить шаблон, установленный по умолчанию. Вам нужно выбрать поддерживаемый шаблон Core, например, Beez3 или Protostar, а затем удалить шаблон, если это необходимо. <em>Ещё одно напоминание:</em> <strong>Protostar несовместим с Joomla 4</strong>. После миграции он исчезнет. Выбрав его как шаблон по умолчанию, вы просто переходите на Joomla 4.x.</div>
+15. Запишите все версии Пакетов и Компонентов, которые вы оставите на сайте. Вы можете скопировать/вставить их в документ для справки.
+16. Для любых расширений, которые вы оставляете и которые не используют Менеджер расширений для одномоментного обновления (**Расширения → Управление → Обновление**), обновите все до последних версий.
+17. Перед и во время обновления обратите внимание, если у расширений есть версии как для 3.10.x, так и 4.x в одном пакете. Если да, они будут нормально обновляться одномоментно. Если нет и для 3.10 и 4.x есть разные пакеты, вам нужно рассмотреть каждый случай индивидуально. Обычно они попадают в одну из следующих ситуаций:
+    - У расширения разные пакеты, но при обновлении до 4.x они автоматически распознают это и продолжают работать. Убедитесь, что разработчик подтверждает это.
+    - У расширения разные пакеты, которые нужно удалить в 3.10.x и затем установить с версией Joomla 4.x после миграции сайта. Примером этого может быть плагин содержимого. Его очень просто удалить в 3.10.x и затем установить снова в 4.x.
+    - См. [Рассмотрение шаблонов](https://docs.joomla.org/Special:MyLanguage/Template_Considerations_During_Migration) для более подробной информации о шаблонах и [Конвертация шаблона предыдущей версии Joomla!](https://docs.joomla.org/J3.x:Converting_A_Previous_Joomla!_Version_Template)
 
-    1.  When it comes to templates, uninstall all core frontend or
-        backend templates except Protostar and Beez3 (frontend
-        templates) and Isis or Hathor (administrator templates). **NOTE:
-        Protostar is NOT compatible with Joomla 4**. Upon migration it
-        will disappear. You'll need to have one template selected as
-        "default" and you can use Protostar or Beez3. Protostar will
-        disappear upon migration to Joomla 4.x.
-    2.  If you come across other files that need to be uninstalled,
-        please add them to this page. This is a wiki so anyone can add
-        to the page. Thank you in advance for your service.
-8.  You will notice the tags for whether an extension is compatible or
-    not. These tags generally tell a true story if they say No or Yes.
-    If they say “Missing Compatibility Tag” it means that the extension
-    developer didn’t use a tag in their extension so we don’t know if it
-    is or isn’t compatible with Joomla 4. Talk to the developer to
-    verify.
-9.  **Update Extensions**: update any extensions that you will keep in
-    your website. In Joomla! 3.10.x you can go to **Extension
-    Manager **→** Update tab** and click **Find Updates** which will add
-    a tooltip in the Version column, under the Manage tab, giving some
-    compatibility information from the backend. This functionality only
-    supports extensions that update via the Extension Manager Update
-    tab. If you have extensions installed that do not use the Joomla
-    extension update they need to be assessed manually as detailed
-    below. The same goes for those extensions that have a tooltip. You
-    will still need to check the type of package and migration path with
-    the extension developer to verify how to upgrade/migrate.
-10. Investigate and Uninstall Extensions Extensions: go to **Extension
-    Manager **→** Manage**
-11. Click the Button *Search Tools* to show the filter options
-12. Select Package from the *Select Type* drop-down.<img
-    src="https://docs.joomla.org/images/thumb/5/50/J310-admin-extension-manage-package-en.png/800px-J310-admin-extension-manage-package-en.png"
-    decoding="async"
-    srcset="https://docs.joomla.org/images/thumb/5/50/J310-admin-extension-manage-package-en.png/1200px-J310-admin-extension-manage-package-en.png 1.5x, https://docs.joomla.org/images/5/50/J310-admin-extension-manage-package-en.png 2x"
-    data-file-width="1502" data-file-height="658" width="800" height="350"
-    alt="J310-admin-extension-manage-package-en.png" />Selecting Package
-    first is recommended because if there is something you need to
-    uninstall in a package, it will automatically uninstall the
-    associated Modules, Plugins, or anything else in the package at one
-    time.
-13. Uninstall any Packages that are no longer needed or will not be
-    migrating to Joomla 4.
-14. Repeat this process of going through the Manage tab for all Types in
-    the drop-down: Component, File, Language, Library, Module, Plugin
-    and Template. If the Author states Joomla! Project, then leave those
-    extensions alone. For all others, make sure that you uninstall those
-    not in use or not compatible with Joomla! 4.x. **NOTE!** You will
-    not be able to uninstall any template that is set as default. You
-    will need to select a Core supported template like Beez3 or
-    Protostar and then uninstall the template if you need to do so.
-    *Another reminder:* **Protostar is not compatible with Joomla 4.x**.
-    Upon migration it will disappear. Selecting it as default simply
-    gets you to Joomla 4.x.
-15. Make a note of any versions of Packages and Components currently
-    running that you will be keeping on your site. You can copy/paste
-    them into a document for reference.
-16. For any extensions you are keeping but don't use the Extension
-    Manager to one-click update
-    (**Extensions **→** Manage **→** Update**) update all extensions to
-    the latest versions.
-17. Before and as you update, note if the extensions have both 3.10.x &
-    4.x versions in the same package. If so, they will be fine to
-    "one-click update." If not, and 3.10 and 4.x have different
-    packages, you need to look at them case by case. They will normally
-    fall into one of the following scenarios:
-    - The extension has separate packages but upon upgrading to 4.x,
-      they automatically detect this and still work. Make sure the
-      developer confirms this.
-    - The extension has separate packages that need to be uninstalled in
-      3.10.x and then installed with the Joomla 4.x version once the
-      site is migrated. An example of this might be a content plugin. It
-      is very simple to uninstall it in 3.10.x and then install it again
-      in 4.x.
-    - See  Template
-      Considerations
-      for more specific information on templates and [Converting a
-      previous Joomla! Version
-      template](https://docs.joomla.org/J3.x:Converting_A_Previous_Joomla!_Version_Template "Special:MyLanguage/J3.x:Converting A Previous Joomla! Version Template")
+#### Заметки о поиске (com_search)
 
-#### Notes on Search (com_search)
+Поиск (com_search) будет отделен в Joomla 4.x. Поиск (com_search) будет мигрирован на Joomla 4. После миграции вам потребуется обновить его до версии Joomla 4.x через com_installer. Он будет продолжать поддерживаться, но более как стороннее расширение, получающее обновления через com_installer. Рекомендуется использовать Умный поиск (com_finder) в дальнейшем. Поиск все еще доступен в [Каталоге расширений Joomla](https://extensions.joomla.org/category/official-extensions/).
 
-Search (com_search) will be decoupled in Joomla 4.x. Search (com_search)
-will migrate to Joomla 4. After migration, you'll need to update it to
-the Joomla 4.x version via com_installer. It will continue to be
-maintained, but more the same way a third-party extension is by
-receiving updates via com_installer. It is recommended to use Smart
-Search (com_finder) going forward. Search will still be available at
-<a href="https://extensions.joomla.org/category/official-extensions/"
-class="external free" target="_blank"
-rel="noreferrer noopener">https://extensions.joomla.org/category/official-extensions/</a>.
+#### Заметки о Веб-ссылках
 
-#### Notes on Weblinks
+Веб-ссылки были отделены еще в Joomla 3.4. Если они использовались на сайте версии 2.5, процесс миграции учтет это и перенесет компонент и данные Веб-ссылок. Для миграции с 3.10.x на 4.x ситуация будет такой же. Они все еще доступны и поддерживаются в JED на [Официальные расширения](https://extensions.joomla.org/category/official-extensions).
 
-Weblinks was decoupled back in Joomla 3.4. If it was in use on a 2.5
-site, the migration process would note this and migrate the Weblinks
-component and data. For the migration from 3.10.x to 4.x, it will be the
-same. It is still available and maintained on the JED at
-<a href="https://extensions.joomla.org/category/official-extensions/"
-class="external text" target="_blank" rel="noreferrer noopener">Official
-Extensions</a>.
+#### Заметки о старой маршрутизации
 
-#### Notes on Legacy Routing
+Старая маршрутизация не будет доступна в Joomla 4.x. Будет доступна только Современная. После миграции, если вы используете старую маршрутизацию, система автоматически переключит её на Современную маршрутизацию. Вам нужно будет провести проверку битых ссылок на своем сайте после миграции на Joomla 4.x и *до того, как вы запустите сайт*.
 
-Legacy routing will not be available in Joomla 4.x. Only Modern will be
-available. When you do the migration, if you are using Legacy routing,
-the system will automatically change them to Modern routing. You will
-want to run a broken link checker on your site after migrating to Joomla
-4.x and *before you go live*.
+### Переход на Joomla! 4.x
 
-### Going to Joomla! 4.x
+Как только вы обновили или удалили ваши сторонние расширения так, чтобы только совместимые с Joomla! 4 остались в вашей установке, продолжите выполнение следующих шагов:
 
-Once you have either updated or uninstalled your third-party extensions
-so that only those compatible with Joomla! 4 remain in your
-installation, continue with the following steps:
+1. Перейдите в **Система → Общие настройки → Вкладка сервера** и измените Отчет об ошибках с По умолчанию на Максимум. Убедитесь, что нажали Сохранить и Закрыть.<br>
+    ![общие настройки системы вкладка сервера](../../../en/images/migration/system-global-configuration-server-tab.png)
+2. Сделайте еще одну резервную копию.
+3. Перейдите в **Компоненты → Обновление Joomla**. (Должно быть указано, что обновлений не найдено. Если это не так, обновите Joomla до последней версии и протестируйте. Затем сделайте ещё одну резервную копию.) Нажмите на кнопку Параметры в правом верхнем углу.
+4. Выберите *Следующая Joomla* из выпадающего списка для Обновления канала.<br>
+    ![компонент Joomla update выбор обновить канал](../../../en/images/migration/update-select-channel.png)
+5. Нажмите **Сохранить и Закрыть**.
+6. Затем вы увидите вашу установленную версию Joomla, последнюю версию Joomla! и URL-адрес пакета обновления. Joomla покажет вам требования к Joomla 4. Если она указывает, что у вас либо несовместимая система, либо расширения, она сообщит вам об этом здесь. Внимательно просмотрите эту страницу.<br>
+    ![проверка обновления версии 4](../../../en/images/migration/update-check.png)
+7. Если обновление не отображается, перейдите в **Менеджер расширений → Обновление** и нажмите Очистить кэш на панели инструментов. Теперь обновление до Joomla! 4 должно отображаться.
+8. Скрестите пальцы, и убедитесь, что у вас есть эта резервная копия на случай.
+9. Нажмите кнопку Установить обновление.
+10. Сделайте чай, пока индикатор статуса полностью готов. Время, которое на это потребуется, зависит от вашего сайта, интернет-соединения и скорости сервера. Процесс занимает около двух минут. Когда обновление завершится, вас могут выкинуть из Администратора. Войдите снова. Дважды.
+11. Если всё идёт хорошо, вы увидите совершенно новый интерфейс панели администратора.<br>
+    ![домашняя панель Joomla 4 или 5](../../../en/images/migration/j4-home-dashboard.png)
+12. Перейдите в **Система → Обслуживание → База данных** и нажмите *Исправить*, если появляются какие-либо ошибки.
+13. В **Система → Установить → Обнаружение** проверьте, есть ли какие-нибудь расширения для установки. (Не должно быть!)
+14. Перейдите на фронтэнд вашего сайта и убедитесь, что он отображается, даже если это не тот шаблон. Если да, продолжайте. Если нет, просмотрите common errors during migration.
+15. Сделайте резервную копию.
+16. Установите ваш новый шаблон или другие расширения, если они у вас есть для установки. Чаще делайте резервные копии.
+17. Настройте их. Чаще делайте резервные копии.
+18. Проведите проверку битых ссылок и исправьте любые битые.
+19. Протестируйте всё. Чаще делайте резервные копии.
+20. Если всё работает как ожидалось, верните Отчет об ошибках на По умолчанию (**Система → Общие настройки → Вкладка сервера**). Убедитесь, что нажали **Сохранить и Закрыть**.
 
-1.  Go to **System **→** Global Configuration **→** Server tab** and
-    turn Error Reporting from System Default to Maximum. Make sure to
-    Save & Close. <img
-    src="https://docs.joomla.org/images/thumb/8/84/J310-system-global-config-server-tab-en.png/500px-J310-system-global-config-server-tab-en.png"
-    class="thumbborder" decoding="async"
-    srcset="https://docs.joomla.org/images/thumb/8/84/J310-system-global-config-server-tab-en.png/750px-J310-system-global-config-server-tab-en.png 1.5x, https://docs.joomla.org/images/thumb/8/84/J310-system-global-config-server-tab-en.png/1000px-J310-system-global-config-server-tab-en.png 2x"
-    data-file-width="1496" data-file-height="1002" width="500" height="335"
-    alt="J310-system-global-config-server-tab-en.png" />
-2.  Take another backup.
-3.  Go to **Components **→** Joomla Update**. (It should say no updates
-    found. If it doesn’t, update Joomla to the latest version and test.
-    Then do another backup.) Click on the Options button at the top
-    right corner.
-4.  Select *Joomla Next* from the drop-down for Update Channel.<img
-    src="https://docs.joomla.org/images/thumb/f/fd/J310-component-joomla-update-select-support-en.png/500px-J310-component-joomla-update-select-support-en.png"
-    class="thumbborder" decoding="async"
-    srcset="https://docs.joomla.org/images/thumb/f/fd/J310-component-joomla-update-select-support-en.png/750px-J310-component-joomla-update-select-support-en.png 1.5x, https://docs.joomla.org/images/thumb/f/fd/J310-component-joomla-update-select-support-en.png/1000px-J310-component-joomla-update-select-support-en.png 2x"
-    data-file-width="1382" data-file-height="772" width="500" height="279"
-    alt="J310-component-joomla-update-select-support-en.png" />
-5.  Click Save & Close.
-6.  You will then see your Installed Joomla Version, the Latest Joomla!
-    version and the URL for the update package. Joomla will show you the
-    requirements again for Joomla 4. If it flags that you have either an
-    incompatible system or extensions it will tell you here. Take a
-    moment to review this page.<img
-    src="https://docs.joomla.org/images/thumb/a/a8/J310-to-j4-dev-update-found-en.png/800px-J310-to-j4-dev-update-found-en.png"
-    class="thumbborder" decoding="async"
-    srcset="https://docs.joomla.org/images/thumb/a/a8/J310-to-j4-dev-update-found-en.png/1200px-J310-to-j4-dev-update-found-en.png 1.5x, https://docs.joomla.org/images/a/a8/J310-to-j4-dev-update-found-en.png 2x"
-    data-file-width="1466" data-file-height="1079" width="800" height="589"
-    alt="J310-to-j4-dev-update-found-en.png" />
-7.  If the update is not showing up, go to **Extension
-    manager **→** Update** and press Purge Cache from the toolbar. Now
-    the update to Joomla! 4 should show up.
-8.  Cross your fingers, and make sure you have that backup available in
-    case.
-9.  Click the Install the Update button.
-10. Make tea whilst the status bar loads to fully green. The amount of
-    time this takes is dependent on your site, Internet connection and
-    server speed. The process takes about two minutes. When the update
-    is finished, you will probably be logged out of the Administrator.
-    Sign in again. Twice.
-11. If all goes well, you will get to a totally new look to the backend
-    administrator panel.<img
-    src="https://docs.joomla.org/images/thumb/5/53/J4-administrator-overview-en.png/800px-J4-administrator-overview-en.png"
-    class="thumbborder" decoding="async"
-    srcset="https://docs.joomla.org/images/thumb/5/53/J4-administrator-overview-en.png/1200px-J4-administrator-overview-en.png 1.5x, https://docs.joomla.org/images/thumb/5/53/J4-administrator-overview-en.png/1600px-J4-administrator-overview-en.png 2x"
-    data-file-width="1640" data-file-height="752" width="800" height="367"
-    alt="J4-administrator-overview-en.png" />
-12. Go to **System **→** Maintenance **→** Database** and click *Fix* if
-    any errors show.
-13. In **System **→** Install **→** Discover** see if there are any
-    extensions to install. (There shouldn't be any!)
-14. Go to the frontend of your site and see if it shows up even if it’s
-    not the right template. If so, continue. If not, see [common errors
-    during
-    migration](https://docs.joomla.org/Joomla_3.10_to_4.x_Common_Migration_Errors "Special:MyLanguage/Joomla 3.10 to 4.x Common Migration Errors").
-15. Take a backup.
-16. Install your new template or other extensions if you have them to
-    install. Back up often.
-17. Configure them. Back up often.
-18. Run a broken link checker and fix any broken links.
-19. Test everything. Back up often.
-20. If everything works as expected, turn Error Reporting back to System
-    Default (**System **→** Global Configuration **→** Server tab**).
-    Make sure to Save & Close.
+### Запуск вашего сайта Joomla! 4.x
 
-### Going Live with your Joomla! 4.x Site
+1. Когда вы будете готовы выйти в публичный доступ, сделайте последнюю резервную копию вашего сайта версии 3.10. Восстановите его в подкаталоге или поддомене, если хотите.
+2. Сделайте резервную копию вашего сайта Joomla! 4.x и перенесите или восстановите ваш сайт Joomla! 4.x в корень (или измените серверы имен, если вы строили на временном домене с новым аккаунтом хостинга в корне).
+3. Протестируйте снова.
+4. ЕСЛИ вы вносили изменения в файл .htaccess для безопасности в прошлом, возможно, вам потребуется изменить строку (или строки) в нем, чтобы обновиться до следующей версии Joomla 4. Перейдите в [Изменения Htaccess после Joomla 4](https://docs.joomla.org/Htaccess_changes_after_joomla4.0.4), чтобы определить, нужно ли вам менять файл или нет.
+5. Удалите сайт Joomla! 3.10 с сервера в течение нескольких дней, если вы не отредактировали ваш файл *robots.txt* для блокировки поисковым системам.
+6. Удалите все сайты разработки, с которыми вы работали, или держите их обновленными, если они работают на текущей версии, чтобы предотвратить хакерские атаки на ваш сервер.
 
-1.  When you’re ready to go live, back up your 3.10 site for the last
-    time. Restore it in a subdirectory or subdomain if you would like
-    to.
-2.  Back up your Joomla! 4.x site and move or restore your Joomla! 4.x
-    site to the root (or change nameservers if you were building on a
-    temporary domain at a new hosting account root).
-3.  Test again.
-4.  IF you have made security changes to .htaccess file in the past, you
-    may need to change a line (or lines) in it in order to update to the
-    next version of Joomla 4. Please go to
-    <a href="https://docs.joomla.org/Htaccess_changes_after_joomla4.0.4"
-    class="external text" target="_blank" rel="noreferrer noopener">Htaccess
-    changes after joomla4.0.4</a> to determine if you need to change
-    your file or not.
-5.  Remove the Joomla! 3.10 site from the server within a couple of days
-    unless you have edited your *robots.txt* file to block the search
-    engine spiders.
-6.  Remove all development sites you have been working with or keep them
-    up-to-date if they are running a current version in order to ward
-    off hack attempts on your server.
+Если данные изменялись на сайте 3.10 в процессе миграции на 4.x, вам нужно будет перенести эти данные на сайт 4.x перед запуском. Вы можете сделать это вручную (убедитесь, что сохранили те же идентификаторы пользователей — идите по порядку) или с помощью [стороннего расширения](https://extensions.joomla.org/category/migration-a-conversion/data-import-a-export%20transfer%20tool/third-party%20extension/).
 
-If you had data change on the 3.10 site while you were migrating to 4.x,
-you will want to get that data moved over to the 4.x site before going
-live. You can do this manually (make sure you keep the same user IDs -
-go in order) or by using a <a
-href="https://extensions.joomla.org/category/migration-a-conversion/data-import-a-export%20transfer%20tool/third-party%20extension/"
-class="external text" target="_blank" rel="noreferrer noopener">third
-party extension</a>.
+## Рекомендуемые инструменты
 
-## Suggested Tools
+- [Akeeba Backup](http://extensions.joomla.org/extensions/access-a-security/site-security/backup/1606)
+  очень популярен для резервного копирования и восстановления.
+- Дополнительные [инструменты для резервного копирования](https://extensions.joomla.org/tags/backup/).
 
-- <a
-  href="http://extensions.joomla.org/extensions/access-a-security/site-security/backup/1606"
-  class="external text" target="_blank" rel="noreferrer noopener">Akeeba
-  Backup</a> is very popular for backup and restore. See more
-  <a href="https://extensions.joomla.org/tags/backup/"
-  class="external text" target="_blank" rel="noreferrer noopener">backup
-  tools</a>.
+*Переведено с помощью openai.com*
 
-## Related information
-
-Pre-Update_Check
