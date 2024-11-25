@@ -1,5 +1,4 @@
-<!-- Filename: J3.x:Adding_custom_fields/List_of_Images_Field / Display title: # Список Поле Изображений 
- -->
+<!-- Filename: J3.x:Adding_custom_fields/List_of_Images_Field / Display title: # Список Поле Изображений -->
 
 ## Назначение
 
