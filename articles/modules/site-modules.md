@@ -17,24 +17,24 @@
 А следующий список показывает доступные позиции модулей по названию:
 
 ```xml
-	<positions>
-		<position>topbar</position>
-		<position>below-top</position>
-		<position>menu</position>
-		<position>search</position>
-		<position>banner</position>
-		<position>top-a</position>
-		<position>top-b</position>
-		<position>main-top</position>
-		<position>main-bottom</position>
-		<position>breadcrumbs</position>
-		<position>sidebar-left</position>
-		<position>sidebar-right</position>
-		<position>bottom-a</position>
-		<position>bottom-b</position>
-		<position>footer</position>
-		<position>debug</position>
-	</positions>
+    <positions>
+        <position>topbar</position>
+        <position>below-top</position>
+        <position>menu</position>
+        <position>search</position>
+        <position>banner</position>
+        <position>top-a</position>
+        <position>top-b</position>
+        <position>main-top</position>
+        <position>main-bottom</position>
+        <position>breadcrumbs</position>
+        <position>sidebar-left</position>
+        <position>sidebar-right</position>
+        <position>bottom-a</position>
+        <position>bottom-b</position>
+        <position>footer</position>
+        <position>debug</position>
+    </positions>
 ```
 
 ## Добавление основного модуля
@@ -108,4 +108,3 @@
 - **Обёртка** Этот модуль показывает окно iframe для указанного местоположения.
 
 *Переведено openai.com*
-

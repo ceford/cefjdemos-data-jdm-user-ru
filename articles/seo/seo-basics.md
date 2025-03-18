@@ -32,7 +32,7 @@ https://www.example.com/index.php?option=com_jdocmanual&view=manual&manual=user&
 5. Создайте элемент меню **SEO** типа **Список категорий**, используя категорию *SEO*.
 6. Настройте функцию SEO в Joomla в *Глобальной конфигурации*.
 
-Проверьте ваш SEO URL: перейдите через списки User и SEO к странице SEO Basics. Хлебные крошки должны показывать: `Вы находитесь здесь: Главная / User / SEO / SEO Basics`. Но не если вы создали тип элемента меню для **Одной статьи** для *SEO Basics*!  
+Проверьте ваш SEO URL: перейдите через списки User и SEO к странице SEO Basics. Хлебные крошки должны показывать: `Вы находитесь здесь: Главная / User / SEO / SEO Basics`. Но не если вы создали тип элемента меню для **Одной статьи** для *SEO Basics*!
 
 ## Уменьшение Дублирования
 
@@ -53,7 +53,7 @@ https://www.example.com/index.php?option=com_jdocmanual&view=manual&manual=user&
 
 В статье выберите вкладку Публикация, а затем кнопку *Auto* под *Каноническим URL*. Это создаст ссылку наподобие следующей на любой странице, которая отображает одну статью:
 ```
-	<link href="/jdm3/ru/user/seo/seo-basics.html" rel="canonical" />
+    <link href="/jdm3/ru/user/seo/seo-basics.html" rel="canonical" />
 ```
 
 ## Качество контента
@@ -119,4 +119,3 @@ https://www.example.com/index.php?option=com_jdocmanual&view=manual&manual=user&
 * Используйте адаптивные изображения - существует плагин Joomla, который динамически создает версии webp для png и jpg изображений в нескольких размерах.
 
 *Переведено openai.com*
-

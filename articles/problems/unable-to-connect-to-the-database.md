@@ -8,12 +8,12 @@
 
 Если сбой произошел после переноса вашего сайта на другого хоста, проверьте следующие элементы вашего файла *configuration.php*. Обычные настройки базы данных следующие:
 
-	public $dbtype = 'mysqli';
-	public $host = 'localhost';
-	public $user = 'yourdbuser';
-	public $password = 'yourdbpassword';
-	public $db = 'yourdbname';
-	public $dbprefix = 't6q6i_';
+    public $dbtype = 'mysqli';
+    public $host = 'localhost';
+    public $user = 'yourdbuser';
+    public $password = 'yourdbpassword';
+    public $db = 'yourdbname';
+    public $dbprefix = 't6q6i_';
 
 Если проблема возникает на сайте, который ранее работал, может быть несколько причин: иногда они временные, иногда случайные.
 
@@ -31,4 +31,3 @@
 3. Имя пользователя или пароль базы данных изменились.
 
 *Переведено openai.com*
-
