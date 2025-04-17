@@ -51,7 +51,7 @@ Joomla! — это приложение, которое зависит от тр
 продлен каждые 30 дней, иначе он будет закрыт. В следующей статье показаны
 шаги, необходимые для настройки бесплатного сайта Joomla.
 
-* [Бесплатный хостинг Joomla](jdocmanual?article=user/hosting/free-hosting "")
+* [Бесплатный хостинг Joomla](jdocmanual?article=user/hosting/free-hosting)
 
 Если вам понравится Joomla, вы можете перейти на платный план или найти
 другой хостинг-сервис, который бы соответствовал вашим потребностям и бюджету.
@@ -95,7 +95,7 @@ Joomla! — это приложение, которое зависит от тр
 
 Следующая статья показывает, чего следует ожидать, если вы приобретете тарифный план хостинга, который включает в себя интерфейс пользователя cPanel.
 
-* [Хостинг cPanel](jdocmanual?article=user/hosting/cpanel-hosting "Хостинг cPanel")
+* [Хостинг cPanel](jdocmanual?article=user/hosting/cpanel-hosting)
 
 ## VPS Хостинг
 
@@ -112,7 +112,7 @@ Joomla! — это приложение, которое зависит от тр
 
 Следующие статьи описывают, как настроить локальный хостинг на различных типах настольных или портативных компьютеров:
 
-* [Локальный хостинг на Windows](jdocmanual?article=user/hosting/local-hosting-on-windows "Локальный хостинг на Windows") только для Windows
-* [Локальный хостинг с XAMPP](jdocmanual?article=user/hosting/local-hosting-with-xampp "Локальный хостинг с XAMPP") для Linux, Mac и Windows.
-* [Локальный хостинг на Linux](jdocmanual?article=user/hosting/local-hosting-on-linux "Локальный хостинг на Linux")
+* [Локальный хостинг на Windows](jdocmanual?article=user/hosting/local-hosting-on-windows) только для Windows
+* [Локальный хостинг с XAMPP](jdocmanual?article=user/hosting/local-hosting-with-xampp) для Linux, Mac и Windows.
+* [Локальный хостинг на Linux](jdocmanual?article=user/hosting/local-hosting-on-linux)
 

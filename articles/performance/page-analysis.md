@@ -12,7 +12,7 @@
 
 Следующий скриншот показывает первую часть отчета PageSpeed Insights:
 
-![Отчет PageSpeed Insights](../../../en/images/performance/performance-pagespeed-insights.png "Отчет PageSpeed Insights")
+![Отчет PageSpeed Insights](../../../en/images/performance/performance-pagespeed-insights.png)
 
 ## Улучшение производительности
 

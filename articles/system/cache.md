@@ -182,7 +182,7 @@
     }
 
 Также есть некоторые urlparams, которые стоит учитывать. Ознакомьтесь с этой
-[темой на Joomla StackExchange](http://joomla.stackexchange.com/questions/5781/how-can-i-use-joomlas-cache-with-my-components-view/7000#7000 "")
+[темой на Joomla StackExchange](http://joomla.stackexchange.com/questions/5781/how-can-i-use-joomlas-cache-with-my-components-view/7000#7000)
 
 Также имейте в виду, что любые обновления (например, количество посещений или просмотров) НЕ будут обновляться (если только вы не добавите это за пределами этого метода и, следовательно, любой глубокой части MVC).
 

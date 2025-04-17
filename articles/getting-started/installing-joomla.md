@@ -35,7 +35,7 @@ post_max_size, но более крупные расширения не удас
 ### Настройка базы данных
 
 Если вы еще не настроили базу данных, сделайте это сейчас. Это описано для хостингового
-сервиса cPanel в [Хостинг на cPanel](jdocmanual?article=user/hosting/cpanel-hosting "Хостинг на cPanel") руководстве. Также есть учебник *Создание базы данных для
+сервиса cPanel в [Хостинг на cPanel](jdocmanual?article=user/hosting/cpanel-hosting) руководстве. Также есть учебник *Создание базы данных для
 Joomla!*,
 который охватывает методы localhost и phpMyAdmin.
 

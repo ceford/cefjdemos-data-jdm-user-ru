@@ -37,7 +37,7 @@ a:has(.contact-thumbnail) {
   padding-left: 0;
 }
 ```
-![стилизованный бизнес-комитет](../../../en/images/contacts/contact-business-committee-styled.png "Стилизованный Бизнес-Комитет")
+![стилизованный бизнес-комитет](../../../en/images/contacts/contact-business-committee-styled.png)
 
 Это все, что можно сделать с помощью стилизации. Лучше, но все равно недостаточно. Чтобы добавить больше элементов и изменить макет, потребуется переопределение макета. 
 
@@ -151,7 +151,7 @@ a:has(.contact-thumbnail) {
 
 ### Результат
 
-![gridded business committee](../../../en/images/contacts/contact-business-committee-grid.png "Gridded Business Committee")
+![gridded business committee](../../../en/images/contacts/contact-business-committee-grid.png)
 
 *Переведено openai.com*
 

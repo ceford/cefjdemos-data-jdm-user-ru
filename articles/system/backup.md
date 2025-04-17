@@ -94,7 +94,7 @@
 
 Если вы использовали Akeeba Backup, воспользуйтесь Akeeba Quickstart для восстановления вашего
 резервного копирования.
-* Обратитесь к [Видеоуроку](http://akee.ba/abrestoreanywhere "").
+* Обратитесь к [Видеоуроку](http://akee.ba/abrestoreanywhere).
 * Скачайте Akeeba Quickstart (PDF 94Kb) бесплатно.
 * Проверьте, что восстановленный сайт работает правильно!
 
