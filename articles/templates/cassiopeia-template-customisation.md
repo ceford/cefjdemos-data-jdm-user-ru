@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Cassiopeia_Template_Customisation / Display title: Кастомизация Кассиопеи  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Cassiopeia_Template_Customisation",
+  "title": "Кастомизация Кассиопеи  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -6,13 +13,13 @@ Cassiopeia — это шаблон сайта, предоставляемый с
 
 На следующей иллюстрации показан внешний вид сайта Joomla 4 с одной статьей и несколькими созданными пунктами меню.
 
-![Вид одной статьи Cassiopeia](../../../en/images/templates/cassiopeia-customisation-article-view.png)
+![Вид одной статьи Cassiopeia](../../../en/images/templates/cassiopeia-template-customisation/01-cassiopeia-customisation-article-view.png)
 
 ## Шаблоны: Изменение стиля
 
 Вы можете поэкспериментировать с внешним видом сайта, открыв форму «Изменение стиля». Перейдите в **Система → Шаблоны → Стили шаблона сайта** и выберите заголовок шаблона в колонке "Стиль", Cassiopeia - По умолчанию. Вкладка "Расширенные настройки" содержит параметры, которые можно настроить:
 
-![Cassiopeia edit style advanced tab](../../../en/images/templates/cassiopeia-customisation-edit-style.png)
+![Cassiopeia edit style advanced tab](../../../en/images/templates/cassiopeia-template-customisation/02-cassiopeia-customisation-edit-style.png)
 
 Чтобы опробовать варианты, откройте одну вкладку или окно браузера с интерфейсом администратора и вторую вкладку или окно с пользовательским интерфейсом сайта и переключайтесь между ними после каждого сохраненного изменения.
 
@@ -38,7 +45,7 @@ Cassiopeia — это шаблон сайта, предоставляемый с
 
 - **Всегда к вашим услугам** Если присутствует, слова в поле слогана появятся маленьким шрифтом под изображением логотипа или названием бренда.
 
-![Cassiopeia brand with tagline](../../../en/images/templates/cassiopeia-customisation-brand-with-tagline.png)
+![Cassiopeia brand with tagline](../../../en/images/templates/cassiopeia-template-customisation/03-cassiopeia-customisation-brand-with-tagline.png)
 
 ### Цветовая схема шрифтов
 
@@ -50,7 +57,7 @@ Cassiopeia — это шаблон сайта, предоставляемый с
 - **Стандартная** Тёмно-синий цвет фона для панели бренда и других функций, таких как кнопка входа в систему.
 - **Альтернативная** Маруновый цвет фона вместо тёмно-синего.
 
-![Cassiopeia alternative colour scheme](../../../en/images/templates/cassiopeia-customisation-alt-color-scheme.png)
+![Cassiopeia alternative colour scheme](../../../en/images/templates/cassiopeia-template-customisation/04-cassiopeia-customisation-alt-color-scheme.png)
 
 ### Макет
 
@@ -59,7 +66,7 @@ Cassiopeia — это шаблон сайта, предоставляемый с
 
 Вид на узком экране мобильного устройства:
 
-![Cassiopeia mobile view](../../../en/images/templates/cassiopeia-customisation-mobile-view.png)
+![Cassiopeia mobile view](../../../en/images/templates/cassiopeia-template-customisation/05-cassiopeia-customisation-mobile-view.png)
 
 ### Закреплённый заголовок
 
@@ -71,13 +78,13 @@ Cassiopeia — это шаблон сайта, предоставляемый с
 - **Нет** по умолчанию. Ссылки "Наверх" нет.
 - **Да** Когда содержимое выше, чем экран, внизу справа страницы находится кнопка с указателем вверх. Нажмите её, чтобы прокрутить наверх страницы.
 
-![Cassiopeia back to top](../../../en/images/templates/cassiopeia-customisation-back-to-top.png)
+![Cassiopeia back to top](../../../en/images/templates/cassiopeia-template-customisation/06-cassiopeia-customisation-back-to-top.png)
 
 ## Позиции шаблона Cassiopeia
 
 Когда вы создаете сайт с помощью Cassiopeia, очень полезно знать расположения позиций, которые вы можете использовать для модулей. Некоторые из них описательные, как *menu* и *bottom-a*, но не так очевидно, где они находятся, пока вы их не используете. Эта иллюстрация должна помочь:
 
-![Позиции шаблона Cassiopeia](../../../en/images/templates/cassiopeia-template-positions.png)
+![Позиции шаблона Cassiopeia](../../../en/images/templates/cassiopeia-template-customisation/07-cassiopeia-template-positions.png)
 
 Попробуйте следующее:
 
@@ -89,7 +96,7 @@ Cassiopeia — это шаблон сайта, предоставляемый с
 
 В форме редактирования меню выберите вкладку Дополнительно и прокрутите вниз до поля Макет. Это выпадающий список с четырьмя вариантами. По умолчанию выбрано --Из модуля-- / Стандартно. Попробуйте другие варианты и посмотрите, что получится. (Не забудьте *Сохранить* в форме редактирования и перезагрузить вид на сайте.) Ни один из вариантов --Из модуля-- не показывает дочерние элементы меню, но оба варианта --Из шаблона Cassiopeia-- показывают.
 
-![Позиции меню Cassiopeia](../../../en/images/templates/cassiopeia-customisation-menu-position.png)
+![Позиции меню Cassiopeia](../../../en/images/templates/cassiopeia-template-customisation/08-cassiopeia-customisation-menu-position.png)
 
 Так в чем же разница, которую делает **Свертываемое**?
 
@@ -107,7 +114,7 @@ Cassiopeia — это шаблон сайта, предоставляемый с
 
 Иллюстрация ниже показывает две группы папок. Первая группа состоит из папок и файлов шаблона, которые вы не должны изменять, но можете добавлять в них. В частности, вы можете добавить файлы HTML с переопределением шаблона в папку *html*. Вторая группа содержит файлы медиа шаблона, которые не следует изменять. Однако вы можете добавить файл *user.css* в папку *css* и/или файл *user.js* в папку *js*. Это потребуется, если вы хотите внести несколько простых изменений во внешний вид сайта.
 
-![Редактирование файлов Cassiopeia](../../../en/images/templates/cassiopeia-customisation-edit-files.png)
+![Редактирование файлов Cassiopeia](../../../en/images/templates/cassiopeia-template-customisation/09-cassiopeia-customisation-edit-files.png)
 
 Обратите внимание, что в новой установке Joomla файл ***user.css*** отсутствует в папке css. Этот файл вы создаёте самостоятельно, чтобы переопределять ранее заданные стили. Если файл ***user.css*** уже есть, выберите его, чтобы открыть форму редактирования. Если его нет, создайте его сейчас:
 
@@ -138,7 +145,7 @@ Cassiopeia — это шаблон сайта, предоставляемый с
 
 В открытой вкладке браузера с сайтом откройте инструменты разработчика вашего браузера. В этом примере Firefox, и выберите тег заголовка.
 
-![Инструменты разработчика Cassiopeia](../../../en/images/templates/cassiopeia-customisation-developer-tools.png)
+![Инструменты разработчика Cassiopeia](../../../en/images/templates/cassiopeia-template-customisation/10-cassiopeia-customisation-developer-tools.png)
 
 Это показывает используемые стили. Стиль container-header устанавливает background-color и background-image. Их нужно переопределить в файле *user.css*. Попробуйте это:
 ```css
@@ -160,7 +167,7 @@ Cassiopeia — это шаблон сайта, предоставляемый с
 ```
 Это рабочая зеленая тема:
 
-![Зеленая тема Cassiopeia](../../../en/images/templates/cassiopeia-customisation-green-theme.png)
+![Зеленая тема Cassiopeia](../../../en/images/templates/cassiopeia-template-customisation/11-cassiopeia-customisation-green-theme.png)
 
 ### Доступность
 
@@ -173,7 +180,7 @@ Cassiopeia — это шаблон сайта, предоставляемый с
 
 Это вкладка Создание Переопределений:
 
-![Cassiopeia создание переопределений](../../../en/images/templates/cassiopeia-customisation-create-overrides.png)
+![Cassiopeia создание переопределений](../../../en/images/templates/cassiopeia-template-customisation/12-cassiopeia-customisation-create-overrides.png)
 
 Если вы просто экспериментируете и на самом деле не хотите переопределение, вы можете *Закрыть* форму редактирования, выбрать кнопку Управление Папками на панели инструментов и выбрать кнопку Удалить внизу всплывающей формы Управление Папками.
 
@@ -183,5 +190,5 @@ Cassiopeia — это шаблон сайта, предоставляемый с
 
 Если вы хотите внести более существенные изменения во внешний вид сайта, вы можете создать дочерний шаблон. Он копирует только небольшую часть папок и файлов для изменения или добавления, но в остальном продолжает использовать папки и файлы родительского шаблона. Используя дочерние шаблоны, вы можете сделать так, чтобы на одних страницах была одна цветовая тема, а на других — другая. Дочерние шаблоны рассматриваются в других разделах. Вот пример структуры файлов в дочернем шаблоне Cassiopeia:
 
-![Файлы дочернего шаблона Cassiopeia](../../../en/images/templates/cassiopeia-customisation-child-template-files.png)
+![Файлы дочернего шаблона Cassiopeia](../../../en/images/templates/cassiopeia-template-customisation/13-cassiopeia-customisation-child-template-files.png)
 

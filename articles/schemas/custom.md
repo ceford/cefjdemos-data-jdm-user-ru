@@ -1,4 +1,11 @@
-<!-- Filename: Localhost / Display title: Schema.org - Настраиваемый -->
+<!--
+{
+  "source": "https://docs.joomla.org/Localhost",
+  "title": "Schema.org - Настраиваемый ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Цель
 
@@ -24,7 +31,7 @@
 
 Ниже приведен пример пользовательского поля схемы в форме редактирования статьи.
 
-![A custom schema edit form](../../../en/images/schemas/edit-schema-custom.png)
+![A custom schema edit form](../../../en/images/schemas/custom/01-edit-schema-custom.png)
 
 *Переведено openai.com*
 

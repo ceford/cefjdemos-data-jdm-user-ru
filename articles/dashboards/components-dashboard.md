@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Components_Dashboard / Display title: Панель компонентов  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Components_Dashboard",
+  "title": "Панель компонентов  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -6,7 +13,7 @@
 
 ## Скриншот
 
-![Панель компонентов](../../../en/images/dashboards/components-dashboard.png)
+![Панель компонентов](../../../en/images/dashboards/components-dashboard/01-components-dashboard.png)
 
 *Переведено с помощью openai.com*
 

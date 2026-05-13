@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Menu_Dashboard / Display title: Меню панели управления  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Menu_Dashboard",
+  "title": "Меню панели управления  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -8,7 +15,7 @@
 
 ## Скриншот
 
-![Панель меню](../../../en/images/dashboards/menus-dashboard.png)
+![Панель меню](../../../en/images/dashboards/menu-dashboard/01-menus-dashboard.png)
 
 *Переведено openai.com*
 

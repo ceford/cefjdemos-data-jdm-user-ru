@@ -1,4 +1,11 @@
-<!-- Filename: Auto_redirect_guests_to_login / Display title: Автоматическая переадресация гостей на страницу входа -->
+<!--
+{
+  "source": "https://docs.joomla.org/Auto_redirect_guests_to_login",
+  "title": "Автоматическая переадресация гостей на страницу входа ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Желаемая функциональность
 

@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:_Article_Edit_Configure_Edit_Screen / Display title: Статья: Редактирование - Настройка экрана редактирования  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:_Article_Edit_Configure_Edit_Screen",
+  "title": "Статья: Редактирование - Настройка экрана редактирования  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -6,7 +13,7 @@
 
 ## Скриншот
 
-![Вкладка настройки экрана редактирования](../../../en/images/articles/articles-edit-configure-edit-screen-tab.png)
+![Вкладка настройки экрана редактирования](../../../en/images/articles/article-configure-edit-screen/01-articles-edit-configure-edit-screen-tab.png)
 
 ## Настройка панели редактирования экранов
 

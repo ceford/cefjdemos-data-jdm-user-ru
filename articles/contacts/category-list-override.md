@@ -1,4 +1,11 @@
-<!-- Filename: category-list-override.md / Display title: Переопределение списка категорий  -->
+<!--
+{
+  "source": "https://docs.joomla.org/category-list-override.md",
+  "title": "Переопределение списка категорий  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Пункт меню "Список контактов в категории"
 
@@ -37,7 +44,7 @@ a:has(.contact-thumbnail) {
   padding-left: 0;
 }
 ```
-![стилизованный бизнес-комитет](../../../en/images/contacts/contact-business-committee-styled.png)
+![стилизованный бизнес-комитет](../../../en/images/contacts/category-list-override/01-contact-business-committee-styled.png)
 
 Это все, что можно сделать с помощью стилизации. Лучше, но все равно недостаточно. Чтобы добавить больше элементов и изменить макет, потребуется переопределение макета. 
 
@@ -151,7 +158,7 @@ a:has(.contact-thumbnail) {
 
 ### Результат
 
-![gridded business committee](../../../en/images/contacts/contact-business-committee-grid.png)
+![gridded business committee](../../../en/images/contacts/category-list-override/02-contact-business-committee-grid.png)
 
 *Переведено openai.com*
 

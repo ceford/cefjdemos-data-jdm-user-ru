@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Template_SVG_Logos / Display title: Шаблоны логотипов в формате SVG -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Template_SVG_Logos",
+  "title": "Шаблоны логотипов в формате SVG ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Логотип Cassiopeia
 
@@ -9,7 +16,7 @@
 
 Inkscape — это приложение для работы с векторной графикой с открытым исходным кодом, поддерживающее кроссплатформенность, что означает, что вы можете бесплатно скачать его и использовать на Linux, Mac или Windows. Чтобы начать, перейдите на сайт Inkscape и загрузите версию для вашего ноутбука или настольного компьютера. Запустите Inkscape, и вы готовы создать SVG логотип бренда. Скриншот ниже показывает процесс создания нового SVG логотипа в Inkscape.
 
-![создание логотипа Inkscape](../../../en/images/templates/templates-svg-logos-inkscape.png)
+![создание логотипа Inkscape](../../../en/images/templates/template-svg-logos/01-templates-svg-logos-inkscape.png)
 
 ## Инструкции
 
@@ -48,7 +55,7 @@ Inkscape — это приложение для работы с векторно
 26. В поле Логотип на вкладке Дополнительно используйте Выбор, чтобы найти ваш недавно созданный Логотип
 27. Сохраните и перезагрузите страницу вашего сайта
 
-![результат создания логотипа с помощью inkscape](../../../en/images/templates/templates-svg-logos-inkscape-result.png)
+![результат создания логотипа с помощью inkscape](../../../en/images/templates/template-svg-logos/02-templates-svg-logos-inkscape-result.png)
 
 *Переведено openai.com*
 

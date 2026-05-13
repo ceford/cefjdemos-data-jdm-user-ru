@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=help&filename=guided-tours.md / Display title: Экскурсии с гидом   -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=help&filename=guided-tours.md",
+  "title": "Экскурсии с гидом   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -6,13 +13,13 @@
 
 Существует несколько встроенных экскурсий, и экскурсия **Добро пожаловать в Joomla!** начинается автоматически при первом входе пользователя в интерфейс администратора.
 
-![Приветствие интерактивных экскурсий](../../../en/images/help/guided-tours-welcome.png)
+![Приветствие интерактивных экскурсий](../../../en/images/help/guided-tours/01-guided-tours-welcome.png)
 
 ## Список туров
 
 Туры перечислены в выпадающем меню в заголовке панели инструментов и экранов списка, как показано на следующем изображении:
 
-![Интерактивные туры](../../../en/images/help/guided-tours.png)
+![Интерактивные туры](../../../en/images/help/guided-tours/02-guided-tours.png)
 
 Полный список включает следующее:
 

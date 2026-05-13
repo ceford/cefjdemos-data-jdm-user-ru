@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Media:_Image_Crop_Resize_Rotate / Display title: Обрезка Изображения Изменение Размеров Вращение  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Media:_Image_Crop_Resize_Rotate",
+  "title": "Обрезка Изображения Изменение Размеров Вращение  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -12,7 +19,7 @@
 
 Например, следующее изображение показывает группу животных, которая немного великовата для предполагаемой цели. Оно может быть обрезано или изменено в размере.
 
-![Изображение животных](../../../en/images/media/media-crop-serengeti.png)
+![Изображение животных](../../../en/images/media/media-image-crop-resize-rotate/01-media-crop-serengeti.png)
 
 ## Обрезка
 

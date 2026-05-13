@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Home_Page_in_Different_Style / Display title: Домашняя страница в другом стиле  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Home_Page_in_Different_Style",
+  "title": "Домашняя страница в другом стиле  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Главная страница сайта
 
@@ -16,7 +23,7 @@
 
 Пример данных Cassiopeia создает домашнюю страницу, используя тип пункта меню **Статьи в фокусе**. Она оформлена в соответствии с изображением на скриншоте ниже (некоторые незначительные изменения были внесены в отдельные статьи для лучшего скриншота здесь).
 
-![домашняя страница с использованием cassiopeia и примера данных](../../../en/images/templates/templates-home-page-style-cassiopeia-sample-data.png)
+![домашняя страница с использованием cassiopeia и примера данных](../../../en/images/template-tips/home-page-in-different-style/01-templates-home-page-style-cassiopeia-sample-data.png)
 
 Вот как достигается эта компоновка:
 
@@ -24,11 +31,11 @@
 
 Большое изображение под меню находится в настраиваемом модуле с именем Image, назначенном положению баннера в шаблоне Cassiopeia.
 
-![настраиваемый модуль, используемый в стиле примерных данных](../../../en/images/templates/templates-home-page-style-custom-module-image.png)
+![настраиваемый модуль, используемый в стиле примерных данных](../../../en/images/template-tips/home-page-in-different-style/02-templates-home-page-style-custom-module-image.png)
 
 Вкладка назначения меню: модуль назначен только для домашней страницы:
 
-![вкладка назначения меню настраиваемого модуля](../../../en/images/templates/templates-home-page-style-custom-module-menu-assignment.png)
+![вкладка назначения меню настраиваемого модуля](../../../en/images/template-tips/home-page-in-different-style/03-templates-home-page-style-custom-module-menu-assignment.png)
 
 Фоновое изображение выбрано на вкладке Опции формы редактирования модулей: Настраиваемый.
 
@@ -44,7 +51,7 @@
 
 Под большим изображением находятся три маленькие коробки, каждая с изображением и текстом под ним. Они создаются с использованием модуля Статьи - Newsflash в верхнем положении шаблона-а. Модуль настроен на отображение 3 элементов. Его назначение меню - только домашняя страница. Вкладка Расширенные имеет Компоновку, установленную на горизонтальную, и Стиль модуля - на noCard.
 
-![модуль newsflash](../../../en/images/templates/templates-home-page-style-newsflash-module-image.png)
+![модуль newsflash](../../../en/images/template-tips/home-page-in-different-style/04-templates-home-page-style-newsflash-module-image.png)
 
 Это завершает объяснение того, как была создана домашняя страница с использованием примерных данных Cassiopeia.
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Read_More_Links / Display title: Статья: Редактировать - Читать далее   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Read_More_Links",
+  "title": "Статья: Редактировать - Читать далее   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Макеты для блога и избранных статей
 

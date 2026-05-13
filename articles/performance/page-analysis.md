@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=performance&filename=page-analysis.md / Display title: Анализ страницы  -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=performance&filename=page-analysis.md",
+  "title": "Анализ страницы  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Lighthouse
 
@@ -12,7 +19,7 @@
 
 Следующий скриншот показывает первую часть отчета PageSpeed Insights:
 
-![Отчет PageSpeed Insights](../../../en/images/performance/performance-pagespeed-insights.png)
+![Отчет PageSpeed Insights](../../../en/images/performance/page-analysis/01-performance-pagespeed-insights.png)
 
 ## Улучшение производительности
 

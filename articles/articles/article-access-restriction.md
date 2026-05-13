@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:Article_Access_Restriction / Display title: Статья: Ограничение Доступа   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:Article_Access_Restriction",
+  "title": "Статья: Ограничение Доступа   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -10,7 +17,7 @@
 
 Joomla предоставляет уровни доступа, показанные на следующем скриншоте:
 
-![Уровни доступа пользователей](../../../en/images/articles/article-access-user-groups.png)
+![Уровни доступа пользователей](../../../en/images/articles/article-access-restriction/01-article-access-user-groups.png)
 
 Уровни доступа отображаются на вкладке *Содержимое* формы *Статья: Редактирование*.
 

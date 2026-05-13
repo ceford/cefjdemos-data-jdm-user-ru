@@ -1,4 +1,11 @@
-<!-- Filename: Installing_Joomla_using_an_Auto_Installer / Display title: Установка автоматического установщика  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Installing_Joomla_using_an_Auto_Installer",
+  "title": "Установка автоматического установщика  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Обзор
 
@@ -20,7 +27,7 @@
 2.  Выберите ссылку *Новая установка* в обзоре Joomla!.
 3.  Заполните различные детали и нажмите "Отправить". На каждом шаге продолжайте выбирать "Отправить"!
 
-![Форма установки joomla в Fantastico](../../../en/images/hosting/auto-installer-fantastico.jpg)
+![Форма установки joomla в Fantastico](../../../en/images/hosting/auto-installer-installation/01-auto-installer-fantastico.jpg)
 
 ## Softaculous
 
@@ -30,7 +37,7 @@
    Пример данных, включенных в Joomla.
 4. После заполнения деталей выберите Submit.
 
-![Форма установки Joomla в Softaculous](../../../en/images/hosting/auto-installer-softaculous.jpg)
+![Форма установки Joomla в Softaculous](../../../en/images/hosting/auto-installer-installation/02-auto-installer-softaculous.jpg)
 
 Установка и обновление с помощью автоинсталляторов действительно быстрые.
 

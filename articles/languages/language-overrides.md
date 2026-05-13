@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Language_Overrides / Display title: Переопределение Языка  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Language_Overrides",
+  "title": "Переопределение Языка  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Месторасположения языковых файлов
 
@@ -78,11 +85,11 @@ siteroot/administrator/language/overrides/de-DE.override.ini
 - Сохраните и закройте форму.
 - Повторите процесс перевода для каждого языка.
 
-![форма редактирования языковых переопределений](../../../en/images/languages/language-overrides-edit.png)
+![форма редактирования языковых переопределений](../../../en/images/languages/language-overrides/01-language-overrides-edit.png)
 
 Наконец, убедитесь, что перевод был внедрен.
 
-![Результат Переопределения в форме входа на сайт](../../../en/images/languages/language-overrides-custom-logout.png)
+![Результат Переопределения в форме входа на сайт](../../../en/images/languages/language-overrides/02-language-overrides-custom-logout.png)
 
 *Переведено сайтом openai.com*
 

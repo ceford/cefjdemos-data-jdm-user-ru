@@ -1,4 +1,11 @@
-<!-- Filename: https://magazine.joomla.org/all-issues/may-2022/joomla-new-http-headers-plugin-for-j4 / Display title: HTTP заголовки  -->
+<!--
+{
+  "source": "https://docs.joomla.org/https:",
+  "title": "HTTP заголовки  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Статья в журнале
 
@@ -57,7 +64,7 @@ HTTP заголовки не следует путать с разделом &lt
 
 На изображении ниже видно, что выделенное изображение возвращает статус HTTP 200, что означает, что браузер его нашел. Также имеется ряд другой информации, связанной с этим элементом, такой как размер файла и даты редактирования.
 
-![Joomla http headers 1](../../../en/images/security/http-headers-dev-tools-headers.png)
+![Joomla http headers 1](../../../en/images/security/http-headers/01-http-headers-dev-tools-headers.png)
 
 Если один из ваших HTML элементов не удается отобразить, вы также можете получить подсказку о причине в HTTP заголовках. В этом примере второе изображение не удалось отобразить, и вы можете увидеть по информации, отображаемой в правой панели, что отсутствует информация об HTTP заголовках.
 
@@ -69,11 +76,11 @@ HTTP заголовки не следует путать с разделом &lt
 
 Итак, когда изображение вызывается из HTML документа, браузер его отклоняет, и оно не загружается.
 
-![Joomla http headers 2](../../../en/images/security/http-headers-dev-tools-headers-reject.png)
+![Joomla http headers 2](../../../en/images/security/http-headers/02-http-headers-dev-tools-headers-reject.png)
 
 Что отличается от ситуации, когда объект не найден и возвращает ошибку 404 не найдено (404 not found HTTP error message). В этом случае изображение все еще ищется на сервере, который его размещает, но браузер его не нашел.
 
-![Joomla http headers 3](../../../en/images/security/http-headers-dev-tools-headers-not-found.png)
+![Joomla http headers 3](../../../en/images/security/http-headers/03-http-headers-dev-tools-headers-not-found.png)
 
 ## Что делает плагин Joomla HTTP Headers
 
@@ -121,7 +128,7 @@ HTTP заголовки не следует путать с разделом &lt
 
 Вы можете найти плагин HTTP Headers для Joomla вместе со всеми другими плагинами Joomla, и доступ к нему осуществляется точно так же, как вы привыкли это делать.
 
-![Joomla http headers 4](../../../en/images/security/http-headers-plugins.png)
+![Joomla http headers 4](../../../en/images/security/http-headers/04-http-headers-plugins.png)
 
 ## Использование плагина HTTP Headers
 

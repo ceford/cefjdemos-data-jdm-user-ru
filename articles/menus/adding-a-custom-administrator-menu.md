@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Adding_a_Custom_Administrator_Menu / Display title: Настраиваемое меню администратора -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Adding_a_Custom_Administrator_Menu",
+  "title": "Настраиваемое меню администратора ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -76,13 +83,13 @@
 
 ## Скриншот
 
-![выбор компонента пользовательского меню администратора](../../../en/images/menus/menus-custom-administrator-menu.png)
+![выбор компонента пользовательского меню администратора](../../../en/images/menus/adding-a-custom-administrator-menu/01-menus-custom-administrator-menu.png)
 
 ## Результат
 
 Создайте пользователя в Группе отдела для тестирования. Войдите в интерфейс администратора под этим пользователем, чтобы увидеть результат:
 
-![результат пользовательского меню администратора](../../../en/images/menus/menus-custom-administrator-menu-result.png)
+![результат пользовательского меню администратора](../../../en/images/menus/adding-a-custom-administrator-menu/02-menus-custom-administrator-menu-result.png)
 
 ## Заметки
 

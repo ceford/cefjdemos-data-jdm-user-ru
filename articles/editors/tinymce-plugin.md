@@ -1,4 +1,11 @@
-<!-- Filename: Content_editors / Display title: Плагин TinyMCE   -->
+<!--
+{
+  "source": "https://docs.joomla.org/Content_editors",
+  "title": "Плагин TinyMCE   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -12,19 +19,19 @@ TinyMCE настроен с 3 различными наборами кнопок
 
 Этот набор инструментов является наиболее расширенным и по умолчанию назначается группам *Администратор*, *Редактор* и *Суперпользователи*.
 
-![Плагин TinyMCE, показывающий набор кнопок 2](../../../en/images/editors/tinymce-set0.png)
+![Плагин TinyMCE, показывающий набор кнопок 2](../../../en/images/editors/tinymce-plugin/01-tinymce-set0.png)
 
 ### Набор инструментов 1
 
 Этот набор инструментов назначается группам *Менеджер* и *Зарегистрированные*.
 
-![Плагин TinyMCE, показывающий набор кнопок 2](../../../en/images/editors/tinymce-set1.png)
+![Плагин TinyMCE, показывающий набор кнопок 2](../../../en/images/editors/tinymce-plugin/02-tinymce-set1.png)
 
 ### Набор инструментов 2
 
 Этот набор с минимальным количеством инструментов назначается группе *Общедоступные*. Он используется для заполнения общедоступных форм.
 
-![Плагин TinyMCE, показывающий набор кнопок 2](../../../en/images/editors/tinymce-set2.png)
+![Плагин TinyMCE, показывающий набор кнопок 2](../../../en/images/editors/tinymce-plugin/03-tinymce-set2.png)
 
 ## Другие настройки
 

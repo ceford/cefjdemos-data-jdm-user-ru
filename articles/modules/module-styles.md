@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=modules&filename=module-styles.md / Display title: Стили Модулей  -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=modules&filename=module-styles.md",
+  "title": "Стили Модулей  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Концепции стиля
 
@@ -59,7 +66,7 @@
 * Измените нижнюю границу заголовка тоже.
 * Примените этот стиль к нескольким модулям вместо одного за раз
 
-![Пример модуля архивированных статей](../../../en/images/modules/modules-archived-articles.png)
+![Пример модуля архивированных статей](../../../en/images/modules/module-styles/01-modules-archived-articles.png)
 
 *Переведено с помощью openai.com*  
 

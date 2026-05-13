@@ -1,4 +1,11 @@
-<!-- Filename: Localhost / Display title: Schema.org - Человек -->
+<!--
+{
+  "source": "https://docs.joomla.org/Localhost",
+  "title": "Schema.org - Человек ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Цель
 
@@ -22,7 +29,7 @@
 
 Ниже представлен пример схемы Персоны в форме редактирования Статьи.
 
-![A person schema edit form](../../../en/images/schemas/edit-schema-person.png)
+![A person schema edit form](../../../en/images/schemas/person/01-edit-schema-person.png)
 
 *Переведено openai.com*
 

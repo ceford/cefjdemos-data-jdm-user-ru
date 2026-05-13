@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Tables / Display title: Статья: Редактирование - Таблицы  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Tables",
+  "title": "Статья: Редактирование - Таблицы  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## О таблицах
 
@@ -97,7 +104,7 @@
 Следующий скриншот сайта показывает таблицу программы конференции с
 встроенными стилями по умолчанию TinyMCE и аналогичную таблицу с классами Bootstrap:
 
-![Пример таблиц](../../../en/images/articles/articles-site-tables.png)
+![Пример таблиц](../../../en/images/articles/article-tables/01-articles-site-tables.png)
 
 Смотрите документацию Bootstrap по [Таблицам](https://getbootstrap.com/docs/5.3/content/tables/) для получения дополнительных опций.  
 

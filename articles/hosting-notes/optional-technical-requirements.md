@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Optional_Technical_Requirements / Display title: Дополнительные технические требования -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Optional_Technical_Requirements",
+  "title": "Дополнительные технические требования ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 На этой странице перечислены *дополнительные* технические требования, которые не обязательны для установки и работы Joomla!, но необходимы для некоторых внутренних API. Список создан для Joomla 4.
 

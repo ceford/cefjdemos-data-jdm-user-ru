@@ -1,4 +1,11 @@
-<!-- Filename: How_do_UNIX_file_permissions_work%3F / Display title: Разрешения файлов в UNIX -->
+<!--
+{
+  "source": "https://docs.joomla.org/How_do_UNIX_file_permissions_work%3F",
+  "title": "Разрешения файлов в UNIX ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 Разрешения в Unix/Linux могут быть запутанными. Основные разрешения в UNIX
 имеют три категории:

@@ -1,4 +1,11 @@
-<!-- Filename: Moving_the_site_among_directories/sub-directories / Display title: Перемещение Директории Установки -->
+<!--
+{
+  "source": "https://docs.joomla.org/Moving_the_site_among_directories",
+  "title": "Перемещение Директории Установки ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 Часто бывает, что вы устанавливаете Joomla в подкаталог, а затем хотите переместить его в каталог более высокого уровня. Вот краткое руководство о том, как это сделать.
 

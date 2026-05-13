@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Managing_Mail_Template_Layout / Display title: Шаблоны писем -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Managing_Mail_Template_Layout",
+  "title": "Шаблоны писем ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -6,7 +13,7 @@
 
 Следующий скриншот показывает выбор из 26 стандартных почтовых шаблонов, доступных в системе. Список доступен, если выбрать **Система -> Почтовые шаблоны** в меню администратора.
 
-![mail templates list](../../../en/images/templates/mail-templates-list.png)
+![mail templates list](../../../en/images/templates/mail-templates/01-mail-templates-list.png)
 
 Почтовые сообщения можно настраивать, изменяя их макет, внешний вид и текст в соответствии с потребностями вашего сайта. Например, вам может понадобиться использовать логотип сайта и цветовую схему в тех письмах, которые отправляются клиентам. Настройка писем, отправляемых администраторам, менее важна.
 
@@ -16,7 +23,7 @@
 
 Выберите кнопку **Параметры** на панели инструментов списка *Шаблоны писем*, чтобы получить доступ к общим настройкам шаблона писем. Выберите кнопку *Переключить встроенную помощь*, чтобы увидеть, есть ли у каких-либо полей формы дополнительная помощь.
 
-![mail templates options](../../../en/images/templates/mail-templates-options.png)
+![mail templates options](../../../en/images/templates/mail-templates/02-mail-templates-options.png)
 
 ### Формат почты
 
@@ -32,7 +39,7 @@
 
 ### Вкладка Почта
 
-![edit mail template form](../../../en/images/templates/mail-template-edit.png)
+![edit mail template form](../../../en/images/templates/mail-templates/03-mail-template-edit.png)
 
 Содержимое областей Тема и Тело изначально хранится в виде языковых строк. Это упрощает *Сброс темы по умолчанию* или *Тела*. Однако, как только конкретный шаблон письма был изменен, его поля Тема и Тело хранятся в таблице `#__mail_templates`.
 
@@ -44,7 +51,7 @@
 
 Эта вкладка присутствует только в случае, если параметр *Per Template Mail Settings* установлен на *Yes* в *Mail Templates: Options*. Иллюстрация ниже показывает скриншот с параметром *Mail Settings*, установленным на *No*. Если установить на *Yes*, появится больше полей формы, которые переопределяют параметры Mail, установленные в Глобальной конфигурации, вкладка Server.
 
-![edit mail template form](../../../en/images/templates/mail-template-edit-options.png)
+![edit mail template form](../../../en/images/templates/mail-templates/04-mail-template-edit-options.png)
 
 Если вы хотите отправить скрытую копию исходящего электронного письма на определенный адрес электронной почты, вы можете ввести его в поле *Отправить копию на электронную почту*.
 

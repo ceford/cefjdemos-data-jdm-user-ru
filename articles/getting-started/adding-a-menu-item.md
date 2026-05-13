@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Getting_Started:_Adding_a_Menu_Item / Display title: Добавление пункта меню   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Getting_Started:_Adding_a_Menu_Item",
+  "title": "Добавление пункта меню   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -10,7 +17,7 @@
 
 ## Страница редактирования меню
 
-![Форма редактирования пункта меню](../../../en/images/getting-started/menu-item-edit-form.png)
+![Форма редактирования пункта меню](../../../en/images/getting-started/adding-a-menu-item/01-menu-item-edit-form.png)
 
 Форма *Меню: Новый элемент* содержит четыре обязательных поля для заполнения:
 
@@ -24,7 +31,7 @@
 
 Это все, что нужно сделать. Все остальное является необязательным. Взгляните на домашнюю страницу сайта. Пункт меню в основном меню ссылается непосредственно на эту страницу.
 
-![Просмотр сайта одиночной статьи](../../../en/images/getting-started/menu-item-single-article-site-view.png)
+![Просмотр сайта одиночной статьи](../../../en/images/getting-started/adding-a-menu-item/02-menu-item-single-article-site-view.png)
 
 ## Несколько пунктов меню
 
@@ -41,7 +48,7 @@
 
 Перейдите на главную страницу сайта и перезагрузите. Выберите новый элемент меню *Статьи о млекопитающих*.
 
-![Список категорий статей о млекопитающих](../../../en/images/getting-started/menu-item-category-list-site-view.png)
+![Список категорий статей о млекопитающих](../../../en/images/getting-started/adding-a-menu-item/03-menu-item-category-list-site-view.png)
 
 Выберите заголовок статьи, Млекопитающие, чтобы перейти к просмотру статьи. Если у вас много статей, вы можете найти их здесь, поэтому нет необходимости создавать отдельные элементы меню для каждой статьи.
 

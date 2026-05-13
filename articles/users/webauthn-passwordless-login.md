@@ -1,4 +1,11 @@
-<!-- Filename: WebAuthn_Passwordless_Login / Display title: Вход с помощью WebAuthn  -->
+<!--
+{
+  "source": "https://docs.joomla.org/WebAuthn_Passwordless_Login",
+  "title": "Вход с помощью WebAuthn  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Вход без пароля с помощью WebAuthn
 
@@ -23,11 +30,11 @@ WebAuthn — это будущее аутентификации. Легкий, �
 
 Следующее изображение показывает аппаратное устройство, вставленное в USB-порт ноутбука. Оно стоило £15 в феврале 2022 года.
 
-![фотография аппаратного устройства](../../../en/images/users/passwordless-login-hardware-device.jpg)
+![фотография аппаратного устройства](../../../en/images/users/webauthn-passwordless-login/01-passwordless-login-hardware-device.jpg)
 
 WebAuthn использует системный плагин, который включен по умолчанию. Кнопка **Веб-аутентификация** будет присутствовать на экранах входа по умолчанию в Joomla 4 и более поздних версиях, как показано на экране входа администратора:
 
-![безопасная форма входа администратора](../../../en/images/users/passwordless-login-login-form.jpg)
+![безопасная форма входа администратора](../../../en/images/users/webauthn-passwordless-login/02-passwordless-login-login-form.jpg)
 
 ## Конфигурация пользователя
 
@@ -38,11 +45,11 @@ WebAuthn использует системный плагин, который в
 
 Точное представление следующего шага зависит от вашего браузера. Обычно вы видите предупреждение, сообщение или окно с просьбой выбрать тип аутентификатора или, если вы используете аппаратный аутентификатор, подключенный к вашему устройству, напоминание о нажатии кнопки на аппаратном аутентификаторе. По соображениям безопасности и удобства для активации аутентификатора отводится относительно короткий интервал времени: 60 секунд.
 
-![secure administrator login hardware prompt](../../../en/images/users/passwordless-login-hardware-propmpt.png)
+![secure administrator login hardware prompt](../../../en/images/users/webauthn-passwordless-login/03-passwordless-login-hardware-propmpt.png)
 
 После того как вы разблокируете аутентификатор — нажав кнопку, сканируя отпечаток пальца/лицо, введя PIN-код или комбинацию методов в зависимости от вашего аутентификатора — сообщение исчезает, а аутентификатор регистрируется, и экран выглядит следующим образом:
 
-![secure administrator login registered authenticator](../../../en/images/users/passwordless-login-registered-authenticator.png)
+![secure administrator login registered authenticator](../../../en/images/users/webauthn-passwordless-login/04-passwordless-login-registered-authenticator.png)
 
 Очень важно заметить, что вы можете регистрировать или удалять аутентификаторы только в своем собственном аккаунте пользователя. По соображениям безопасности даже суперпользователю запрещено регистрировать, редактировать или добавлять аутентификаторы в других учетных записях пользователей.
 

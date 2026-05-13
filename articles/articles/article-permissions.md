@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:Access_Control / Display title: Статья: Редактировать - Разрешения -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:Access_Control",
+  "title": "Статья: Редактировать - Разрешения ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -8,7 +15,7 @@ Joomla предоставляет сложную систему *Управле�
 
 ## Скриншот
 
-![Вкладка разрешений статьи с выбранным автором](../../../en/images/articles/articles-edit-permissions-tab.png)
+![Вкладка разрешений статьи с выбранным автором](../../../en/images/articles/article-permissions/01-articles-edit-permissions-tab.png)
 
 Может быть удивительно, что у автора, похоже, нет разрешения на редактирование статьи!
 

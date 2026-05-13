@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/List_of_Images_Field / Display title: # Список Поле Изображений -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "# Список Поле Изображений ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Назначение
 
@@ -14,7 +21,7 @@
 - **Класс изображения** Класс, который будет добавлен к изображению. Например, *w-25 p-1*
 ограничивает ширину каждого изображения до 25% его контейнера и добавляет 1 единицу заполнения.
 
-![создание поля списка изображений](../../../en/images/fields/fields-list-of-images-edit.png)
+![создание поля списка изображений](../../../en/images/fields/adding-custom-fields-list-of-images-field/01-fields-list-of-images-edit.png)
 
 **Примечание:** В этом примере включение типа поля в заголовок предназначено
 только для демонстрационных целей. Не включайте его в свои собственные заголовки полей.
@@ -23,13 +30,13 @@
 
 Просто: выберите одно или несколько изображений из списка.
 
-![поле ввода данных списка изображений](../../../en/images/fields/fields-list-of-images-data-entry.png)
+![поле ввода данных списка изображений](../../../en/images/fields/adding-custom-fields-list-of-images-field/02-fields-list-of-images-data-entry.png)
 
 ## Отображение данных
 
 Следующий скриншот сайта показывает поле, отображаемое в статье. Опция *Автоматическое отображение* отвечает за позицию поля, а ваш шаблон отвечает за дизайн поля.
 
-![список изображений отображение сайта](../../../en/images/fields/fields-list-of-images-site.png)
+![список изображений отображение сайта](../../../en/images/fields/adding-custom-fields-list-of-images-field/03-fields-list-of-images-site.png)
 
 *Переведено openai.com*
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Media:_Options / Display title: Медиа: Опции -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Media:_Options",
+  "title": "Медиа: Опции ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -8,7 +15,7 @@
 
 ## Скриншот
 
-![Форма настроек медиа](../../../en/images/media/media-options.png)
+![Форма настроек медиа](../../../en/images/media/media-options/01-media-options.png)
 
 ## Путь к файлам и папкам
 
@@ -22,7 +29,7 @@
 
 После настройки вы сможете выбирать между папками изображений и файлов в локальной части представления медиа.
 
-![Страница медиа](../../../en/images/media/media-sample-data-cassiopeia.png)
+![Страница медиа](../../../en/images/media/media-options/02-media-sample-data-cassiopeia.png)
 
 ## Дополнительные типы изображений или документов
 

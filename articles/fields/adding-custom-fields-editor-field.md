@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Editor_Field / Display title: Поле редактора -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Поле редактора ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Назначение
 
@@ -15,7 +22,7 @@
 - **Высота** Значение высоты определяет высоту (в пикселях) WYSIWYG-редактора. Значение по умолчанию — 250px. Значение может быть представлено как дробь от высоты окна просмотра, например, 50vh.
 - **Фильтр** Разрешить системе сохранять определенные теги HTML или сырые данные.
 
-![Создание поля редактора](../../../en/images/fields/fields-editor-edit.png)
+![Создание поля редактора](../../../en/images/fields/adding-custom-fields-editor-field/01-fields-editor-edit.png)
 
 **Примечание:** В этом примере включение типа поля в Заголовок используется только для демонстрационных целей. Исключите его в своих собственных заголовках полей.
 
@@ -23,7 +30,7 @@
 
 В форме редактирования статьи дополнительное поле редактора аналогично основному полю редактора содержимого.
 
-![ввод данных в поле редактора](../../../en/images/fields/fields-editor-data-entry.png)
+![ввод данных в поле редактора](../../../en/images/fields/adding-custom-fields-editor-field/02-fields-editor-data-entry.png)
 
 
 ## Отображение данных
@@ -34,7 +41,7 @@
 
 Ищите элемент **Заметки по выращиванию**.
 
-![отображение поля редактора на сайте](../../../en/images/fields/fields-editor-site.png)
+![отображение поля редактора на сайте](../../../en/images/fields/adding-custom-fields-editor-field/03-fields-editor-site.png)
 
 *Переведено с помощью openai.com*
 

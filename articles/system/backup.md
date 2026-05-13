@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=system&filename=backup.md / Display title: Резервное копирование -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=system&filename=backup.md",
+  "title": "Резервное копирование ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Аварии случаются!
 

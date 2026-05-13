@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Links / Display title: Статья: Редактировать - Ссылки -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Links",
+  "title": "Статья: Редактировать - Ссылки ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Доступные ссылки
 

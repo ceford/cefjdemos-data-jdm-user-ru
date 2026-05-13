@@ -1,10 +1,17 @@
-<!-- Filename: J4.x:Menu_Item_Types / Display title: Типы пунктов меню  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Menu_Item_Types",
+  "title": "Типы пунктов меню  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## О типах пунктов меню
 
 Типы пунктов меню определены в каждом компоненте, который имеет представления сайта. Ядро Joomla включает около 10 таких компонентов, каждое с несколькими представлениями, что в сумме даёт более 30 типов. Следующий скриншот показывает компоненты с типами пунктов меню. Каждый компонент разворачивается при выборе, чтобы показать список типов, определённых этим компонентом:
 
-![menu item type select](../../../en/images/menus/menus-menu-item-type-select.png)
+![menu item type select](../../../en/images/menus/menu-item-types/01-menus-menu-item-type-select.png)
 
 ### Статьи
 

@@ -1,4 +1,11 @@
-<!-- Filename: Smart_Search_configuration_options / Display title: Опции Умного Поиска   -->
+<!--
+{
+  "source": "https://docs.joomla.org/Smart_Search_configuration_options",
+  "title": "Опции Умного Поиска   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Об опциях
 

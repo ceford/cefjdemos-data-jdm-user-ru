@@ -1,4 +1,11 @@
-<!-- Filename: Installing_Joomla_on_a_Raspberry_Pi / Display title: Установка Raspberry Pi -->
+<!--
+{
+  "source": "https://docs.joomla.org/Installing_Joomla_on_a_Raspberry_Pi",
+  "title": "Установка Raspberry Pi ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Предисловие
 

@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org/Type_JobPosting_-_Using_JobPosting_Plugin / Display title: Schema.org - JobPosting -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Schema.org - JobPosting ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Цель
 
@@ -29,7 +36,7 @@
 
 Ниже приведен пример схемы JobPosting в форме редактирования статьи.
 
-![A jobposting schema edit form](../../../en/images/schemas/edit-schema-jobposting.png)
+![A jobposting schema edit form](../../../en/images/schemas/jobposting/01-edit-schema-jobposting.png)
 
 *Переведено openai.com*
 

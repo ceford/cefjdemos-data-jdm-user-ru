@@ -1,4 +1,11 @@
-<!-- Filename: How_do_you_recover_or_reset_your_admin_password%3F / Display title: Восстановление пароля администратора -->
+<!--
+{
+  "source": "https://docs.joomla.org/How_do_you_recover_or_reset_your_admin_password%3F",
+  "title": "Восстановление пароля администратора ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 

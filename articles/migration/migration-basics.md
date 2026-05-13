@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=migration&filename=migration-basics.md / Display title: Основы миграции -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=migration&filename=migration-basics.md",
+  "title": "Основы миграции ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Терминология
 

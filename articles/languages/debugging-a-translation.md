@@ -1,4 +1,11 @@
-<!-- Filename: Debugging_a_translation / Display title: Отладка перевода -->
+<!--
+{
+  "source": "https://docs.joomla.org/Debugging_a_translation",
+  "title": "Отладка перевода ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Joomla Файлы Языка
 
@@ -63,7 +70,7 @@ Joomla предоставляет некоторые полезные механ
 
 На вкладке **Язык**:
 
-![плагин система отладки](../../../en/images/languages/languages-debug-plugin.png)
+![плагин система отладки](../../../en/images/languages/debugging-a-translation/01-languages-debug-plugin.png)
 
 * **Ошибки при разборе языковых файлов** Показать ошибку, если языковой файл
 не удается загрузить.

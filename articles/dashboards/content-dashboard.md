@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Content_Dashboard / Display title: Панель контента -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Content_Dashboard",
+  "title": "Панель контента ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -6,7 +13,7 @@
 
 ## Скриншот
 
-![Панель контента](../../../en/images/dashboards/content-dashboard.png)
+![Панель контента](../../../en/images/dashboards/content-dashboard/01-content-dashboard.png)
 
 *Переведено с помощью openai.com*  
 

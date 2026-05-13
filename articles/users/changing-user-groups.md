@@ -1,4 +1,11 @@
-<!-- Filename: Changing_user_groups / Display title: Изменение групп пользователя -->
+<!--
+{
+  "source": "https://docs.joomla.org/Changing_user_groups",
+  "title": "Изменение групп пользователя ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Наследование групп
 

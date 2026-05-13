@@ -1,4 +1,11 @@
-<!-- Filename: Smart_Search_content_change_test_plan / Display title: План тестирования умного поиска -->
+<!--
+{
+  "source": "https://docs.joomla.org/Smart_Search_content_change_test_plan",
+  "title": "План тестирования умного поиска ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 Ниже представлен примерный план тестирования, охватывающий (в основном) обновление индекса умного поиска при различных обновлениях контента.
 

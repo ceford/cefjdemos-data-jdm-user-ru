@@ -1,4 +1,11 @@
-<!-- Filename: Customising_the_Smart_Search_results_page / Display title: Переопределения макета умного поиска  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Customising_the_Smart_Search_results_page",
+  "title": "Переопределения макета умного поиска  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Страницы результатов
 

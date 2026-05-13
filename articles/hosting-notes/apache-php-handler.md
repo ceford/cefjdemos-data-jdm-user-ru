@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Apache_PHP_Handler / Display title: Обработчики Apache PHP -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Apache_PHP_Handler",
+  "title": "Обработчики Apache PHP ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Заметки
 

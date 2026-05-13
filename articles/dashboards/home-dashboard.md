@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Home_Dashboard / Display title: Домашняя панель управления   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Home_Dashboard",
+  "title": "Домашняя панель управления   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -17,7 +24,7 @@
 
 ## Скриншот
 
-![Главная панель](../../../en/images/dashboards/home-dashboard.png)
+![Главная панель](../../../en/images/dashboards/home-dashboard/01-home-dashboard.png)
 
 *Переведено openai.com*
 

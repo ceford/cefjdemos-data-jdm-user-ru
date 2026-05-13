@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Help / Display title: Панель управления справкой -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Help",
+  "title": "Панель управления справкой ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -6,7 +13,7 @@
 
 ## Скриншот
 
-![Панель помощи](../../../en/images/dashboards/help-dashboard.png)
+![Панель помощи](../../../en/images/dashboards/help-dashboard/01-help-dashboard.png)
 
 *Переведено с помощью openai.com*
 

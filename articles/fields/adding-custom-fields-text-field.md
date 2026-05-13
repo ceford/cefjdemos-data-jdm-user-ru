@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Text_Field / Display title: Текстовое поле -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Текстовое поле ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Назначение
 
@@ -14,7 +21,7 @@
 - **Префикс** Появляется перед текстом в выводе статьи. Пример: £.
 - **Суффикс** Появляется после текста в выводе статьи. Пример: EUR.
 
-![создание текстового поля](../../../en/images/fields/fields-text-edit.png)
+![создание текстового поля](../../../en/images/fields/adding-custom-fields-text-field/01-fields-text-edit.png)
 
 **Примечание:** В этом примере включение типа поля в заголовок используется только в демонстрационных целях. Исключите его из ваших собственных названий полей.
 
@@ -22,13 +29,13 @@
 
 Просто: Введите ваш текст.
 
-![ввод текста в поле данных](../../../en/images/fields/fields-text-data-entry.png)
+![ввод текста в поле данных](../../../en/images/fields/adding-custom-fields-text-field/02-fields-text-data-entry.png)
 
 ## Отображение данных
 
 Скриншот сайта ниже показывает, как поле отображается в статье. Опция *Автоматическое отображение* отвечает за позицию поля, а ваш шаблон отвечает за дизайн поля.
 
-![отображение текстового поля на сайте](../../../en/images/fields/fields-text-site.png)
+![отображение текстового поля на сайте](../../../en/images/fields/adding-custom-fields-text-field/03-fields-text-site.png)
 
 Поле Текст следует за полем Метка.
 *Переведено с помощью openai.com*

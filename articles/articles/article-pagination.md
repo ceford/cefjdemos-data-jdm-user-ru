@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Pagination / Display title: Статья: Редактирование - Постраничная навигация  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Pagination",
+  "title": "Статья: Редактирование - Постраничная навигация  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Длинные статьи
 
@@ -22,12 +29,12 @@
     Пример: Глава 2
 - Выберите кнопку **Вставить разрыв страницы**.
 
-![Форма диалога разрыва страницы](../../../en/images/articles/articles-edit-pagination.png)
+![Форма диалога разрыва страницы](../../../en/images/articles/article-pagination/01-articles-edit-pagination.png)
 
 - Повторите для каждого разрыва страницы, который вы хотите создать.
 - Сохраните статью и посмотрите на Предварительный просмотр или на Вид сайта.
 
-![Вид пагинации статьи на сайте](../../../en/images/articles/articles-site-pagination.png)
+![Вид пагинации статьи на сайте](../../../en/images/articles/article-pagination/02-articles-site-pagination.png)
 
 ## Редактирование или перемещение разрыва страницы
 
@@ -46,7 +53,7 @@
 
 Редактор исходного кода находится в диалоговом окне:
 
-![Редактор исходного кода](../../../en/images/articles/articles-edit-pagination-source-code.png)
+![Редактор исходного кода](../../../en/images/articles/article-pagination/03-articles-edit-pagination-source-code.png)
 
 *Переведено с помощью openai.com*
 

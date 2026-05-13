@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Sql_Field / Display title: Поле SQL -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Поле SQL ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Назначение
 
@@ -18,7 +25,7 @@ FROM `#__countrybase_countries`
 WHERE `state` = 1
 ORDER BY `title` ASC
 ```
-![Создание поля SQL](../../../en/images/fields/fields-sql-edit.png)
+![Создание поля SQL](../../../en/images/fields/adding-custom-fields-sql-field/01-fields-sql-edit.png)
 
 **Примечание:** В этом примере указание типа поля в заголовке предназначено только для демонстрационных целей. Не используйте это в своих собственных названиях полей.
 
@@ -26,14 +33,14 @@ ORDER BY `title` ASC
 
 Просто - выберите из списка.
 
-![Ввод данных в SQL поле](../../../en/images/fields/fields-sql-data-entry.png)
+![Ввод данных в SQL поле](../../../en/images/fields/adding-custom-fields-sql-field/02-fields-sql-data-entry.png)
 
 
 ## Отображение данных
 
 Следующий скриншот сайта показывает поле, отображаемое в статье. Опция *Автоматическое отображение* отвечает за позицию поля, а ваш шаблон отвечает за дизайн поля.
 
-![Отображение поля SQL на сайте](../../../en/images/fields/fields-sql-site.png)
+![Отображение поля SQL на сайте](../../../en/images/fields/adding-custom-fields-sql-field/03-fields-sql-site.png)
 
 Вывод представляет собой один элемент или список элементов, разделенных запятыми (названия стран), следующих за меткой поля (Страна происхождения).
 

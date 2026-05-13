@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Media:_Uploading_SVG_files / Display title: Загрузка файлов SVG  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Media:_Uploading_SVG_files",
+  "title": "Загрузка файлов SVG  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 

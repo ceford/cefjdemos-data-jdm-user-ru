@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Assorted_Issues / Display title: Разнообразные проблемы -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Assorted_Issues",
+  "title": "Разнообразные проблемы ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Проблема с перенаправлением после обновления до версии 4.0.6
 

@@ -1,4 +1,11 @@
-<!-- Filename: J6.x:Articles:_Filter_Options / Display title: Статьи: Параметры фильтрации   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J6.x:Articles:_Filter_Options",
+  "title": "Статьи: Параметры фильтрации   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -8,7 +15,7 @@
 
 *Параметры фильтра* открыты, чтобы показать доступные фильтры.
 
-![Список статей](../../../en/images/articles/articles-filter-options.png)
+![Список статей](../../../en/images/articles/articles-filter-options/01-articles-filter-options.png)
 
 Этот список содержит более 20 статей, созданных с установкой *Многоязычных образцов данных*, и несколько дополнительных статей, добавленных позже.
 

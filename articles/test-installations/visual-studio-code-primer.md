@@ -1,4 +1,11 @@
-<!-- Filename: Visual_Studio_Code_Primer / Display title: Введение в Visual Studio Code -->
+<!--
+{
+  "source": "https://docs.joomla.org/Visual_Studio_Code_Primer",
+  "title": "Введение в Visual Studio Code ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## VS Code - Популярная бесплатная IDE
 
@@ -96,7 +103,7 @@ VS Code может использоваться для любого типа т�
 
 При открытии страницы с баг-овым модулем вы увидите трассировку стека, показывающую, где была вызвана ошибка.
 
-![трассировка стека vscode](../../../en/images/test-installations/vscode-primer-stack-trace.png)
+![трассировка стека vscode](../../../en/images/test-installations/visual-studio-code-primer/01-vscode-primer-stack-trace.png)
 
 Иногда ошибка в кодировании находится на первой строке трассировки стека. В противном случае, если ошибка вызвана в библиотечном коде, например, путем передачи неверных данных в функцию базы данных, ошибка в кодировании может быть дальше по списку вызовов функций.
 
@@ -104,7 +111,7 @@ VS Code может использоваться для любого типа т�
 
 В VS Code используйте меню Файл / Открыть папку, чтобы найти и открыть папку, содержащую локальную копию кода расширения *mod_debugme*. Вы должны увидеть что-то похожее на следующее:
 
-![взгляд на папку vscode](../../../en/images/test-installations/vscode-primer-screen.png)
+![взгляд на папку vscode](../../../en/images/test-installations/visual-studio-code-primer/02-vscode-primer-screen.png)
 
 Возможно, вы сможете диагностировать проблему, просто прочитав код. В случае ошибки *Класс "DebugHelper" не найден* вы увидите, что оператор *use* был закомментирован несколькими строками выше. Забыть вставить оператор *use* - распространенная ошибка на начальном этапе разработки!
 
@@ -254,7 +261,7 @@ Phing — это инструмент командной строки, дост�
 
 Когда все исправлено, вы можете увидеть следующее:
 
-![vscode debugged module site view](../../../en/images/test-installations/vscode-primer-debugme-fixed.png)
+![vscode debugged module site view](../../../en/images/test-installations/visual-studio-code-primer/03-vscode-primer-debugme-fixed.png)
 
 Дни пирога?
 

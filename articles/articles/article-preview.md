@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Article_Preview / Display title: Статья: Предварительный просмотр -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Article_Preview",
+  "title": "Статья: Предварительный просмотр ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -28,7 +35,7 @@
 - Если вы получили сообщение *Запрашиваемая страница не найдена*, войдите в Фронтэнд и попробуйте снова.
 - Чтобы закрыть окно Предпросмотра, выберите кнопку *X* в правом верхнем углу.
 
-![Окно предпросмотра](../../../en/images/getting-started/article-edit-preview.png)
+![Окно предпросмотра](../../../en/images/articles/article-preview/01-article-edit-preview.png)
 
 *Переведено с помощью openai.com*
 

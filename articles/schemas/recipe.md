@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org/Type_Recipe_-_Using_Recipe_Plugin / Display title: Schema.org - Рецепт -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Schema.org - Рецепт ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Цель
 
@@ -30,7 +37,7 @@
 
 Ниже приведен пример схемы рецепта в форме редактирования статьи.
 
-![A recipe schema edit form](../../../en/images/schemas/edit-schema-recipe.png)
+![A recipe schema edit form](../../../en/images/schemas/recipe/01-edit-schema-recipe.png)
 
 *Переведено openai.com*
 

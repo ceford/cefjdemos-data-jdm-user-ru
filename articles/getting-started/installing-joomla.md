@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Installing_Joomla / Display title: Установка Joomla -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Installing_Joomla",
+  "title": "Установка Joomla ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -48,7 +55,7 @@
 
 С учетом вышеуказанных требований, созданию базы данных и размещению необходимых файлов Joomla, вы готовы установить Joomla. Запустите веб-установщик Joomla, открыв ваш любимый браузер и перейдя по доменному имени сайта. При установке на хостинге вы будете использовать *`https://www.yoursitename.com`*. Если вы устанавливаете Joomla локально, используйте *`http://localhost/`*, и вы должны увидеть экран установки.
 
-![Joomla installer part 1, installation language and site name](../../../en/images/getting-started/installing-joomla-installer-1.png)
+![Joomla installer part 1, installation language and site name](../../../en/images/getting-started/installing-joomla/01-installing-joomla-installer-1.png)
 
 Joomla попытается автоматически определить поле *Выбор языка* по языку вашего браузера. Вы можете изменить это при необходимости.
 
@@ -62,7 +69,7 @@ Joomla попытается автоматически определить по
 
 Теперь вы должны увидеть экран данных для входа.
 
-![Joomla installer part 2, login data](../../../en/images/getting-started/installing-joomla-installer-2.png)
+![Joomla installer part 2, login data](../../../en/images/getting-started/installing-joomla/02-installing-joomla-installer-2.png)
 
 Заполните следующую информацию.
 
@@ -77,7 +84,7 @@ Joomla попытается автоматически определить по
 
 Введите информацию о базе данных, которую вы записали, когда создавали базу данных для этой установки.
 
-![Joomla installer part 3, database configuration](../../../en/images/getting-started/installing-joomla-installer-3.png)
+![Joomla installer part 3, database configuration](../../../en/images/getting-started/installing-joomla/03-installing-joomla-installer-3.png)
 
 Для упрощения эти инструкции являются руководством по установке с базой данных MySQLi. Инструкции на странице установки понятны сами по себе, но вот они снова:
 
@@ -93,7 +100,7 @@ Joomla попытается автоматически определить по
 
 После выбора кнопки *Установить Joomla*, вы должны увидеть индикатор выполнения установки Joomla.
 
-![Joomla installer part 4, installation progress bar](../../../en/images/getting-started/installing-joomla-installer-4.png)
+![Joomla installer part 4, installation progress bar](../../../en/images/getting-started/installing-joomla/04-installing-joomla-installer-4.png)
 
 После завершения установки вы должны увидеть страницу успешного завершения.
 
@@ -103,7 +110,7 @@ Joomla попытается автоматически определить по
 
 Поздравляем! Ваш сайт Joomla готов.
 
-![Joomla installer part 5, your joomla site is ready](../../../en/images/getting-started/installing-joomla-installer-5.png)
+![Joomla installer part 5, your joomla site is ready](../../../en/images/getting-started/installing-joomla/05-installing-joomla-installer-5.png)
 
 Скриншот выше показывает установку разработчика. Установка в производственной среде  
 Автоматически удаляет папку установки.
@@ -124,7 +131,7 @@ Joomla попытается автоматически определить по
 
 Отображается список языковых пакетов.
 
-![Joomla installer part 6, install additional languages](../../../en/images/getting-started/installing-joomla-installer-6.png)
+![Joomla installer part 6, install additional languages](../../../en/images/getting-started/installing-joomla/06-installing-joomla-installer-6.png)
 
 Выберите до 3 языков, которые вы хотите установить. (Установка более 3 одновременно может вызвать проблемы с таймаутом; позже можно установить больше.)
 
@@ -141,7 +148,7 @@ Joomla попытается автоматически определить по
 
 Когда установка языков будет завершена, вам будет представлена подобная экрану *Поздравляем! Ваш сайт на Joomla готов.*. Разница будет в списке установленных языков, позволяющем выбрать язык по умолчанию для сайта и интерфейса администратора.
 
-![Joomla installer part 7, choose default language](../../../en/images/getting-started/installing-joomla-installer-7.png)
+![Joomla installer part 7, choose default language](../../../en/images/getting-started/installing-joomla/07-installing-joomla-installer-7.png)
 
 - Выберите язык по умолчанию, который вы хотите использовать.
 - Когда вы выбрали язык по умолчанию, выберите кнопку *Установить язык по умолчанию* для подтверждения.

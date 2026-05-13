@@ -1,11 +1,18 @@
-<!-- Filename: jdocmanual?manual=user&heading=performance&filename=accessibility-checker.md / Display title: Средство проверки доступности   -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=performance&filename=accessibility-checker.md",
+  "title": "Средство проверки доступности   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Система - Проверка доступности Joomla
 
 Это основной плагин, который можно использовать для проверки доступности при создании
 содержимого статьи. Следующий скриншот показывает некоторые настройки плагина:
 
-![Настройки формы плагина](../../../en/images/performance/performance-jooa11y-plugin-form.png)
+![Настройки формы плагина](../../../en/images/performance/accessibility-checker/01-performance-jooa11y-plugin-form.png)
 
 С параметром **Показывать всегда**, установленным в положение *Вкл.*, значок отчета появляется на каждой
 странице сайта. Это полезно для разработки, но никогда не должно оставаться включенным
@@ -17,12 +24,12 @@
 очертания страницы, комментарии по читаемости и предупреждения, которые можно выбрать по одному.
 Первый вопрос был выбран.
 
-![Проверка доступности сайта](../../../en/images/performance/performance-jooa11y-site-display.png)
+![Проверка доступности сайта](../../../en/images/performance/accessibility-checker/02-performance-jooa11y-site-display.png)
 
 Форма *Статьи: Редактировать* имеет кнопку **Проверка доступности** на панели инструментов.
 Она показывает проверку для отдельной статьи во всплывающем окне:
 
-![Проверка доступности редактора](../../../en/images/performance/performance-jooa11y-admin-display.png)
+![Проверка доступности редактора](../../../en/images/performance/accessibility-checker/03-performance-jooa11y-admin-display.png)
 
 ## Исправление проблем
 

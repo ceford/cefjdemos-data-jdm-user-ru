@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Overrides / Display title: Переопределение шаблонов -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Переопределение шаблонов ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Автоматическое отображение поля
 

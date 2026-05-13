@@ -1,4 +1,11 @@
-<!-- Filename: Unable_to_connect_to_the_database / Display title: Подключение к базе данных  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Unable_to_connect_to_the_database",
+  "title": "Подключение к базе данных  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Ошибка подключения
 

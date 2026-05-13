@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Using_the_CLI / Display title: Использование интерфейса командной строки  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Using_the_CLI",
+  "title": "Использование интерфейса командной строки  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Интерфейс командной строки (CLI)
 
@@ -21,7 +28,7 @@ cd /home/username/public_html/[дополнительная подпапка]/cl
 php joomla.php
 ```
 
-![Список команд](../../../en/images/command-line-interface/cli-command-list.png)
+![Список команд](../../../en/images/command-line-interface/using-the-cli/01-cli-command-list.png)
 
 И опробуйте некоторые команды справки, чтобы ознакомиться с ожидаемыми результатами:
 
@@ -67,11 +74,11 @@ php joomla.php site:up
     php joomla.php cache:clean --help
     php joomla.php cache:clean
 
-![Вывод очистки кэша](../../../en/images/command-line-interface/cli-cache-clean.png)
+![Вывод очистки кэша](../../../en/images/command-line-interface/using-the-cli/02-cli-cache-clean.png)
 
     php joomla.php cache:clean expired
 
-![Вывод очистки истекшего кэша](../../../en/images/command-line-interface/cli-cache-clean-expired.png)
+![Вывод очистки истекшего кэша](../../../en/images/command-line-interface/using-the-cli/03-cli-cache-clean-expired.png)
 
 ### Конфигурация
 
@@ -82,15 +89,15 @@ mail,
     php joomla.php config:get debug --help
     php joomla.php config:get debug
 
-![Вывод получения конфигурации отладки](../../../en/images/command-line-interface/cli-get-debug.png)
+![Вывод получения конфигурации отладки](../../../en/images/command-line-interface/using-the-cli/04-cli-get-debug.png)
 
     php joomla.php config:set debug=true
 
-![Вывод установки конфигурации отладки](../../../en/images/command-line-interface/cli-set-debug.png)
+![Вывод установки конфигурации отладки](../../../en/images/command-line-interface/using-the-cli/05-cli-set-debug.png)
 
     php joomla.php config:get --group session
 
-![Вывод получения группы конфигурации session](../../../en/images/command-line-interface/cli-config-get-group-session.png)
+![Вывод получения группы конфигурации session](../../../en/images/command-line-interface/using-the-cli/06-cli-config-get-group-session.png)
 
 ### Ядро
 
@@ -99,12 +106,12 @@ mail,
     php joomla.php core:check-updates --help
     php joomla.php core:check-updates
 
-![Вывод проверки обновлений ядра](../../../en/images/command-line-interface/cli-check-updates.png)
+![Вывод проверки обновлений ядра](../../../en/images/command-line-interface/using-the-cli/07-cli-check-updates.png)
 
     php joomla.php core:update --help
     php joomla.php core:update
 
-![Вывод обновления ядра](../../../en/images/command-line-interface/cli-core-update.png)
+![Вывод обновления ядра](../../../en/images/command-line-interface/using-the-cli/08-cli-core-update.png)
 
 ### База данных
 
@@ -154,7 +161,7 @@ mail,
     php joomla.php finder:index
     php joomla.php finder:index purge
 
-![Вывод очистки индекса поисковика](../../../en/images/command-line-interface/cli-finder-index-purge.png)
+![Вывод очистки индекса поисковика](../../../en/images/command-line-interface/using-the-cli/09-cli-finder-index-purge.png)
 
 ### Планировщик
 
@@ -201,7 +208,7 @@ mail,
     php joomla.php update:joomla:remove-old-files --help
     php joomla.php update:joomla:remove-old-files
 
-![Вывод удаления старых файлов при обновлении Joomla](../../../en/images/command-line-interface/cli-update-remove-old-files.png)
+![Вывод удаления старых файлов при обновлении Joomla](../../../en/images/command-line-interface/using-the-cli/10-cli-update-remove-old-files.png)
 
 ### Пользователь
 
@@ -214,7 +221,7 @@ mail,
     php joomla.php user:add --username cinderella --name Cinderella --email cinders@localhost --usergroup Manager (ввод пароля по запросу)
     php joomla.php user:add (запрос данных)
 
-![Вывод добавления пользователя с запросом данных](../../../en/images/command-line-interface/cli-add-user.png)
+![Вывод добавления пользователя с запросом данных](../../../en/images/command-line-interface/using-the-cli/11-cli-add-user.png)
 
     php joomla.php user:addtogroup --help
     php joomla.php user:addtogroup (запрос данных)

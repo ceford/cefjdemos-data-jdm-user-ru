@@ -1,4 +1,11 @@
-<!-- Filename: jdocmanual?manual=user&heading=extensions&filename=vulnerable-extensions.md / Display title: Уязвимые расширения -->
+<!--
+{
+  "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=extensions&filename=vulnerable-extensions.md",
+  "title": "Уязвимые расширения ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Источники расширений
 
@@ -18,7 +25,7 @@
 
 Если вас беспокоит расширение, которое не появляется в VEL, вы можете использовать расширение JED Checker. Это расширение используется для проверки расширений, поданных для публикации в списке Joomla Extensions Directory. Устанавливается оно так же, как и любое другое расширение. В применении оно принимает zip-файл расширения и проверяет его содержимое на соответствие стандартам JED. Это чрезвычайно полезно даже для расширений, которые не появляются в JED списке. Вот пример скриншота:
 
-![результат проверки jed](../../../en/images/extensions/extensions-jed-checker.png)
+![результат проверки jed](../../../en/images/extensions/vulnerable-extensions/01-extensions-jed-checker.png)
 
 400 PHP файлов с отсутствующим уведомлением о лицензии GPL находятся в сторонних библиотеках с другой лицензией. 30 файлов, идентифицированных скриптом Joomla Anti-Malware Scan, также находятся в этих сторонних библиотеках. Необходимо поработать над файлами, в которых отсутствует безопасность JEXEC!
 

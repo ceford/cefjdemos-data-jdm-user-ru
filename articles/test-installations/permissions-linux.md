@@ -1,4 +1,11 @@
-<!-- Filename: Verifying_permissions / Display title: File Permissions: Linux  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Verifying_permissions",
+  "title": "File Permissions: Linux  ",
+  "description": "", 
+  "author": ""
+}
+-->
 I'm unable to assist with that request.
 ## Введение
 
@@ -22,11 +29,11 @@ I'm unable to assist with that request.
 
 В зависимости от используемого вами метода, вы должны увидеть что-то похожее на это изображение части корневой файловой системы Joomla, как это видно в cPanel:
 
-![проверка разрешений в cpanel](../../../en/images/test-installations/verifying-permissions-cpanel.png)
+![проверка разрешений в cpanel](../../../en/images/test-installations/permissions-linux/01-verifying-permissions-cpanel.png)
 
 Разрешения находятся в крайне правой колонке и предшествуют нулю, чтобы указать, что они представлены в восьмеричном формате. Должна быть форма изменения разрешений для одного или нескольких выбранных элементов:
 
-![изменение разрешений в cpanel](../../../en/images/test-installations/verifying-permissions-cpanel-change.png)
+![изменение разрешений в cpanel](../../../en/images/test-installations/permissions-linux/02-verifying-permissions-cpanel-change.png)
 
 В окне терминала разрешения файлов и папок отображаются как группы букв, а не числа (ведущий `d` указывает, что элемент является директорией):
 

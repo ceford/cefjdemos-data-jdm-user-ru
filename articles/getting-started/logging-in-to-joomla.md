@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Logging_in_to_Joomla / Display title: Вход в Joomla  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Logging_in_to_Joomla",
+  "title": "Вход в Joomla  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -16,7 +23,7 @@
 
 Перейдите на страницу Входа для Администратора. Это веб-адрес сайта с добавлением /administrator, например, my-joomla-website.com/administrator, что вызывает страницу входа для Администратора Joomla:
 
-![Форма входа для администратора](../../../en/images/getting-started/logging-in-to-joomla-administrator-login-form.png)
+![Форма входа для администратора](../../../en/images/getting-started/logging-in-to-joomla/01-logging-in-to-joomla-administrator-login-form.png)
 
 1. Введите свое **Имя пользователя**
 2. Введите свой **Пароль**
@@ -32,7 +39,7 @@
 
 Чтобы выйти, выберите **Меню пользователя**, затем **Выйти**.
 
-![Ссылка выхода для администратора](../../../en/images/getting-started/logging-in-to-joomla-logout-link.png)
+![Ссылка выхода для администратора](../../../en/images/getting-started/logging-in-to-joomla/02-logging-in-to-joomla-logout-link.png)
 
 ### Вход на Сайт
 
@@ -40,7 +47,7 @@
 
 В этом примере используется форма входа, расположенная в правой боковой панели.
 
-![Модуль формы входа на сайт](../../../en/images/getting-started/logging-in-to-joomla-site-login-form.png)
+![Модуль формы входа на сайт](../../../en/images/getting-started/logging-in-to-joomla/03-logging-in-to-joomla-site-login-form.png)
 
 В **Форме входа**
 
@@ -53,7 +60,7 @@
 
 ### Выход с Сайта
 
-![Модуль формы выхода с сайта](../../../en/images/getting-started/logging-in-to-joomla-site-logout-form.png)
+![Модуль формы выхода с сайта](../../../en/images/getting-started/logging-in-to-joomla/04-logging-in-to-joomla-site-logout-form.png)
 
 Чтобы выйти, зайдите в форму входа и выберите кнопку **Выйти**.  
 

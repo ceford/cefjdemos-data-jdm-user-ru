@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:System_Dashboard / Display title: Системная панель управления -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:System_Dashboard",
+  "title": "Системная панель управления ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -17,7 +24,7 @@
 
 ## Скриншот
 
-![Системная панель управления](../../../en/images/dashboards/system-dashboard.png)
+![Системная панель управления](../../../en/images/dashboards/system-dashboard/01-system-dashboard.png)
 
 *Переведено openai.com*
 

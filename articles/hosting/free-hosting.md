@@ -1,4 +1,11 @@
-<!-- Filename: How_to_build_your_free_Joomla_Website / Display title: Бесплатный хостинг -->
+<!--
+{
+  "source": "https://docs.joomla.org/How_to_build_your_free_Joomla_Website",
+  "title": "Бесплатный хостинг ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Что такое joomla.com?
 
@@ -10,7 +17,7 @@ joomla.com — это доменное имя, используемое для �
 
 ### Шаг 1: Введите подходящее имя поддомена
 
-![Launch Joomla начальная страница](../../../en/images/hosting/free-hosting-launch.png)
+![Launch Joomla начальная страница](../../../en/images/hosting/free-hosting/01-free-hosting-launch.png)
 
 Алиса и Боб, вероятно, уже заняты, но вы можете выбрать любое имя, которое легко набрать и запомнить.
 
@@ -18,13 +25,13 @@ joomla.com — это доменное имя, используемое для �
 
 Поскольку это новая установка, лучше выбрать последнюю стабильную версию.
 
-![Launch Joomla диалог выбора версии](../../../en/images/hosting/free-hosting-select-version.png)
+![Launch Joomla диалог выбора версии](../../../en/images/hosting/free-hosting/02-free-hosting-select-version.png)
 
 ### Шаг 3: Создайте учетную запись
 
 Заполните свои личные данные и выберите кнопку Регистрация.
 
-![Launch Joomla диалог личных данных](../../../en/images/hosting/free-hosting-personal-details.png)
+![Launch Joomla диалог личных данных](../../../en/images/hosting/free-hosting/03-free-hosting-personal-details.png)
 
 #### Примечания
 
@@ -41,13 +48,13 @@ joomla.com — это доменное имя, используемое для �
 
 ### Шаг 5: Подтвердите учетную запись
 
-![Launch Joomla диалог подтверждения учетной записи](../../../en/images/hosting/free-hosting-verify-account.png)
+![Launch Joomla диалог подтверждения учетной записи](../../../en/images/hosting/free-hosting/04-free-hosting-verify-account.png)
 
 Используйте токен, чтобы завершить процесс - вы будете зарегистрированы в панели управления CloudAccess.net (CCP).
 
 ### Шаг 6: Панель управления CloudAccess.net
 
-![Launch Joomla панель управления облачным доступом](../../../en/images/hosting/free-hosting-cloud-access-control-panel.png)
+![Launch Joomla панель управления облачным доступом](../../../en/images/hosting/free-hosting/05-free-hosting-cloud-access-control-panel.png)
 
 Вы также получите электронное письмо с данными для входа на ваш бесплатный сайт. Может потребоваться несколько минут, чтобы ваш бесплатный сайт Joomla стал доступным. Если у вас возникнут какие-либо проблемы, откройте Новый тикет в CPP, и команда поддержки исправит всё необходимое.
 
@@ -63,7 +70,7 @@ joomla.com — это доменное имя, используемое для �
 
 Joomla управляется почти полностью со страниц администратора. Однако, время от времени бывает полезно иметь доступ к системным инструментам для решения проблем. Нажмите кнопку "Управлять" на странице CPP "Ваши продукты" для доступа к этим инструментам.
 
-![Запуск Joomla cloud access CPP tools](../../../en/images/hosting/free-hosting-cpp-manage.png)
+![Запуск Joomla cloud access CPP tools](../../../en/images/hosting/free-hosting/06-free-hosting-cpp-manage.png)
 
 ### phpMyAdmin
 
@@ -85,7 +92,7 @@ phpMyAdmin — это утилита, используемая для непос
 
 Тесты важны в проекте с открытым исходным кодом, таком как Joomla, так как они обеспечивают проверку качества для будущих релизов. Вы можете помочь с тестированием новых функций и исправлений ошибок, установив расширение [Joomla Patchtester](https://github.com/joomla-extensions/patchtester/releases) на своем бесплатном сайте Joomla. Чтобы стать тестировщиком, не требуются специальные навыки! Если вы никогда не тестировали pull-запросы, в Документации Joomla есть все [руководства], которые вам понадобятся. Присоединяйтесь, начните тестировать Joomla сегодня.
 
-![Запуск инструментов cpp для облачного доступа Joomla](../../../en/images/hosting/free-hosting-patch-tester.png)
+![Запуск инструментов cpp для облачного доступа Joomla](../../../en/images/hosting/free-hosting/07-free-hosting-patch-tester.png)
 
 Предостережения: Вам понадобится учетная запись GitHub и токен GitHub. Вы не сможете тестировать pull-запросы, затрагивающие изменения CSS и JavaScript, которые требуют изменений ресурсов NPM.
 

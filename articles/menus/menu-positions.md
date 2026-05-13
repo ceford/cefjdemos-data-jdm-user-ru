@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Menu_Positions / Display title: Позиции в меню  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Menu_Positions",
+  "title": "Позиции в меню  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -7,11 +14,11 @@
 - Выберите **Содержание → Модули сайта** из меню Администратора.
 - Отфильтруйте, установив **- Выбрать тип -** на *Меню*, как показано на следующей иллюстрации:
 
-![список модулей, отфильтрованный по типу меню](../../../en/images/menus/menus-menu-positions.png)
+![список модулей, отфильтрованный по типу меню](../../../en/images/menus/menu-positions/01-menus-menu-positions.png)
 
 Для справки, шаблон Cassiopeia имеет следующие позиции:
 
-![позиции шаблона Cassiopeia](../../../en/images/templates/cassiopeia-template-positions.png)
+![позиции шаблона Cassiopeia](../../../en/images/menus/menu-positions/02-cassiopeia-template-positions.png)
 
 ## Изменение позиции
 
@@ -24,7 +31,7 @@
 
 Следующая иллюстрация показывает модуль меню с частью списка позиций. Он достаточно длинный, так как содержит доступные позиции в шаблоне Cassiopeia, а затем и активные используемые позиции.
 
-![Форма редактирования модуля меню](../../../en/images/menus/menus-menu-edit-position.png)
+![Форма редактирования модуля меню](../../../en/images/menus/menu-positions/03-menus-menu-edit-position.png)
 
 ## Макет Меню
 

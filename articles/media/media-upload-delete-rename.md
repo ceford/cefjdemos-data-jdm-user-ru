@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Media:_Upload_Delete_Rename / Display title: Загрузить Удалить Переименовать -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Media:_Upload_Delete_Rename",
+  "title": "Загрузить Удалить Переименовать ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Простые функции работы с медиа
 

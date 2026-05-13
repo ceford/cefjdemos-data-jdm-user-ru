@@ -1,4 +1,11 @@
-<!-- Filename: Visual_Studio_Code / Display title: Дополнения для Visual Studio Code -->
+<!--
+{
+  "source": "https://docs.joomla.org/Visual_Studio_Code",
+  "title": "Дополнения для Visual Studio Code ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 

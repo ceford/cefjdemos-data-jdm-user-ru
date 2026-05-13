@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Users_Dashboard / Display title: Панель управления пользователями   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Users_Dashboard",
+  "title": "Панель управления пользователями   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -6,7 +13,7 @@
 
 ## Скриншот
 
-![Панель управления пользователями](../../../en/images/dashboards/users-dashboard.png)
+![Панель управления пользователями](../../../en/images/dashboards/users-dashboard/01-users-dashboard.png)
 
 *Переведено с помощью openai.com*
 

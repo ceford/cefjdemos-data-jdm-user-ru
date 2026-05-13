@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Adding_a_New_Article / Display title: Статья: Редактировать - Содержание -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Adding_a_New_Article",
+  "title": "Статья: Редактировать - Содержание ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -6,7 +13,7 @@
 
 На следующем скриншоте показана форма редактирования с уже сохраненной статьей.
 
-![Форма редактирования контента](../../../en/images/articles/articles-edit-content.png)
+![Форма редактирования контента](../../../en/images/articles/article-content/01-articles-edit-content.png)
 
 ## Ввод данных
 

@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Featured_Articles / Display title: Статьи: Избранное  -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Featured_Articles",
+  "title": "Статьи: Избранное  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -20,7 +27,7 @@
 
 Следующий скриншот показывает список избранных статей, содержащих четыре элемента, что достаточно для создания интересного блога:
 
-![Избранные статьи](../../../en/images/articles/articles-featured.png)
+![Избранные статьи](../../../en/images/articles/articles-featured/01-articles-featured.png)
 
 ### Порядок Избранных Статей
 
@@ -32,7 +39,7 @@
 
 ## Внешний вид сайта
 
-![Вид сайта с избранными статьями](../../../en/images/articles/articles-featured-site.png)
+![Вид сайта с избранными статьями](../../../en/images/articles/articles-featured/02-articles-featured-site.png)
 
 *Переведено openai.com*
 

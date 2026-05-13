@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org/Type_Event_-_Using_Event_Plugin / Display title: Schema.org - Событие -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Schema.org - Событие ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Цель
 
@@ -21,7 +28,7 @@
 
 Ниже приведен пример схемы события в форме редактирования статьи.
 
-![An event schema edit form](../../../en/images/schemas/edit-schema-event.png)
+![An event schema edit form](../../../en/images/schemas/event/01-edit-schema-event.png)
 
 *Переведено openai.com*
 

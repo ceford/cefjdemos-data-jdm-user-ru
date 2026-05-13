@@ -1,4 +1,11 @@
-<!-- Filename: Help6.x:_Article_Accessibility_Check / Display title: Статья: Проверка Доступности   -->
+<!--
+{
+  "source": "https://docs.joomla.org/Help6.x:_Article_Accessibility_Check",
+  "title": "Статья: Проверка Доступности   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -15,7 +22,7 @@
 
 ## Скриншот
 
-![Проверка доступности](../../../en/images/articles/articles-accessibility-check.png)
+![Проверка доступности](../../../en/images/articles/article-accessibility-check/01-articles-accessibility-check.png)
 
 Инструмент проверки управляется с помощью значка синего круга в нижнем правом углу экрана. Выберите его, чтобы открыть или закрыть отчет. Выберите зеленую галочку (или желтый крестик), чтобы просмотреть каждый элемент, прошедший проверку.
 

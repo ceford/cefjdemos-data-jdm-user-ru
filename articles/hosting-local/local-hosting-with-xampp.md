@@ -1,4 +1,11 @@
-<!-- Filename: / Display title: Локальный хостинг с XAMPP   -->
+<!--
+{
+  "source": "https://docs.joomla.org/",
+  "title": "Локальный хостинг с XAMPP   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -199,11 +206,11 @@ Mac OS X действительно включает в себя сервер Ap
 
 После установки XAMPP и запуска Apache с помощью инструмента XAMPP Control Panel вы можете протестировать его, открыв ваш браузер и перейдя на `http://localhost`. Вы должны увидеть экран приветствия XAMPP, аналогичный приведенному ниже.
 
-![Стартовая страница xampp](../../../en/images/hosting/local-hosting-xampp.png)
+![Стартовая страница xampp](../../../en/images/hosting-local/local-hosting-with-xampp/01-local-hosting-xampp.png)
 
 Выберите ссылку с названием `phpinfo()` в верхнем меню. Это отобразит длинный экран с информацией о конфигурации PHP, как показано ниже.
 
-![Страница информации о версии php xampp](../../../en/images/hosting/local-hosting-xampp-php.png)
+![Страница информации о версии php xampp](../../../en/images/hosting-local/local-hosting-with-xampp/02-local-hosting-xampp-php.png)
 
 На этом этапе XAMPP успешно установлен. Обратите внимание на строку *Loaded Configuration File*. Мы будем редактировать этот файл в следующем разделе для настройки XDebug.
 

@@ -1,4 +1,11 @@
-<!-- Filename: J5.x:Schema_org/Type_Organization_-_Using_Organization_Plugin / Display title: Schema.org - Книга -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Schema_org",
+  "title": "Schema.org - Книга ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Цель
 
@@ -25,7 +32,7 @@
 
 Ниже приведен пример схемы книги в форме редактирования статьи.
 
-![A book schema edit form](../../../en/images/schemas/edit-schema-book.png)
+![A book schema edit form](../../../en/images/schemas/book/01-edit-schema-book.png)
 
 *Переведено сайтом openai.com*
 

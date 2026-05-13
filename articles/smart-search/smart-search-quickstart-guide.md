@@ -1,4 +1,11 @@
-<!-- Filename: Smart_Search_quickstart_guide / Display title: Быстрый старт с умным поиском   -->
+<!--
+{
+  "source": "https://docs.joomla.org/Smart_Search_quickstart_guide",
+  "title": "Быстрый старт с умным поиском   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Основная информация
 

@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Url_Field / Display title: Поле URL -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Поле URL ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Назначение
 
@@ -12,7 +19,7 @@
 - **Относительные** Используйте эту опцию, чтобы определить, разрешены ли относительные URL-адреса.
 - **Показать URL** Если установлено в значение *Нет*, при отображении статьи URL заменяется на слова *Посетить сайт*.
 
-![создание поля URL](../../../en/images/fields/fields-url-edit.png)
+![создание поля URL](../../../en/images/fields/adding-custom-fields-url-field/01-fields-url-edit.png)
 
 **Примечание:** В этом примере включение типа поля в заголовок предназначено только для демонстрационных целей. Не включайте его в собственные заголовки полей.
 
@@ -21,13 +28,13 @@
 
 Просто: введите URL-адрес назначения.
 
-![поле ввода URL](../../../en/images/fields/fields-url-data-entry.png)
+![поле ввода URL](../../../en/images/fields/adding-custom-fields-url-field/02-fields-url-data-entry.png)
 
 ## Отображение данных
 
 Следующий скриншот сайта показывает поле, отображаемое в статье. Опция *Автоматическое отображение* отвечает за позицию поля, а ваш шаблон отвечает за его дизайн.
 
-![url field site display](../../../en/images/fields/fields-url-site.png)
+![url field site display](../../../en/images/fields/adding-custom-fields-url-field/03-fields-url-site.png)
 
 URL следует за меткой поля.
 

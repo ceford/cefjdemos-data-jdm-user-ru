@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:How_to_Show_a_Calendar_Month_List_of_Archived_Articles_Using_a_Module / Display title: Архивные статьи   -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:How_to_Show_a_Calendar_Month_List_of_Archived_Articles_Using_a_Module",
+  "title": "Архивные статьи   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -48,7 +55,7 @@
 
 Модуль будет опубликован в боковой панели сайта и отобразит список ссылок в соответствии с установленным количеством месяцев для отображения модуля.
 
-![Пример модуля с архивированными статьями](../../../en/images/modules/modules-archived-articles.png)
+![Пример модуля с архивированными статьями](../../../en/images/modules/articles-archived-module/01-modules-archived-articles.png)
 
 ## Советы
 

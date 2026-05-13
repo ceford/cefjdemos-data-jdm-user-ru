@@ -1,4 +1,11 @@
-<!-- Filename: Using_A_Sitemap / Display title: Использование карты сайта  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Using_A_Sitemap",
+  "title": "Использование карты сайта  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Использование карты сайта
 

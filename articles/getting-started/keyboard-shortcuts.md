@@ -1,4 +1,11 @@
-<!-- Filename: Keyboard_Shortcuts / Display title: Горячие клавиши -->
+<!--
+{
+  "source": "https://docs.joomla.org/Keyboard_Shortcuts",
+  "title": "Горячие клавиши ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 

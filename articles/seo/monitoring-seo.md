@@ -1,4 +1,11 @@
-<!-- Filename: Monitoring_SEO / Display title: Мониторинг SEO   -->
+<!--
+{
+  "source": "https://docs.joomla.org/Monitoring_SEO",
+  "title": "Мониторинг SEO   ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Почему стоит мониторить ваш сайт?
 
@@ -44,11 +51,11 @@ Google понимает, что информация, которую мы хот
 
 Чтобы начать использовать Настраиваемый сегмент, просто нажмите стрелку в верхней части страницы, чтобы отобразить доступные настраиваемые сегменты (обведены красным). Если у вас нет доступных сегментов, вы можете либо создать свои собственные, либо импортировать существующие сегменты из Галереи Google Analytics (обведены синим).
 
-![Настраиваемые сегменты в Google Analytics](../../../en/images/seo/seo-google-analytics-custom-segments.png)
+![Настраиваемые сегменты в Google Analytics](../../../en/images/seo/monitoring-seo/01-seo-google-analytics-custom-segments.png)
 
 Когда вы выбрали, какие сегменты вы хотите использовать, нажмите применить, и они будут применены к просматриваемым данным. Ниже вы можете увидеть, как фильтры применяются для отображения одного, двух, трёх и более ключевых слов.
 
-![Ключевые слова в настраиваемых сегментах Google Analytics](../../../en/images/seo/seo-google-analytics-custom-segments-keywords.png)
+![Ключевые слова в настраиваемых сегментах Google Analytics](../../../en/images/seo/monitoring-seo/02-seo-google-analytics-custom-segments-keywords.png)
 
 ### Панели
 
@@ -58,7 +65,7 @@ Google также представил полезную функцию под н
 
 Чтобы начать, просто разверните раздел Панели вашего профиля Analytics.
 
-![Панель Google Analytics](../../../en/images/seo/seo-google-anaytics-dashboard.png)
+![Панель Google Analytics](../../../en/images/seo/monitoring-seo/03-seo-google-anaytics-dashboard.png)
 
 ### Галерея Google Analytics
 

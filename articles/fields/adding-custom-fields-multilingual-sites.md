@@ -1,4 +1,11 @@
-<!-- Filename: J3.x:Adding_custom_fields/Multilingual_Sites / Display title: Многоязычные сайты -->
+<!--
+{
+  "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
+  "title": "Многоязычные сайты ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -51,7 +58,7 @@ COM_CONTACT_CUSTOM_FIELD_FAVOURITE_CAR_DESCRIPTION="Иногда использ�
 Следующий скриншот показывает пример создания переопределения для константы
 немецкого языка.
 
-![Создание переопределения для немецкого языка](../../../en/images/fields/fields-overrides-creation-de.png)
+![Создание переопределения для немецкого языка](../../../en/images/fields/adding-custom-fields-multilingual-sites/01-fields-overrides-creation-de.png)
 
 ## Определение Группы Полей
 
@@ -81,11 +88,11 @@ COM_CONTACT_CUSTOM_FIELD_FAVOURITE_CAR_DESCRIPTION="Иногда использ�
 
 Если выбран английский язык перед входом администратора, форма ввода данных контакта должна содержать вкладку с английским названием вашей группы полей и поля в этой группе также с английскими значениями.
 
-![Ввод данных на английском](../../../en/images/fields/fields-overrides-entry.png)
+![Ввод данных на английском](../../../en/images/fields/adding-custom-fields-multilingual-sites/02-fields-overrides-entry.png)
 
 Если выбран немецкий язык перед входом администратора, вы должны увидеть немецкие переводы ваших языковых констант:
 
-![Ввод данных на немецком](../../../en/images/fields/fields-overrides-entry-de.png)
+![Ввод данных на немецком](../../../en/images/fields/adding-custom-fields-multilingual-sites/03-fields-overrides-entry-de.png)
 
 Предостережение: перевод при помощи translate.google.co.uk!
 
@@ -93,10 +100,10 @@ COM_CONTACT_CUSTOM_FIELD_FAVOURITE_CAR_DESCRIPTION="Иногда использ�
 
 На английском:
 
-![Отображение данных на английском](../../../en/images/fields/fields-overrides-display.png)
+![Отображение данных на английском](../../../en/images/fields/adding-custom-fields-multilingual-sites/04-fields-overrides-display.png)
 
 И на немецком:
 
-![Отображение данных на немецком](../../../en/images/fields/fields-overrides-display-de.png)
+![Отображение данных на немецком](../../../en/images/fields/adding-custom-fields-multilingual-sites/05-fields-overrides-display-de.png)
 
 *Переведено с помощью openai.com*

@@ -1,4 +1,11 @@
-<!-- Filename: Enabling_the_Login_Form_module / Display title: Форма входа  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Enabling_the_Login_Form_module",
+  "title": "Форма входа  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Методы входа на сайт
 
@@ -40,7 +47,7 @@
   - **На всех страницах, кроме выбранных**: Модуль формы входа будет отображаться на всех страницах, кроме выбранных.
 - **Выбор меню**: Показывает список всех меню и пунктов меню, из которых можно выбрать один или несколько. Это поле используется только в том случае, если поле **Меню** установлено в **Выбрать пункт(ы) меню из списка**.
 
-  ![назначение модуля в меню](../../../en/images/modules/modules-login-menu-assignment.png)
+  ![назначение модуля в меню](../../../en/images/modules/enabling-the-login-form-module/01-modules-login-menu-assignment.png)
 
 ## Настройка модуля формы входа
 

@@ -1,4 +1,11 @@
-<!-- Filename: How_do_you_create_a_custom_module%3F / Display title: Пользовательский модуль -->
+<!--
+{
+  "source": "https://docs.joomla.org/How_do_you_create_a_custom_module%3F",
+  "title": "Пользовательский модуль ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Назначение
 
@@ -49,7 +56,7 @@
 Модуль будет опубликован в боковой панели сайта и отобразит
 любой текст, который вы ввели.
 
-![Пример пользовательского модуля](../../../en/images/modules/modules-custom-display.png)
+![Пример пользовательского модуля](../../../en/images/modules/how-do-you-create-a-custom-module-3f/01-modules-custom-display.png)
 
 *Переведено openai.com*
 

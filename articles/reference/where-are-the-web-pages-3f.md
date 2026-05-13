@@ -1,4 +1,11 @@
-<!-- Filename: Where_are_the_web_pages%3F / Display title: Где находятся веб-страницы? -->
+<!--
+{
+  "source": "https://docs.joomla.org/Where_are_the_web_pages%3F",
+  "title": "Где находятся веб-страницы? ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 Если вы пришли с традиционного веб-сайта, состоящего из отдельных HTML-страниц, вы, возможно, задаетесь вопросом, где же находятся страницы.
 

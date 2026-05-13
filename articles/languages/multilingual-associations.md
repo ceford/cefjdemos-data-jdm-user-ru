@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Multilingual_Associations / Display title: Многоязычные ассоциации -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Multilingual_Associations",
+  "title": "Многоязычные ассоциации ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Многоязычные сайты
 
@@ -17,7 +24,7 @@
 Следующий скриншот показывает пример списка статей на английском языке
 с их эквивалентами на других языках.
 
-![список мультиязычных ассоциаций](../../../en/images/languages/multilingual-associations-list.png)
+![список мультиязычных ассоциаций](../../../en/images/languages/multilingual-associations/01-multilingual-associations-list.png)
 
 Последняя статья о горах пока не имеет эквивалентных статей
 на других языках. Отсутствующие статьи могут быть переведены с
@@ -36,7 +43,7 @@
 - Выберите **Закрыть**.
 - Повторите для других языков.
 
-![многоязычные ассоциации редактировать](../../../en/images/languages/multilingual-associations-edit.png)
+![многоязычные ассоциации редактировать](../../../en/images/languages/multilingual-associations/02-multilingual-associations-edit.png)
 
 ## Создание перевода меню
 
@@ -61,7 +68,7 @@
 
 Откройте или перезагрузите просмотр сайта, чтобы убедиться, что ваши меню и статьи отображаются должным образом.
 
-![просмотр сайта с многоязычными связями](../../../en/images/languages/multilingual-associations-site.png)
+![просмотр сайта с многоязычными связями](../../../en/images/languages/multilingual-associations/03-multilingual-associations-site.png)
 
 *Переведено openai.com*  
 

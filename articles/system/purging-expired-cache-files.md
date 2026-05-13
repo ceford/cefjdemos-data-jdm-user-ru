@@ -1,4 +1,11 @@
-<!-- Filename: Purging_expired_cache_files / Display title: Очистка истекшего кэша  -->
+<!--
+{
+  "source": "https://docs.joomla.org/Purging_expired_cache_files",
+  "title": "Очистка истекшего кэша  ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Файлы кеша
 

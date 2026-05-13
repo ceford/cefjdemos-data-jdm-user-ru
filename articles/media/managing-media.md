@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Managing_Media / Display title: Управление медиа -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Managing_Media",
+  "title": "Управление медиа ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -22,7 +29,7 @@
 
 Следующее изображение показывает страницу "Медиа" сразу после установки Joomla, но с выбранной папкой cassiopeia/sampledata. Папка *files* была добавлена для хранения файлов, отличных от изображений, и дополнительная папка с именем *garbage* была добавлена для иллюстрации удаления папок:
 
-![Страница Медиа с показом образца данных cassiopeia](../../../en/images/media/media-sample-data-cassiopeia.png)
+![Страница Медиа с показом образца данных cassiopeia](../../../en/images/media/managing-media/01-media-sample-data-cassiopeia.png)
 
 ## Управление папками
 
@@ -62,7 +69,7 @@
 
 Ниже показана папка, выбранная для удаления:
 
-![Страница медиа, показывающая папку garbage](../../../en/images/media/media-sample-data-garbage-select.png)
+![Страница медиа, показывающая папку garbage](../../../en/images/media/managing-media/02-media-sample-data-garbage-select.png)
 
 ## Панель инструментов области мультимедиа
 

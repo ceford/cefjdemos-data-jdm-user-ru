@@ -1,10 +1,17 @@
-<!-- Filename: J5.x:Improving_SEO_with_Strict_Routing_and_SEF_URLs / Display title: SEO строгая маршрутизация -->
+<!--
+{
+  "source": "https://docs.joomla.org/J5.x:Improving_SEO_with_Strict_Routing_and_SEF_URLs",
+  "title": "SEO строгая маршрутизация ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
 Опция Строгая маршрутизация, введенная в Joomla 5.2, улучшает SEO-производительность платформы за счет использования более строгих правил маршрутизации с помощью переключателя в плагине *System - SEF*. Это помогает устранить дублированный контент, обеспечивая более последовательные URL и перенаправляя дубликаты на правильный URL с помощью 301 редиректа.
 
-![system sef plugin settings](../../../en/images/seo/seo-system-sef-plugin.png)
+![system sef plugin settings](../../../en/images/seo/strict-routing/01-seo-system-sef-plugin.png)
 
 ### Применение суффиксов
 

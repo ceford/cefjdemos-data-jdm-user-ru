@@ -1,4 +1,11 @@
-<!-- Filename: J4.x:Child_Templates / Display title: Шаблоны для детей -->
+<!--
+{
+  "source": "https://docs.joomla.org/J4.x:Child_Templates",
+  "title": "Шаблоны для детей ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Введение
 
@@ -14,7 +21,7 @@
 - Нажмите кнопку *Создать дочерний шаблон*.
 - Заполните диалоговое окно Создание дочернего шаблона и нажмите кнопку Создать дочерний шаблон:
 
-![окно создания дочернего шаблона](../../../en/images/templates/child-templates-create-green.png)
+![окно создания дочернего шаблона](../../../en/images/templates/child-templates/01-child-templates-create-green.png)
 
 Выбор Cassiopeia - Default в поле Дополнительные стили шаблона кажется необязательным (это ошибка?).
 
@@ -31,7 +38,7 @@
 - Выберите тип файла `.css`.
 - Нажмите кнопку *Создать*.
 
-![форма создания user css для дочернего шаблона](../../../en/images/templates/child-templates-create-green-user-css.png)
+![форма создания user css для дочернего шаблона](../../../en/images/templates/child-templates/02-child-templates-create-green-user-css.png)
 
 Файл user.css пуст, готов для ввода ваших пользовательских стилей. Введите следующий код, чтобы начать создание зеленой темы:
 ```css
@@ -80,7 +87,7 @@
 - Выберите тип элемента меню в диалоговом окне выбора типа пункта меню - Избранные статьи в этом примере.
 - Выберите *cassiopeia_manual - Default* в поле формы *Стиль шаблона*.
 
-![форма редактирования пункта меню дочернего шаблона](../../../en/images/templates/child-templates-create-green-menu-item.png)
+![форма редактирования пункта меню дочернего шаблона](../../../en/images/templates/child-templates/03-child-templates-create-green-menu-item.png)
 
 - Для целей следующего скриншота в Макете блога установлено: Ведущие статьи: 0, Вводные статьи: 3 и Направление нескольких столбцов: по горизонтали.
 
@@ -88,7 +95,7 @@
 
 - На домашней странице вашего сайта выберите созданный пункт меню.
 
-![Сайт, показывающий пользовательский зеленый шаблон](../../../en/images/templates/child-templates-green-site-result.png)
+![Сайт, показывающий пользовательский зеленый шаблон](../../../en/images/templates/child-templates/04-child-templates-green-site-result.png)
 
 ### Редактирование стиля
 

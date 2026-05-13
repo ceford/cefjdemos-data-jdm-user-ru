@@ -1,4 +1,11 @@
-<!-- Filename: Smart_Search_on_large_sites / Display title: Умный поиск на крупных сайтах -->
+<!--
+{
+  "source": "https://docs.joomla.org/Smart_Search_on_large_sites",
+  "title": "Умный поиск на крупных сайтах ",
+  "description": "", 
+  "author": ""
+}
+-->
 
 ## Индексирование сайта
 
