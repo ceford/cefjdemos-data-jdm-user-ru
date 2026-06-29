@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=migration&filename=migration-basics.md",
-  "title": "Основы миграции ",
+  "title": "Основы миграции",
   "description": "", 
   "author": ""
 }

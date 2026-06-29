@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Moving_the_site_among_directories",
-  "title": "Перемещение Директории Установки ",
+  "title": "Перемещение Директории Установки",
   "description": "", 
   "author": ""
 }

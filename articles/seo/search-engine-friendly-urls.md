@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Search_Engine_Friendly_URLs",
-  "title": "Дружественные к поисковым системам URL-адреса   ",
+  "title": "Дружественные к поисковым системам URL-адреса  ",
   "description": "", 
   "author": ""
 }

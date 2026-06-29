@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Smart_Search_content_change_test_plan",
-  "title": "План тестирования умного поиска ",
+  "title": "План тестирования умного поиска",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Cookie_notification",
-  "title": "Печенье  ",
+  "title": "Печенье ",
   "description": "", 
   "author": ""
 }

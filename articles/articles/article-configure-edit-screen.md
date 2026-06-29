@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J6.x:_Article_Edit_Configure_Edit_Screen",
-  "title": "Статья: Редактирование - Настройка экрана редактирования  ",
+  "title": "Статья: Редактирование - Настройка экрана редактирования ",
   "description": "", 
   "author": ""
 }

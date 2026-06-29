@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Smart_Search_Frequently_Asked_Questions",
-  "title": "Часто задаваемые вопросы о умном поиске   ",
+  "title": "Часто задаваемые вопросы о умном поиске  ",
   "description": "", 
   "author": ""
 }

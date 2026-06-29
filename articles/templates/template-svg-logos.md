@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Template_SVG_Logos",
-  "title": "Шаблоны логотипов в формате SVG ",
+  "title": "Шаблоны логотипов в формате SVG",
   "description": "", 
   "author": ""
 }

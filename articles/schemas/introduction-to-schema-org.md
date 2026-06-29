@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J5.x:Schema_org",
-  "title": "Введение в схемы ",
+  "title": "Введение в схемы",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Article_Links",
-  "title": "Статья: Редактировать - Ссылки ",
+  "title": "Статья: Редактировать - Ссылки",
   "description": "", 
   "author": ""
 }

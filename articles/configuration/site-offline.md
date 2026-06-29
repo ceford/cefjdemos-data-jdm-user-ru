@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Site_Offline",
-  "title": "Сайт не работает ",
+  "title": "Сайт не работает",
   "description": "", 
   "author": ""
 }

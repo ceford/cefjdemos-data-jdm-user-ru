@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J6.x:_Article_Metadata",
-  "title": "Статья: Редактировать - Метаданные  ",
+  "title": "Статья: Редактировать - Метаданные ",
   "description": "", 
   "author": ""
 }

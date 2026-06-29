@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/WebAuthn_Passwordless_Login",
-  "title": "Вход с помощью WebAuthn  ",
+  "title": "Вход с помощью WebAuthn ",
   "description": "", 
   "author": ""
 }

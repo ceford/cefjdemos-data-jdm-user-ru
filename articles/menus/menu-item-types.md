@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Menu_Item_Types",
-  "title": "Типы пунктов меню  ",
+  "title": "Типы пунктов меню ",
   "description": "", 
   "author": ""
 }

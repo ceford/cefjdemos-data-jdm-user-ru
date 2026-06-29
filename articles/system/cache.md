@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Cache",
-  "title": "Кэш  ",
+  "title": "Кэш ",
   "description": "", 
   "author": ""
 }

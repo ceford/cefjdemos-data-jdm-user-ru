@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Smart_Search_on_large_sites",
-  "title": "Умный поиск на крупных сайтах ",
+  "title": "Умный поиск на крупных сайтах",
   "description": "", 
   "author": ""
 }

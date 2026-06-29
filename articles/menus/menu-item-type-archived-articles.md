@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:How_to_Create_a_Menu_Item_to_View_Archived_Articles",
-  "title": "Архив статей Меню ",
+  "title": "Архив статей Меню",
   "description": "", 
   "author": ""
 }

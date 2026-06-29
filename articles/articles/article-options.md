@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J6.x:_Article_Options",
-  "title": "Статья: Редактировать - Параметры ",
+  "title": "Статья: Редактировать - Параметры",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/",
-  "title": "Локальный хостинг с XAMPP   ",
+  "title": "Локальный хостинг с XAMPP  ",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Help",
-  "title": "Панель управления справкой ",
+  "title": "Панель управления справкой",
   "description": "", 
   "author": ""
 }

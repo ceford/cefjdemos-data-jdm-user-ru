@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Menu_Dashboard",
-  "title": "Меню панели управления  ",
+  "title": "Меню панели управления ",
   "description": "", 
   "author": ""
 }

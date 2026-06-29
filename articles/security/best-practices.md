@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/https:",
-  "title": "Лучшие практики   ",
+  "title": "Лучшие практики  ",
   "description": "", 
   "author": ""
 }

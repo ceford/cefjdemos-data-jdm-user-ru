@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Article_Headings",
-  "title": "Статья: Редактирование - Заголовки  ",
+  "title": "Статья: Редактирование - Заголовки ",
   "description": "", 
   "author": ""
 }

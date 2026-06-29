@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Article_Lists",
-  "title": "Статья: Редактирование - Списки   ",
+  "title": "Статья: Редактирование - Списки  ",
   "description": "", 
   "author": ""
 }

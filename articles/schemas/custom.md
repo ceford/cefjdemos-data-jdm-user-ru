@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Localhost",
-  "title": "Schema.org - Настраиваемый ",
+  "title": "Schema.org - Настраиваемый",
   "description": "", 
   "author": ""
 }

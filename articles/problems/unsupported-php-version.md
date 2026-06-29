@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Unsupported_PHP_Version",
-  "title": "Неподдерживаемая версия PHP ",
+  "title": "Неподдерживаемая версия PHP",
   "description": "", 
   "author": ""
 }

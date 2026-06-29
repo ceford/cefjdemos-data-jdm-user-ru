@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=fields&filename=subform.md",
-  "title": "Поле подформы ",
+  "title": "Поле подформы",
   "description": "", 
   "author": ""
 }

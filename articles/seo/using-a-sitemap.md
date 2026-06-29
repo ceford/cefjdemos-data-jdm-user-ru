@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Using_A_Sitemap",
-  "title": "Использование карты сайта  ",
+  "title": "Использование карты сайта ",
   "description": "", 
   "author": ""
 }

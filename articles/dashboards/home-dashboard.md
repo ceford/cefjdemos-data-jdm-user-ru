@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Home_Dashboard",
-  "title": "Домашняя панель управления   ",
+  "title": "Домашняя панель управления  ",
   "description": "", 
   "author": ""
 }

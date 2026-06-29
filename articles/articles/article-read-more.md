@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Read_More_Links",
-  "title": "Статья: Редактировать - Читать далее   ",
+  "title": "Статья: Редактировать - Читать далее  ",
   "description": "", 
   "author": ""
 }

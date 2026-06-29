@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Template_Basics",
-  "title": "Основы шаблонов ",
+  "title": "Основы шаблонов",
   "description": "", 
   "author": ""
 }

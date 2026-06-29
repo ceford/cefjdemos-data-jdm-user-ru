@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Child_Templates",
-  "title": "Шаблоны для детей ",
+  "title": "Шаблоны для детей",
   "description": "", 
   "author": ""
 }

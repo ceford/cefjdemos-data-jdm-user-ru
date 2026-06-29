@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Joomla_3.x_to_4.x_Step_by_Step_Migration",
-  "title": "Joomla 3 на 4 шаг за шагом ",
+  "title": "Joomla 3 на 4 шаг за шагом",
   "description": "", 
   "author": ""
 }

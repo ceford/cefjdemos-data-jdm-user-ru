@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Language_Overrides",
-  "title": "Переопределение Языка  ",
+  "title": "Переопределение Языка ",
   "description": "", 
   "author": ""
 }

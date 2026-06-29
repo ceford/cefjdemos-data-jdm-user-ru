@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Article_Tables",
-  "title": "Статья: Редактирование - Таблицы  ",
+  "title": "Статья: Редактирование - Таблицы ",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/What_is_the_difference_between_a_Sub-Domain,_Parked_Domain_and_an_Add-On_Domain%3F",
-  "title": "Поддомены, припаркованные домены и дополнительные домены   ",
+  "title": "Поддомены, припаркованные домены и дополнительные домены  ",
   "description": "", 
   "author": ""
 }

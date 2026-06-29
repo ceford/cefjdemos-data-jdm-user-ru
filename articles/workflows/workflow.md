@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Workflow",
-  "title": "Процесс публикации ",
+  "title": "Процесс публикации",
   "description": "", 
   "author": ""
 }

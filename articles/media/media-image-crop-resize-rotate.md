@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Media:_Image_Crop_Resize_Rotate",
-  "title": "Обрезка Изображения Изменение Размеров Вращение  ",
+  "title": "Обрезка Изображения Изменение Размеров Вращение ",
   "description": "", 
   "author": ""
 }

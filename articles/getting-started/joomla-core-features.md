@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Joomla_Core_Features",
-  "title": "Основные функции Joomla ",
+  "title": "Основные функции Joomla",
   "description": "", 
   "author": ""
 }

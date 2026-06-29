@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Using_the_CLI",
-  "title": "Использование интерфейса командной строки  ",
+  "title": "Использование интерфейса командной строки ",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Updating_from_an_existing_version",
-  "title": "Обновление версии   ",
+  "title": "Обновление версии  ",
   "description": "", 
   "author": ""
 }

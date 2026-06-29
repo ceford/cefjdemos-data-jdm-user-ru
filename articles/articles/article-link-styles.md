@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J5.x:Add_a_class_selector_to_the_create_link_dialog",
-  "title": "Статья: Изменение - Стили ссылок ",
+  "title": "Статья: Изменение - Стили ссылок",
   "description": "", 
   "author": ""
 }

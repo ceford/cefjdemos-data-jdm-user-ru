@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Home_Page_in_Different_Style",
-  "title": "Домашняя страница в другом стиле  ",
+  "title": "Домашняя страница в другом стиле ",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/https:",
-  "title": "HTTP заголовки  ",
+  "title": "HTTP заголовки ",
   "description": "", 
   "author": ""
 }

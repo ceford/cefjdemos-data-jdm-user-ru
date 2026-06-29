@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Users_Dashboard",
-  "title": "Панель управления пользователями   ",
+  "title": "Панель управления пользователями  ",
   "description": "", 
   "author": ""
 }

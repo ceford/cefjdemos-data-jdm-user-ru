@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Keyboard_Shortcuts",
-  "title": "Горячие клавиши ",
+  "title": "Горячие клавиши",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/What_are_web_standards%3F",
-  "title": "Что такое веб-стандарты? ",
+  "title": "Что такое веб-стандарты?",
   "description": "", 
   "author": ""
 }

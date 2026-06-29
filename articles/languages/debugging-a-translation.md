@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Debugging_a_translation",
-  "title": "Отладка перевода ",
+  "title": "Отладка перевода",
   "description": "", 
   "author": ""
 }

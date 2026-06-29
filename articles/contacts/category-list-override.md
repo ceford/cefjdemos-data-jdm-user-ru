@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/category-list-override.md",
-  "title": "Переопределение списка категорий  ",
+  "title": "Переопределение списка категорий ",
   "description": "", 
   "author": ""
 }

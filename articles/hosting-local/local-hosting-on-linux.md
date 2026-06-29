@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/No_original_yet",
-  "title": "Локальный хостинг на Linux ",
+  "title": "Локальный хостинг на Linux",
   "description": "", 
   "author": ""
 }

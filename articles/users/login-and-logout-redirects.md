@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Login_and_Logout_Redirects",
-  "title": "Перенаправления при входе и выходе из системы ",
+  "title": "Перенаправления при входе и выходе из системы",
   "description": "", 
   "author": ""
 }

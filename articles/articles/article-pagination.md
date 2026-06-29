@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Article_Pagination",
-  "title": "Статья: Редактирование - Постраничная навигация  ",
+  "title": "Статья: Редактирование - Постраничная навигация ",
   "description": "", 
   "author": ""
 }

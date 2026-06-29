@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Menu_Item_Order",
-  "title": "Заказ пункта меню ",
+  "title": "Заказ пункта меню",
   "description": "", 
   "author": ""
 }

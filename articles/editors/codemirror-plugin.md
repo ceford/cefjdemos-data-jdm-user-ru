@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Content_editors",
-  "title": "Плагин Codemirror  ",
+  "title": "Плагин Codemirror ",
   "description": "", 
   "author": ""
 }

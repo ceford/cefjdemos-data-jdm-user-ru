@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/How_to_build_your_free_Joomla_Website",
-  "title": "Бесплатный хостинг ",
+  "title": "Бесплатный хостинг",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Localhost",
-  "title": "Schema.org - Статья ",
+  "title": "Schema.org - Статья",
   "description": "", 
   "author": ""
 }

@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J4.x:Switching_Templates",
-  "title": "Переключение шаблонов ",
+  "title": "Переключение шаблонов",
   "description": "", 
   "author": ""
 }

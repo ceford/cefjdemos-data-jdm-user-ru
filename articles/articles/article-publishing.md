@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J6.x:_Article_Publishing",
-  "title": "Статья: Редактирование - Публикация ",
+  "title": "Статья: Редактирование - Публикация",
   "description": "", 
   "author": ""
 }

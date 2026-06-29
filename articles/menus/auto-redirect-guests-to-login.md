@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Auto_redirect_guests_to_login",
-  "title": "Автоматическая переадресация гостей на страницу входа ",
+  "title": "Автоматическая переадресация гостей на страницу входа",
   "description": "", 
   "author": ""
 }

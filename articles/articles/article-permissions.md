@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J6.x:Access_Control",
-  "title": "Статья: Редактировать - Разрешения ",
+  "title": "Статья: Редактировать - Разрешения",
   "description": "", 
   "author": ""
 }

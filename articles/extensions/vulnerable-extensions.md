@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=extensions&filename=vulnerable-extensions.md",
-  "title": "Уязвимые расширения ",
+  "title": "Уязвимые расширения",
   "description": "", 
   "author": ""
 }

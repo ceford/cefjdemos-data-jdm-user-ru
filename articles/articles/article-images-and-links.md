@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/Article_Images_and_Links",
-  "title": "Статья: Редактирование - Изображения и Ссылки  ",
+  "title": "Статья: Редактирование - Изображения и Ссылки ",
   "description": "", 
   "author": ""
 }

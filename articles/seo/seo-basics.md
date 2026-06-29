@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/jdocmanual?manual=user&heading=seo&filename=seo-basics.md",
-  "title": "Основы SEO ",
+  "title": "Основы SEO",
   "description": "", 
   "author": ""
 }
