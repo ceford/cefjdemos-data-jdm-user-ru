@@ -110,7 +110,7 @@ Joomla предоставляет одну категорию по умолча�
 
 Следующий скриншот показывает вид страницы блога категории в разработке.
 
-![Страница блога категории млекопитающих](../../../en/images/articles/articles-categories/04-article-mammals-articles-blog-site-view.png)
+![Страница блога категории млекопитающих](../../../en/images/articles/articles-categories/04-category-blog-site-view.png)
 
 ## Советы
 

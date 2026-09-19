@@ -1,68 +1,100 @@
 <!--
 {
-  "source": "https://docs.joomla.org/category-list-override.md",
-  "title": "Переопределение списка категорий ",
-  "description": "", 
-  "author": ""
+    "source": "https://docs.joomla.org/category-list-override.md",
+    "title": "\u041f\u0435\u0440\u0435\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u0441\u043f\u0438\u0441\u043a\u0430 \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0439",
+    "description": "\u0423\u0437\u043d\u0430\u0439\u0442\u0435, \u043a\u0430\u043a \u0441\u043e\u0437\u0434\u0430\u0442\u044c \u043f\u0435\u0440\u0435\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u0448\u0430\u0431\u043b\u043e\u043d\u0430, \u0447\u0442\u043e\u0431\u044b \u0443\u043b\u0443\u0447\u0448\u0438\u0442\u044c \u043c\u0430\u043a\u0435\u0442 \u0441\u043f\u0438\u0441\u043a\u0430 \u043a\u043e\u043d\u0442\u0430\u043a\u0442\u043e\u0432 \u0432 \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438 ",
+    "author": ""
 }
 -->
 
-## Пункт меню "Список контактов в категории"
+## Список контактов в категории
 
-Это может быть личное мнение, но для меня макет списка категории Контактов по умолчанию не совсем удовлетворителен. Мои проблемы:
+Макет контактов в категории по умолчанию управляется шаблоном в коде компонента 
+com_contacts. Макет по умолчанию выглядит так:
 
-* Фото контакта слишком большие, почти 500 пикселей в ширину.
-* Имя контакта не достаточно выделено.
-* Маркированный список с личными данными не имеет заголовка и выглядит изолированным.
-* Должность не имеет заголовка, поэтому может казаться изолированной.
-* Поля с адресом и почтовым индексом отсутствуют.
-* Данные о местоположении неполные.
-* Личное заявление отсутствует.
-* Список оформлен в таблице, что немного лучше на узких экранах, но выглядит довольно тесно.
+![комитет по культуре с использованием макета и стиля по умолчанию](../../../en/images/contacts/category-list-override/01-contacts-culture-committee.png)
 
-Как это исправить в соответствии с моими предпочтениями?
+Возможно, это личное мнение, но для меня макет контактов по умолчанию не вполне 
+удовлетворителен. Мои замечания:
 
-## Стилизация
+* Исходные портретные изображения имели ширину 500 пикселей и слишком сильно привлекали внимание.
+* Имя контакта недостаточно выделено.
+* Маркированный список личных данных не имеет заголовка и выглядит изолированным.
+* Роль человека не имеет заголовка.
+* Поля адреса и почтового индекса отсутствуют.
+* Данные о местоположении неполны.
+* Данные каждого контакта размещены в таблице и довольно тесно расположены на узких экранах.
 
-Изображение имеет CSS-стиль `contact-thumbnail img-thumbnail`. Инструменты разработчика браузера показывают, что для img-thumbnail установлено значение `max-width: 100%;`, но contact-thumbnail не используется. Единственное появление этого стиля на всем сайте находится в данном месте, поэтому можно безопасно установить переопределение в user.css, чтобы ограничить ширину изображения. Размер шрифта имени контакта можно увеличить, используя окружающий его тег `a`:
+Как же исправить это по своему вкусу? Моё решение — создать переопределение шаблона 
+и добавить несколько пользовательских стилей. Вот результат:
+
+![деловой комитет с использованием переопределения шаблона и пользовательских стилей](../../../en/images/contacts/category-list-override/02-contacts-business-committee.png)
+
+## Переопределение макета шаблона
+
+Папка com_contact/tmpl/category содержит три PHP-файла: default.php,
+default_children.php и default_items.php. Последний файл в этом списке содержит
+табличный макет списка.
+
+Файлы переопределения создаются через System / Site Templates / Cassiopeia
+Details and Files / Create Overrides. Выберите com_contact, а затем category.
+После этого папка html будет содержать com_contact/category с тремя упомянутыми
+выше файлами шаблона. 
+
+### Изменение файла default.php на mydefault.php
+
+Файл `default.php` содержит строку, указывающую, какой макет использовать для 
+каждой отдельной записи. Выберите этот файл для редактирования и **переименуйте** его в 
+`mydefault.php` (или используйте любой другой префикс вместо `my`). Не используйте 
+символ подчёркивания в имени файла!
+
+Позже, когда вы откроете форму Contacts / Category / Edit, поле Layout на вкладке Options 
+позволит выбрать макет компонента или макет переопределения.
+Это выглядит так:
 
 ```
-.contact-thumbnail {
-  max-width: 200px;
-  margin-right: 1rem;
-}
-a:has(.contact-thumbnail) {
-  font-weight: 700;
-  font-size: larger;
-}
+---From Global Options---
+  Use Global
+---From Component---
+  Default
+---From cassiopeia Template---
+  mydefault
+
 ```
 
-Список настраиваемых полей можно улучшить, удалив маркеры и отступы путем выбора только списков с маркерами, которые находятся внутри тега с классом contactList:
+### Редактирование файла mydefault.php
+
+Строка 20 файла `mydefault.php` содержит `$this->subtemplatename = 'items';`.
+Замените `items` на `myitems`, чтобы строки с 18 по 23 выглядели следующим образом:
+
+```html
+<div class="com-contact-category">
+    <?php
+        $this->subtemplatename = 'myitems';
+        echo LayoutHelper::render('joomla.content.category_default', $this);
+    ?>
+</div>
 ```
-#contactList ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-```
-![стилизованный бизнес-комитет](../../../en/images/contacts/category-list-override/01-contact-business-committee-styled.png)
 
-Это все, что можно сделать с помощью стилизации. Лучше, но все равно недостаточно. Чтобы добавить больше элементов и изменить макет, потребуется переопределение макета. 
+### Изменение файла default_items.php на mydefault_myitems.php
 
-## Переопределение шаблона компоновки
+Файл `default_items.php` содержит макет каждого контакта. Его необходимо
+переименовать, чтобы сохранить возможность использовать исходный макет. Первая часть имени
+не имеет значения. Для макета используется часть `myitems`, упомянутая в
+файле `mydefault.php`.
 
-Папка com_contact/tmpl/category содержит три PHP файла: default.php, default_children.php и default_items.php. Последний в этом списке содержит компоновку таблицы для списка.
+### Редактирование файла mydefault_myitems.php
 
-Файлы переопределения создаются через Система / Шаблоны сайта / Cassiopeia, Детали и файлы / Создать переопределения. Выберите com_contact, затем category. Папка html будет содержать com_contact/category с тремя шаблонными файлами, упомянутыми выше. Для редактирования следует выбрать файл default_items.php. Строки с 83 по 203 содержат таблицу, используемую для компоновки.
-
-Это может быть неочевидно, но $this->items - это массив членов категории, и каждый член фактически содержит все данные для каждого элемента, а не только те, которые упомянуты в параметрах меню.
-
-Ниже представлен заменяющий код для секции `<table>...</table>` файла default_items.php с использованием сетки Bootstrap. На узких экранах три столбца располагаются один за другим. На экранах шириной более 768 пикселей столбцы располагаются бок о бок. Дополнительные пояснения следуют за кодом.
+Раздел `<table>...</table>` этого файла занимает строки с 85 по 204. Для
+переопределения макета я заменил разметку таблицы следующей разметкой сетки Bootstrap. На узких экранах три столбца располагаются друг под другом. На экранах шириной более
+768 пикселей столбцы располагаются рядом. В изменённой разметке пользовательские
+поля перемещены под имя контакта.
 
 ```
 <div class="container-fluid text-center border border-2">
 <?php $nrows = 0; foreach ($this->items as $i => $item) : ?>
-    <?php if ($item->published !== 1 || 
-        (!empty($item->publish_up) && strtotime($item->publish_up) > strtotime(Factory::getDate())) || 
+    <?php if ($item->published !== 1 ||
+        (!empty($item->publish_up) && strtotime($item->publish_up) > strtotime(Factory::getDate())) ||
         (!empty($item->publish_down) && strtotime($item->publish_down) < strtotime(Factory::getDate()))) { continue; } ?>
         <div class="row cat-list-row<?php echo $nrows % 2; $nrows += 1; ?> align-items-center">
             <div class="col-12 col-md-3">
@@ -72,7 +104,7 @@ a:has(.contact-thumbnail) {
                             'joomla.html.image',
                             [
                                 'src'   => $item->image,
-                                'alt'   => 'официальное изображение ' . $item->name,
+                                'alt'   => 'official image of ' . $item->name,
                                 'class' => 'contact-thumbnail img-thumbnail',
                             ]
                         ); ?>
@@ -80,13 +112,16 @@ a:has(.contact-thumbnail) {
                 <?php endif; ?>
             </div>
             <div class="col-12 col-md-3">
+                <div class="parliament-committee-fields">
                 <a href="<?php echo Route::_(RouteHelper::getContactRoute($item->slug, $item->catid, $item->language)); ?>">
                     <span class="fs-2"><?php echo $this->escape($item->name); ?></span>
                 </a>
+                    <?php echo $item->event->beforeDisplayContent; ?>
+                </div>
             </div>
             <div class="col-12 col-md-6 text-start">
                 <?php if ($this->params->get('show_position_headings') && !empty($item->con_position)) : ?>
-                    <strong>Позиция</strong><br>
+                    <strong><?php echo Text::_('COM_CONTACT_FIELD_INFORMATION_POSITION_LABEL'); ?></strong><br>
                     <?php echo $item->con_position; ?><br>
                 <?php endif; ?>
                 <?php if ($this->params->get('show_suburb_headings')) : ?>
@@ -103,7 +138,7 @@ a:has(.contact-thumbnail) {
                     <?php if (!empty($item->postcode)) : ?>
                         <?php $location[] = $item->postcode; ?>
                     <?php endif; ?>
-                        <strong>Адрес</strong><br>
+                        <strong><?php echo Text::_('COM_CONTACT_FIELD_INFORMATION_ADDRESS_LABEL'); ?></strong><br>
                     <?php echo implode("<br>\n", $location); ?><br>
                 <?php endif; ?>
                 <?php if (!empty($item->misc)) : ?>
@@ -114,51 +149,47 @@ a:has(.contact-thumbnail) {
     <?php endforeach; ?>
 </div>
 ```
-### Объяснение
 
-Список контактов может содержать элементы, которые не опубликованы или имеют даты publish_up и publish_down, которые не являются текущими. Их необходимо исключить из отображения, и требуется отдельный счетчик, чтобы поддерживать чередование цветов фона в каждой строке.
+## Стилизация
 
-Тег img выглядит следующим образом:
-```
-<img src="/j51/images/parliament/Official_portrait_of_Liam_Byrne_crop_2.jpg" 
-alt="официальное изображение Liam Byrne" class="contact-thumbnail img-thumbnail"
-width="479" height="639" loading="lazy">
-```
-Класс `<span class="fs-2">...</span>` устанавливает имя контакта в размер шрифта 2, что будет аналогично Заголовку 2.
+Классы стилей Bootstrap можно определить в файле `mydefault_myitems.php`.
+Например, `<span class="fs-2">...</span>` используется для увеличения размера шрифта имени контакта. Другие стили можно добавить в файл `user.css`, например
+настроить отображение маркированных списков только внутри тега с классом
+`contactList`.
 
-Элемент `show_suburb_headings` используется в качестве прокси для отображения полного адреса, так как некоторые отдельные элементы адреса не имеют селекторов Показывать/Скрывать в элементе меню.
+Ниже приведены стили, добавленные в файл user.css для получения макета
+делового комитета, показанного выше.
 
-### Дополнительное стилизование
-
-Версия списка контактов с сеткой требует дополнительного стилизования в user.css:
 ```
 .contact-thumbnail {
   max-width: 200px;
   margin-right: 1rem;
 }
-
 a:has(.contact-thumbnail) {
   font-weight: 700;
   font-size: larger;
 }
-
 #contactList ul {
   list-style-type: none;
   padding-left: 0;
 }
-
 .cat-list-row0 {
   background-color: #efefef;
 }
-
 .cat-list-row0:hover, .cat-list-row1:hover  {
   background-color: #ddd;
 }
+div.parliament-committee-fields {
+  text-align: left;
+  margin-top: 1rem;
+}
+div.parliament-committee-fields ul.fields-container {
+  list-style-type: none;
+  padding-left: 0;
+}
+div.parliament-committee-fields ul.fields-container span.field-label {
+  font-weight: 700;
+}
 ```
 
-### Результат
-
-![gridded business committee](../../../en/images/contacts/category-list-override/02-contact-business-committee-grid.png)
-
 *Переведено openai.com*
-
