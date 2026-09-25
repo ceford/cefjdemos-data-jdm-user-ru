@@ -19,7 +19,7 @@
 - **Класс поля** Установите значение *w-auto*, чтобы сделать поле достаточно широким для
 образца и значения.
 
-![Создание цветового поля](../../../en/images/fields/adding-custom-fields-color-field/01-fields-colour-edit.png)
+![Создание цветового поля](../../../en/images/fields/adding-custom-fields-color-field/01-fields-color-edit.png)
 
 **Примечание:** В этом примере указание типа поля в Заголовке выполняется только в демонстрационных целях. Исключите это в своих собственных заголовках полей.
 
@@ -27,7 +27,7 @@
 
 Вы можете ввести значение цвета в формате hex, если знаете, что hex-числа варьируются от 0 до 9, а затем от a до f, и пары чисел обозначают красный, зеленый и синий цвета. То есть #00ff00 — это отсутствие красного, максимальный зеленый и отсутствие синего. Или вы можете использовать курсор для визуального выбора цвета.
 
-![Ввод данных в цветовом поле](../../../en/images/fields/adding-custom-fields-color-field/02-fields-colour-data-entry.png)
+![Ввод данных в цветовом поле](../../../en/images/fields/adding-custom-fields-color-field/02-fields-color-data-entry.png)
 
 ## Отображение данных
 
@@ -46,5 +46,5 @@ echo '<span style="background-color: ' . $value . ';"> ' . $value . '</span>';
 
 Ищите элемент **Цвет цветка**.
 
-![отображение поля цвета на сайте](../../../en/images/fields/adding-custom-fields-color-field/03-fields-colour-site.png)
+![отображение поля цвета на сайте](../../../en/images/fields/adding-custom-fields-color-field/03-fields-color-site.png)
 

@@ -66,7 +66,7 @@
 * Измените нижнюю границу заголовка тоже.
 * Примените этот стиль к нескольким модулям вместо одного за раз
 
-![Пример модуля архивированных статей](../../../en/images/modules/module-styles/01-modules-archived-articles.png)
+![Пример модуля архивированных статей](../../../en/images/modules/module-styles/01-modules-site-message.png)
 
 *Переведено с помощью openai.com*  
 

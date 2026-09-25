@@ -1,7 +1,7 @@
 <!--
 {
   "source": "https://docs.joomla.org/J3.x:Adding_custom_fields",
-  "title": "Пользовательская группа",
+  "title": "Поле списка групп пользователей",
   "description": "", 
   "author": ""
 }
@@ -18,7 +18,7 @@
 
 - **Множественный** Разрешить выбор нескольких значений.
 
-![создание поля групп пользователей](../../../en/images/fields/adding-custom-fields-usergroup-field/01-fields-usergroups-edit.png)
+![создание поля групп пользователей](../../../en/images/fields/adding-custom-fields-usergrouplist-field/01-fields-usergrouplist-edit.png)
 
 **Примечание:** В этом примере включение типа поля в Заголовок используется только для демонстрации. В своих собственных заголовках полей не включайте его.
 
@@ -26,14 +26,14 @@
 
 Просто выберите одну или несколько групп из списка групп.
 
-![ввод данных в поле групп пользователей](../../../en/images/fields/adding-custom-fields-usergroup-field/02-fields-usergroups-data-entry.png)
+![ввод данных в поле групп пользователей](../../../en/images/fields/adding-custom-fields-usergrouplist-field/02-fields-usergrouplist-data-entry.png)
 
 
 ## Отображение данных
 
 Следующий скриншот сайта показывает поле, отображаемое в статье. Опция *Автоматическое отображение* отвечает за положение поля, а ваш шаблон отвечает за дизайн поля.
 
-![поле отображения сайта для групп пользователей](../../../en/images/fields/adding-custom-fields-usergroup-field/03-fields-usergroups-site.png)
+![поле отображения сайта для групп пользователей](../../../en/images/fields/adding-custom-fields-usergrouplist-field/03-fields-usergrouplist-site.png)
 
 За меткой поля следует разделенный запятыми список выбранных групп.
 
