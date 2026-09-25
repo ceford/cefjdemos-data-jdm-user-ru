@@ -40,4 +40,3 @@
 ![отображение подраздела](../../../en/images/fields/subforms/03-fields-subform-site.png)
 
 *Переведено openai.com*  
-
