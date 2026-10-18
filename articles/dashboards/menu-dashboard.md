@@ -15,7 +15,7 @@
 
 ## Скриншот
 
-![Панель меню](../../../en/images/dashboards/menu-dashboard/01-menus-dashboard.png)
+![Панель меню](../../../ru/images/dashboards/menu-dashboard/01-menus-dashboard.png)
 
 *Переведено openai.com*
 

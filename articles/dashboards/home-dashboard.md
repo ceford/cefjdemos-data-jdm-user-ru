@@ -24,7 +24,7 @@
 
 ## Скриншот
 
-![Главная панель](../../../en/images/dashboards/home-dashboard/01-home-dashboard.png)
+![Главная панель](../../../ru/images/dashboards/home-dashboard/01-home-dashboard.png)
 
 *Переведено openai.com*
 

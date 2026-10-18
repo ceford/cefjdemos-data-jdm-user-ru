@@ -13,7 +13,7 @@
 
 ## Скриншот
 
-![Панель компонентов](../../../en/images/dashboards/components-dashboard/01-components-dashboard.png)
+![Панель компонентов](../../../ru/images/dashboards/components-dashboard/01-components-dashboard.png)
 
 *Переведено с помощью openai.com*
 

@@ -19,7 +19,7 @@
 
 Например, следующее изображение показывает группу животных, которая немного великовата для предполагаемой цели. Оно может быть обрезано или изменено в размере.
 
-![Изображение животных](../../../en/images/media/media-image-crop-resize-rotate/01-media-crop-serengeti.png)
+![Изображение животных](../../../ru/images/media/media-image-crop-resize-rotate/01-media-crop-serengeti.png)
 
 ## Обрезка
 

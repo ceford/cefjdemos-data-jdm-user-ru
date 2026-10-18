@@ -29,7 +29,7 @@
 
 Ниже представлен пример схемы Персоны в форме редактирования Статьи.
 
-![A person schema edit form](../../../en/images/schemas/person/01-edit-schema-person.png)
+![A person schema edit form](../../../ru/images/schemas/person/01-edit-schema-person.png)
 
 *Переведено openai.com*
 

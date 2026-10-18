@@ -19,14 +19,14 @@
 - **Председатель** Дочерняя группа для *Комитета*
 - **Секретарь** Дочерняя группа для *Комитета*
 
-![Пользовательские группы](../../../en/images/workflows/workflow-example-2/01-example-2-user-groups.png)
+![Пользовательские группы](../../../ru/images/workflows/workflow-example-2/01-example-2-user-groups.png)
 
 ## Уровень Доступа Пользователя
 
 - Создайте новый уровень, **Комитет**, и добавьте *Комитет* в группы пользователей с доступом к просмотру.
 - В уровне доступа *Специальный* добавьте *Комитет* в группы пользователей с доступом к просмотру.
 
-![Уровни доступа для просмотра](../../../en/images/workflows/workflow-example-2/02-example-2-viewing-access-levels.png)
+![Уровни доступа для просмотра](../../../ru/images/workflows/workflow-example-2/02-example-2-viewing-access-levels.png)
 
 ## Создать пользователей
 
@@ -43,7 +43,7 @@
   - **Председатель** Все установлено на *Разрешено*, кроме *Удаления*. Возможно...
   - **Секретарь** Все установлено на *Разрешено*, кроме *Удаления* и *Редактирования состояния*.
 
-![Список рабочих процессов](../../../en/images/workflows/workflow-example-2/03-example-2-workflows-list.png)
+![Список рабочих процессов](../../../ru/images/workflows/workflow-example-2/03-example-2-workflows-list.png)
 
 ### Создание этапов рабочего процесса
 
@@ -57,7 +57,7 @@
   - **Примечание** *Документы опубликованы.* 
   - **Разрешения** Все оставлено на *Наследуемое*.
 
-![Этапы рабочего процесса](../../../en/images/workflows/workflow-example-2/04-example-2-stages-committee-workflow.png)
+![Этапы рабочего процесса](../../../ru/images/workflows/workflow-example-2/04-example-2-stages-committee-workflow.png)
 
 ### Создание переходов рабочего процесса
 
@@ -139,7 +139,7 @@
 - **Вкладка разрешений**
   - **Секретарь** Установить *Выполнение перехода* на *Запрещено*.
 
-![Переходы рабочего процесса](../../../en/images/workflows/workflow-example-2/05-example-2-transitions-committee-workflow.png)
+![Переходы рабочего процесса](../../../ru/images/workflows/workflow-example-2/05-example-2-transitions-committee-workflow.png)
 
 ## Создать новую категорию
 
@@ -163,7 +163,7 @@
 - **Выберите категорию** *Комитет*
 - **Доступ** *Комитет*
 
-![Пункт меню документов комитета](../../../en/images/workflows/workflow-example-2/06-example-2-menu-item.png)
+![Пункт меню документов комитета](../../../ru/images/workflows/workflow-example-2/06-example-2-menu-item.png)
 
 ## Проверьте сайт
 
@@ -173,7 +173,7 @@
 
 Алиса и Боб также могут видеть ссылку Редактировать для каждой статьи и кнопку **Новая статья**. Обычно её использует Боб для создания комитетской бумаги, но Алиса тоже может это сделать.
 
-![Вид страницы со списком категорий комитетских бумаг, который видит Боб](../../../en/images/workflows/workflow-example-2/07-example-2-committee-papers.png)
+![Вид страницы со списком категорий комитетских бумаг, который видит Боб](../../../ru/images/workflows/workflow-example-2/07-example-2-committee-papers.png)
 
 ### Для создания и публикации комитетской бумаги
 

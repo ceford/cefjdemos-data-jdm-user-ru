@@ -24,7 +24,7 @@
 
 Ниже приведен пример схемы Организации в форме редактирования статьи.
 
-![An organisation schema edit form](../../../en/images/schemas/organisation/01-edit-schema-organisation.png)
+![An organisation schema edit form](../../../ru/images/schemas/organisation/01-edit-schema-organisation.png)
 
 *Переведено openai.com*
 

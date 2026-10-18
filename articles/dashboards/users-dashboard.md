@@ -13,7 +13,7 @@
 
 ## Скриншот
 
-![Панель управления пользователями](../../../en/images/dashboards/users-dashboard/01-users-dashboard.png)
+![Панель управления пользователями](../../../ru/images/dashboards/users-dashboard/01-users-dashboard.png)
 
 *Переведено с помощью openai.com*
 

@@ -70,7 +70,7 @@ Joomla предоставляет некоторые полезные механ
 
 На вкладке **Язык**:
 
-![плагин система отладки](../../../en/images/languages/debugging-a-translation/01-languages-debug-plugin.png)
+![плагин система отладки](../../../ru/images/languages/debugging-a-translation/01-languages-debug-plugin.png)
 
 * **Ошибки при разборе языковых файлов** Показать ошибку, если языковой файл
 не удается загрузить.

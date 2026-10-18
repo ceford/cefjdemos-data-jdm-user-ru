@@ -15,7 +15,7 @@
 
 ### Вкладка «Общие»
 
-![Создание числового поля](../../../en/images/fields/adding-custom-fields-number-field/01-fields-number-edit.png)
+![Создание числового поля](../../../ru/images/fields/adding-custom-fields-number-field/01-fields-number-edit.png)
 
 - **Тип** Число, который нельзя изменить после выбора.
 - **Имя** Уникальное имя поля.
@@ -70,7 +70,7 @@
 
 Ввод данных: просто введите нужное значение. В этом примере указана температура кипения аргона:
 
-![Ввод данных в числовое поле](../../../en/images/fields/adding-custom-fields-number-field/02-fields-number-data-entry.png)
+![Ввод данных в числовое поле](../../../ru/images/fields/adding-custom-fields-number-field/02-fields-number-data-entry.png)
 
 **Внимание:** если введённое число находится за пределами минимального и максимального диапазона, заданного в параметрах создания поля, при наведении указатель мыши отобразит соответствующее сообщение, но предоставленная информация не является ограничением. Можно ввести число за пределами диапазона, и оно будет принято.
 
@@ -78,6 +78,6 @@
 
 На следующем изображении показано отображение элемента с отрицательным значением:
 
-![Отображение числового поля на сайте](../../../en/images/fields/adding-custom-fields-number-field/03-fields-number-site.png)
+![Отображение числового поля на сайте](../../../ru/images/fields/adding-custom-fields-number-field/03-fields-number-site.png)
 
 *Переведено openai.com*

@@ -13,7 +13,7 @@
 
 На следующем скриншоте показана форма редактирования с уже сохраненной статьей.
 
-![Форма редактирования контента](../../../en/images/articles/article-content/01-articles-edit-content.png)
+![Форма редактирования контента](../../../ru/images/articles/article-content/01-articles-edit-content.png)
 
 ## Ввод данных
 

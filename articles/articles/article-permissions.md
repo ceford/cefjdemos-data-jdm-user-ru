@@ -15,7 +15,7 @@ Joomla предоставляет сложную систему *Управле�
 
 ## Скриншот
 
-![Вкладка разрешений статьи с выбранным автором](../../../en/images/articles/article-permissions/01-articles-edit-permissions-tab.png)
+![Вкладка разрешений статьи с выбранным автором](../../../ru/images/articles/article-permissions/01-articles-edit-permissions-tab.png)
 
 Может быть удивительно, что у автора, похоже, нет разрешения на редактирование статьи!
 

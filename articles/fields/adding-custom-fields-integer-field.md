@@ -23,7 +23,7 @@
 - **Класс поля** Установите в *w-auto*, чтобы сделать список достаточно широким для его
 списка целых чисел.
 
-![Создание поля для целых чисел](../../../en/images/fields/adding-custom-fields-integer-field/01-fields-integer-edit.png)
+![Создание поля для целых чисел](../../../ru/images/fields/adding-custom-fields-integer-field/01-fields-integer-edit.png)
 
 **Примечание:** В этом примере включение типа поля в заголовок используется
 только для демонстрационных целей. Не включайте его в названия ваших собственных полей.
@@ -34,13 +34,13 @@
 множественным выбором. Обратите внимание, что без использования w-auto поле выбора
 целого числа занимает всю ширину формы.
 
-![Ввод данных в поле целого числа](../../../en/images/fields/adding-custom-fields-integer-field/02-fields-integer-data-entry.png)
+![Ввод данных в поле целого числа](../../../ru/images/fields/adding-custom-fields-integer-field/02-fields-integer-data-entry.png)
 
 ## Отображение данных
 
 Следующий скриншот сайта показывает, как поле отображается в статье. Опция *Автоматическое отображение* отвечает за положение поля, а ваш шаблон отвечает за его дизайн.
 
-![Отображение целочисленного поля на сайте](../../../en/images/fields/adding-custom-fields-integer-field/03-fields-integer-site.png)
+![Отображение целочисленного поля на сайте](../../../ru/images/fields/adding-custom-fields-integer-field/03-fields-integer-site.png)
 
 *Переведено openai.com*
 

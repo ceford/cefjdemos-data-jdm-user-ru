@@ -28,7 +28,7 @@
 
 Ниже приведен пример схемы события в форме редактирования статьи.
 
-![An event schema edit form](../../../en/images/schemas/event/01-edit-schema-event.png)
+![An event schema edit form](../../../ru/images/schemas/event/01-edit-schema-event.png)
 
 *Переведено openai.com*
 

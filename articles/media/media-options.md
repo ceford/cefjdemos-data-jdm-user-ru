@@ -15,7 +15,7 @@
 
 ## Скриншот
 
-![Форма настроек медиа](../../../en/images/media/media-options/01-media-options.png)
+![Форма настроек медиа](../../../ru/images/media/media-options/01-media-options.png)
 
 ## Путь к файлам и папкам
 
@@ -29,7 +29,7 @@
 
 После настройки вы сможете выбирать между папками изображений и файлов в локальной части представления медиа.
 
-![Страница медиа](../../../en/images/media/media-options/02-media-sample-data-cassiopeia.png)
+![Страница медиа](../../../ru/images/media/media-options/02-media-sample-data-cassiopeia.png)
 
 ## Дополнительные типы изображений или документов
 

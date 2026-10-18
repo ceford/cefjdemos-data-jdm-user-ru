@@ -23,7 +23,7 @@
 ограничивает ширину каждого изображения 25 % ширины его контейнера и добавляет 1 единицу
 внутреннего отступа.
 
-![создание поля списка изображений](../../../en/images/fields/adding-custom-fields-images-list-field/01-fields-images-list-edit.png)
+![создание поля списка изображений](../../../ru/images/fields/adding-custom-fields-images-list-field/01-fields-images-list-edit.png)
 
 **Примечание:** В этом примере включение типа поля в заголовок предназначено только для
 демонстрации. В собственных заголовках полей не указывайте его.
@@ -32,13 +32,13 @@
 
 Просто: выберите одно или несколько изображений из списка.
 
-![ввод данных поля списка изображений](../../../en/images/fields/adding-custom-fields-images-list-field/02-fields-images-list-data-entry.png)
+![ввод данных поля списка изображений](../../../ru/images/fields/adding-custom-fields-images-list-field/02-fields-images-list-data-entry.png)
 
 ## Отображение данных
 
 На следующем снимке экрана сайта показано поле, отображаемое в статье. За расположение
 поля отвечает параметр *Автоматическое отображение*, а за оформление поля — ваш шаблон.
 
-![отображение списка изображений на сайте](../../../en/images/fields/adding-custom-fields-images-list-field/03-fields-images-list-site.png)
+![отображение списка изображений на сайте](../../../ru/images/fields/adding-custom-fields-images-list-field/03-fields-images-list-site.png)
 
 *Переведено openai.com*

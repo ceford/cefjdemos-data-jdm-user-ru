@@ -20,7 +20,7 @@
 - **Максимальная длина** Максимальное количество символов, которые можно ввести.
 - **Фильтр** Позволяет системе сохранять определенные HTML-теги или исходные данные.
 
-![создание текстового поля](../../../en/images/fields/adding-custom-fields-textarea-field/01-fields-textarea-edit.png)
+![создание текстового поля](../../../ru/images/fields/adding-custom-fields-textarea-field/01-fields-textarea-edit.png)
 
 **Примечание:** В этом примере включение типа поля в заголовок используется исключительно в демонстрационных целях. В своих заголовках полей опускайте эту информацию.
 
@@ -28,14 +28,14 @@
 
 Просто введите текст для отображения.
 
-![ввод данных в текстовое поле](../../../en/images/fields/adding-custom-fields-textarea-field/02-fields-textarea-data-entry.png)
+![ввод данных в текстовое поле](../../../ru/images/fields/adding-custom-fields-textarea-field/02-fields-textarea-data-entry.png)
 
 
 ## Отображение данных
 
 Следующий скриншот сайта показывает поле, отображаемое в статье. Опция *Автоматическое отображение* отвечает за позицию поля, а ваш шаблон отвечает за дизайн поля.
 
-![отображение поля текстовой области на сайте](../../../en/images/fields/adding-custom-fields-textarea-field/03-fields-textarea-site.png)
+![отображение поля текстовой области на сайте](../../../ru/images/fields/adding-custom-fields-textarea-field/03-fields-textarea-site.png)
 
 Метка поля начинает единый блок текста, если только вы не ввели HTML-теги, такие как `<p>...</p>`.
 

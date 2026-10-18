@@ -20,7 +20,7 @@
 - **Предпросмотр** Показывает или скрывает предварительный просмотр изображения.
 - **Класс изображения** Класс, добавляемый к тегу img при выводе. Класс *w-25* уменьшит ширину изображения до 25% от ширины родительского контейнера.
 
-![создание медийного поля](../../../en/images/fields/adding-custom-fields-media-field/01-fields-media-edit.png)
+![создание медийного поля](../../../ru/images/fields/adding-custom-fields-media-field/01-fields-media-edit.png)
 
 **Примечание:** В этом примере включение типа поля в Заголовок используется только для демонстрации. Не включайте его в собственные заголовки полей.
 
@@ -28,14 +28,14 @@
 
 Форма ввода данных является упрощенной версией формы выбора Media.
 
-![ввод данных поля media](../../../en/images/fields/adding-custom-fields-media-field/02-fields-media-data-entry.png)
+![ввод данных поля media](../../../ru/images/fields/adding-custom-fields-media-field/02-fields-media-data-entry.png)
 
 
 ## Отображение данных
 
 Следующий снимок экрана сайта показывает поле, отображаемое в статье. Опция *Автоматическое отображение* отвечает за положение поля, а ваш шаблон отвечает за дизайн поля.
 
-![отображение медиа-поля сайта](../../../en/images/fields/adding-custom-fields-media-field/03-fields-media-site.png)
+![отображение медиа-поля сайта](../../../ru/images/fields/adding-custom-fields-media-field/03-fields-media-site.png)
 
 *Переведено openai.com*
 

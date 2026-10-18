@@ -23,7 +23,7 @@ Joomla! должна быть установлена на веб-сервере:
 
 Этот шаблон содержит всё необходимое для начала работы с вашим собственным веб-сайтом. Он может быть настроен с помощью настроек шаблона и пользовательских функций, таких как изображения и цвета.
 
-![Шаблон Cassiopeia](../../../en/images/getting-started/introduction-to-joomla/01-introduction-to-joomla-cassiopeia.png)
+![Шаблон Cassiopeia](../../../ru/images/getting-started/introduction-to-joomla/01-introduction-to-joomla-cassiopeia.png)
 
 Если Cassiopeia не совсем подходит для вашего сайта, существует сотни других шаблонов, доступных от сторонних поставщиков, как бесплатных, так и коммерческих.
 
@@ -37,7 +37,7 @@ Joomla! должна быть установлена на веб-сервере:
 
 Этот шаблон не виден общественности, поэтому редко бывает необходимо искать альтернативу.
 
-![Шаблон Atum](../../../en/images/getting-started/introduction-to-joomla/02-introduction-to-joomla-atum.png)
+![Шаблон Atum](../../../ru/images/getting-started/introduction-to-joomla/02-introduction-to-joomla-atum.png)
 
 Вы можете настроить то, что отображается на различных панелях инструментов, но лучше оставить это до тех пор, пока опыт не потребует изменений.
 

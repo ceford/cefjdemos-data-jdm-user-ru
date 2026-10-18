@@ -13,7 +13,7 @@
 
 ## Скриншот
 
-![Панель помощи](../../../en/images/dashboards/help-dashboard/01-help-dashboard.png)
+![Панель помощи](../../../ru/images/dashboards/help-dashboard/01-help-dashboard.png)
 
 *Переведено с помощью openai.com*
 

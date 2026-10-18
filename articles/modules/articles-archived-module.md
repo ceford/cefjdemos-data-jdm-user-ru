@@ -55,7 +55,7 @@
 
 Модуль будет опубликован в боковой панели сайта и отобразит список ссылок в соответствии с установленным количеством месяцев для отображения модуля.
 
-![Пример модуля с архивированными статьями](../../../en/images/modules/articles-archived-module/01-modules-archived-articles.png)
+![Пример модуля с архивированными статьями](../../../ru/images/modules/articles-archived-module/01-modules-archived-articles.png)
 
 ## Советы
 

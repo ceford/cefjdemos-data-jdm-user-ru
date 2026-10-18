@@ -36,7 +36,7 @@
 
 Ниже приведен пример схемы статьи в форме редактирования статьи.
 
-![An article schema edit form](../../../en/images/schemas/article/01-edit-schema-article.png)
+![An article schema edit form](../../../ru/images/schemas/article/01-edit-schema-article.png)
 
 *Переведено openai.com*
 

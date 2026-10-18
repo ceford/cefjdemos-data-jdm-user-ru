@@ -17,7 +17,7 @@
 
 Joomla предоставляет уровни доступа, показанные на следующем скриншоте:
 
-![Уровни доступа пользователей](../../../en/images/articles/article-access-restriction/01-article-access-user-groups.png)
+![Уровни доступа пользователей](../../../ru/images/articles/article-access-restriction/01-article-access-user-groups.png)
 
 Уровни доступа отображаются на вкладке *Содержимое* формы *Статья: Редактирование*.
 

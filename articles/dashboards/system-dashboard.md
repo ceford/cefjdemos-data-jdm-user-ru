@@ -24,7 +24,7 @@
 
 ## Скриншот
 
-![Системная панель управления](../../../en/images/dashboards/system-dashboard/01-system-dashboard.png)
+![Системная панель управления](../../../ru/images/dashboards/system-dashboard/01-system-dashboard.png)
 
 *Переведено openai.com*
 

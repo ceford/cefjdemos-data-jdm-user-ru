@@ -32,7 +32,7 @@
 
 Ниже приведен пример схемы книги в форме редактирования статьи.
 
-![A book schema edit form](../../../en/images/schemas/book/01-edit-schema-book.png)
+![A book schema edit form](../../../ru/images/schemas/book/01-edit-schema-book.png)
 
 *Переведено сайтом openai.com*
 

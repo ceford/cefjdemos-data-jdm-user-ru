@@ -36,7 +36,7 @@
 
 Ниже приведен пример схемы JobPosting в форме редактирования статьи.
 
-![A jobposting schema edit form](../../../en/images/schemas/jobposting/01-edit-schema-jobposting.png)
+![A jobposting schema edit form](../../../ru/images/schemas/jobposting/01-edit-schema-jobposting.png)
 
 *Переведено openai.com*
 

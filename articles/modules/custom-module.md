@@ -56,7 +56,7 @@
 Модуль будет опубликован в боковой панели сайта и отобразит
 любой текст, который вы ввели.
 
-![Пример пользовательского модуля](../../../en/images/modules/custom-module/01-modules-site-message.png)
+![Пример пользовательского модуля](../../../ru/images/modules/custom-module/01-modules-site-message.png)
 
 *Переведено openai.com*
 

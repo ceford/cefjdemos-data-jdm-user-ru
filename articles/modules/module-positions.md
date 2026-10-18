@@ -27,11 +27,11 @@
 
 ### Позиции шаблона администратора Atum
 
-![templates atum template positions](../../../en/images/modules/module-positions/01-template-positions-templates-page.png)
+![templates atum template positions](../../../ru/images/modules/module-positions/01-template-positions-templates-page.png)
 
 ### Позиции шаблона сайта Cassiopeia
 
-![templates cassiopeia template positions](../../../en/images/modules/module-positions/02-template-positions-site-page.png)
+![templates cassiopeia template positions](../../../ru/images/modules/module-positions/02-template-positions-site-page.png)
 
 Также вы можете найти эту схему позиций модулей полезной:
 

@@ -31,7 +31,7 @@
 
 Ниже приведен пример пользовательского поля схемы в форме редактирования статьи.
 
-![A custom schema edit form](../../../en/images/schemas/custom/01-edit-schema-custom.png)
+![A custom schema edit form](../../../ru/images/schemas/custom/01-edit-schema-custom.png)
 
 *Переведено openai.com*
 

@@ -85,7 +85,7 @@ siteroot/administrator/language/overrides/de-DE.override.ini
 - Сохраните и закройте форму.
 - Повторите процесс перевода для каждого языка.
 
-![форма редактирования языковых переопределений](../../../en/images/languages/language-overrides/01-language-overrides-edit.png)
+![форма редактирования языковых переопределений](../../../ru/images/languages/language-overrides/01-language-overrides-edit.png)
 
 Наконец, убедитесь, что перевод был внедрен.
 

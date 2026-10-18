@@ -22,7 +22,7 @@
 
 ## Скриншот
 
-![Проверка доступности](../../../en/images/articles/article-accessibility-check/01-articles-accessibility-check.png)
+![Проверка доступности](../../../ru/images/articles/article-accessibility-check/01-articles-accessibility-check.png)
 
 Инструмент проверки управляется с помощью значка синего круга в нижнем правом углу экрана. Выберите его, чтобы открыть или закрыть отчет. Выберите зеленую галочку (или желтый крестик), чтобы просмотреть каждый элемент, прошедший проверку.
 

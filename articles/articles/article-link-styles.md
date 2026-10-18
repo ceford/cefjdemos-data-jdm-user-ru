@@ -18,7 +18,7 @@
 3. Добавьте классы в *Список классов ссылок*, например, классы Bootstrap для создания стильных кнопок. Возможно, вам придется прокрутить список слева направо или изменить масштаб экрана, чтобы увидеть кнопки добавления, удаления и упорядочивания в конце.
 4. Сохранить и закрыть.
 
-![Set link classes in tinymce](../../../en/images/articles/article-link-styles/01-article-edit-link-style-tinymce.png)
+![Set link classes in tinymce](../../../ru/images/articles/article-link-styles/01-article-edit-link-style-tinymce.png)
 
 Вы можете найти примеры шаблонов, которые нативно используют Bootstrap, в официальной [Документации Bootstrap](https://getbootstrap.com/docs/5.3/components/buttons/).
 
@@ -59,11 +59,11 @@
 6. Сохраните статью.
 7. Предпросмотр статьи.
 
-![Apply link style in an article](../../../en/images/articles/article-link-styles/02-article-edit-link-style-apply.png)
+![Apply link style in an article](../../../ru/images/articles/article-link-styles/02-article-edit-link-style-apply.png)
 
 И это пример, где класс кнопки ссылкой был установлен как `btn btn-sm btn-outline-info`, а связанный текст — *Bootstrap*:
 
-![Preview of a custom Link Button](../../../en/images/articles/article-link-styles/03-article-edit-link-style-preview.png)
+![Preview of a custom Link Button](../../../ru/images/articles/article-link-styles/03-article-edit-link-style-preview.png)
 
 ## Продвинутое использование: применение пользовательских классов
 

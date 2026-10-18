@@ -19,7 +19,7 @@
 * **Метка** Это отображается в выходных данных. Если оставить поле пустым, в него
 подставляется содержимое поля «Заголовок», но его можно изменить.
 
-![создание поля документа](../../../en/images/fields/adding-custom-fields-document-field/01-fields-document-edit.png)
+![создание поля документа](../../../ru/images/fields/adding-custom-fields-document-field/01-fields-document-edit.png)
 
 **Примечание:** В этом примере включение типа поля в заголовок используется только
 в демонстрационных целях. В собственных заголовках полей не указывайте его.
@@ -31,7 +31,7 @@
 
 На следующем снимке экрана показан выбранный аудиофайл:
 
-![ввод данных поля документа](../../../en/images/fields/adding-custom-fields-document-field/02-fields-document-data-entry.png)
+![ввод данных поля документа](../../../ru/images/fields/adding-custom-fields-document-field/02-fields-document-data-entry.png)
 
 Поля отображаются в статье только в том случае, если они заполнены в форме ввода
 данных статьи.
@@ -42,6 +42,6 @@
 *Автоматическое отображение* отвечает за расположение поля, а шаблон — за его
 оформление.
 
-![отображение поля документа на сайте](../../../en/images/fields/adding-custom-fields-document-field/03-fields-document-site.png)
+![отображение поля документа на сайте](../../../ru/images/fields/adding-custom-fields-document-field/03-fields-document-site.png)
 
 *Переведено openai.com*

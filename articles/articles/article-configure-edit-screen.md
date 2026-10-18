@@ -13,7 +13,7 @@
 
 ## Скриншот
 
-![Вкладка настройки экрана редактирования](../../../en/images/articles/article-configure-edit-screen/01-articles-edit-configure-edit-screen-tab.png)
+![Вкладка настройки экрана редактирования](../../../ru/images/articles/article-configure-edit-screen/01-articles-edit-configure-edit-screen-tab.png)
 
 ## Настройка панели редактирования экранов
 

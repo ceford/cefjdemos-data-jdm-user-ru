@@ -16,7 +16,7 @@
 
 Форма состоит из поля Заголовка и четырех вкладок.
 
-![Общие параметры поля](../../../en/images/fields/adding-custom-fields-parameters/01-fields-parameters-general-tab.png)
+![Общие параметры поля](../../../ru/images/fields/adding-custom-fields-parameters/01-fields-parameters-general-tab.png)
 
 ## Заголовок
 
@@ -51,7 +51,7 @@
 
 ### Вкладка Параметры
 
-![Общие параметры полей во вкладке](../../../en/images/fields/adding-custom-fields-parameters/02-fields-parameters-options-tab.png)
+![Общие параметры полей во вкладке](../../../ru/images/fields/adding-custom-fields-parameters/02-fields-parameters-options-tab.png)
 
 #### Параметры Формы
 
@@ -87,13 +87,13 @@
 
 ### Вкладка Публикации
 
-![Общие параметры полей во вкладке](../../../en/images/fields/adding-custom-fields-parameters/03-fields-parameters-publishing-tab.png)
+![Общие параметры полей во вкладке](../../../ru/images/fields/adding-custom-fields-parameters/03-fields-parameters-publishing-tab.png)
 
 ### Вкладка Разрешений
 
 Права доступа для каждой группы пользователей очевидны для действий *Удалить*, *Редактировать* и *Изменить состояние*. Эти права показывают, кто может выполнять какие действия с полем в целом — например, удалить его, изменить или снять с публикации.
 
-![Общие параметры полей во вкладке](../../../en/images/fields/adding-custom-fields-parameters/04-fields-parameters-permissions-tab.png)
+![Общие параметры полей во вкладке](../../../ru/images/fields/adding-custom-fields-parameters/04-fields-parameters-permissions-tab.png)
 
 Пункт *Редактировать значение пользовательского поля* может вызывать путаницу. Он определяет, кто может изменять содержимое поля. По умолчанию для всех групп, кроме суперпользователей, установлено значение **Не разрешено (наследуется)**. Два примера:
 

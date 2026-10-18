@@ -15,7 +15,7 @@
 
 *Параметры фильтра* открыты, чтобы показать доступные фильтры.
 
-![Список статей](../../../en/images/articles/articles-filter-options/01-articles-filter-options.png)
+![Список статей](../../../ru/images/articles/articles-filter-options/01-articles-filter-options.png)
 
 Этот список содержит более 20 статей, созданных с установкой *Многоязычных образцов данных*, и несколько дополнительных статей, добавленных позже.
 

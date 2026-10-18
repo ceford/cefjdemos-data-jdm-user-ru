@@ -37,7 +37,7 @@
 
 Ниже приведен пример схемы BlogPosting в форме редактирования статьи.
 
-![A blogposting schema edit form](../../../en/images/schemas/blogposting/01-edit-schema-blogposting.png)
+![A blogposting schema edit form](../../../ru/images/schemas/blogposting/01-edit-schema-blogposting.png)
 
 *Переведено openai.com*
 

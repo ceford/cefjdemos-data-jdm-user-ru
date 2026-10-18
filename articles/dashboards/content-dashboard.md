@@ -13,7 +13,7 @@
 
 ## Скриншот
 
-![Панель контента](../../../en/images/dashboards/content-dashboard/01-content-dashboard.png)
+![Панель контента](../../../ru/images/dashboards/content-dashboard/01-content-dashboard.png)
 
 *Переведено с помощью openai.com*  
 

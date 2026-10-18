@@ -16,11 +16,11 @@
 
 ### Страница системной ошибки
 
-![Страница критической системной ошибки](../../../en/images/problems/fatal-error/01-fatal-error.png)
+![Страница критической системной ошибки](../../../ru/images/problems/fatal-error/01-fatal-error.png)
 
 ### Страница ошибки шаблона
 
-![Страница ошибки шаблона](../../../en/images/problems/fatal-error/02-template-error.png)
+![Страница ошибки шаблона](../../../ru/images/problems/fatal-error/02-template-error.png)
 
 ## Как устранить
 

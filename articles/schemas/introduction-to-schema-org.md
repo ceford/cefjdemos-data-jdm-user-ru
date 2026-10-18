@@ -25,7 +25,7 @@ Joomla реализует расширенные фрагменты с помо�
 
 Чтобы начать, перейдите в **Система -> Плагины** и активируйте плагин *Система - Schema.org*. Если этот плагин не активирован, вкладка Schema не появится в форме редактирования статьи, даже если все отдельные плагины активированы.
 
-![List of schema plugins](../../../en/images/schemas/introduction-to-schema-org/01-schema-plugins-list.png)
+![List of schema plugins](../../../ru/images/schemas/introduction-to-schema-org/01-schema-plugins-list.png)
 
 ### Редактировать систему - Плагин Schema.org
 
@@ -35,13 +35,13 @@ Joomla реализует расширенные фрагменты с помо�
 - **Аккаунты в социальных сетях** Добавьте аккаунты вашей компании или личные аккаунты в социальных сетях. Выберите зеленую кнопку с плюсом, чтобы добавить строки в форму.
 - Выберите **Сохранить и закрыть**.
 
-![edit system schema org plugin](../../../en/images/schemas/introduction-to-schema-org/02-edit-system-schema-org-plugin.png)
+![edit system schema org plugin](../../../ru/images/schemas/introduction-to-schema-org/02-edit-system-schema-org-plugin.png)
 
 ### Редактировать статью
 
 Перейдите к любой из ваших статей и заполните поля формы Schema. Если *Тип Schema* установлен на *None* (по умолчанию), нет полей для заполнения. Выберите любую схему, чтобы увидеть список полей, подходящих для этой схемы. На следующем скриншоте показана статья с выбранной схемой Article:
 
-![edit article scheme form](../../../en/images/schemas/introduction-to-schema-org/03-schema-form-in-an-article.png)
+![edit article scheme form](../../../ru/images/schemas/introduction-to-schema-org/03-schema-form-in-an-article.png)
 
 ### Вывод
 

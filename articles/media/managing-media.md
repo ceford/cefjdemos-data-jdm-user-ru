@@ -29,7 +29,7 @@
 
 Следующее изображение показывает страницу "Медиа" сразу после установки Joomla, но с выбранной папкой cassiopeia/sampledata. Папка *files* была добавлена для хранения файлов, отличных от изображений, и дополнительная папка с именем *garbage* была добавлена для иллюстрации удаления папок:
 
-![Страница Медиа с показом образца данных cassiopeia](../../../en/images/media/managing-media/01-media-sample-data-cassiopeia.png)
+![Страница Медиа с показом образца данных cassiopeia](../../../ru/images/media/managing-media/01-media-sample-data-cassiopeia.png)
 
 ## Управление папками
 
